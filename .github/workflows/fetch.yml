@@ -1,0 +1,44 @@
+name: Fetch Robotics Daily
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '0 */3 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: |
+          npm i --no-audit --no-fund
+
+      - name: Fetch feeds and build data
+        run: |
+          node scripts/fetch.mjs
+
+      - name: Commit and push changes
+        run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            git config user.email "actions@users.noreply.github.com"
+            git config user.name "GitHub Actions"
+            git add data/items.json
+            git commit -m "chore(data): update items.json [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+

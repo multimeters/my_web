@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>机器人 / 自动驾驶 / 具身智能 · 每日精选</title>
+    <meta name="description" content="自动聚合最新的机器人、自动驾驶、具身智能研究论文、新闻与视频，并提供简要摘要。" />
+    <link rel="icon" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <h1>Robotics • Driving • Embodied AI</h1>
+        <p class="subtitle">自动聚合最新论文 · 新闻 · 视频 | 每3小时更新</p>
+        <div class="controls">
+          <input id="search" type="search" placeholder="搜索标题或摘要… (回车)" />
+          <select id="typeFilter">
+            <option value="">全部类型</option>
+            <option value="paper">论文</option>
+            <option value="news">新闻</option>
+            <option value="video">视频</option>
+          </select>
+          <select id="tagFilter">
+            <option value="">全部标签</option>
+            <option>Autonomous Driving</option>
+            <option>Robotics</option>
+            <option>Embodied AI</option>
+            <option>LLM</option>
+            <option>RL</option>
+            <option>Vision</option>
+            <option>Planning</option>
+          </select>
+          <button id="refreshBtn" title="刷新缓存数据">刷新</button>
+          <button id="toggleTheme" title="切换主题">🌓</button>
+        </div>
+        <div id="meta" class="meta"></div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section id="grid" class="grid"></section>
+      <div id="empty" class="empty hidden">没有匹配的结果，请调整筛选或关键词。</div>
+    </main>
+
+    <footer class="site-footer wrap">
+      <div>
+        <span>数据来源：arXiv、YouTube RSS、The Robot Report、TechCrunch Robotics、IEEE Spectrum Robotics、NVIDIA Blog、Waymo Blog</span>
+      </div>
+      <div class="small">本页本地不使用任何后端服务，数据由 GitHub Actions 定时抓取并生成。</div>
+    </footer>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+  </html>
+

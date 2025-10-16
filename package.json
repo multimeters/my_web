@@ -1,0 +1,19 @@
+{
+  "name": "my-web-robotics-daily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal web page to aggregate robotics / autonomous driving / embodied AI news, papers, and videos with daily summaries.",
+  "scripts": {
+    "fetch": "node scripts/fetch.mjs",
+    "start": "npx http-server -c-1 -p 8080 ."
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {}
+}
