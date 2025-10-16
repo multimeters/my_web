@@ -36,10 +36,7 @@ function fmtDate(iso) {
   return `${y}-${m}-${day}`;
 }
 
-function escapeHtml(s) {
-  const map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
-  return String(s).replace(/[&<>"']/g, (c) => map[c]);
-}
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c])); }
 
 function render(items) {
   els.grid.innerHTML = '';
@@ -48,7 +45,7 @@ function render(items) {
     const card = document.createElement('article');
     card.className = 'card' + (state.read.has(it.id) ? ' read' : '');
     const typeBadge = `<span class="badge">${it.type}</span>`;
-    const tags = (it.tags || []).map((t) => `<span class="badge">${escapeHtml(t)}</span>`).join('');
+    const tags = (it.tags || []).map(t => `<span class="badge">${escapeHtml(t)}</span>`).join('');
     card.innerHTML = `
       <div class="meta-line">
         ${typeBadge}
@@ -60,10 +57,9 @@ function render(items) {
       <div class="summary">${escapeHtml(it.summary || '')}</div>
       <div class="tags">${tags}</div>
     `;
-    card.addEventListener('click', () => {
-      state.read.add(it.id);
-      saveRead();
-      card.classList.add('read');
+    card.addEventListener('click', (e) => {
+      // mark as read when user clicks inside card (but keep link behavior)
+      state.read.add(it.id); saveRead(); card.classList.add('read');
     });
     els.grid.appendChild(card);
   }
@@ -78,17 +74,17 @@ function filterItems() {
   else if (state.time === '1y') cutoff = new Date(new Date().getFullYear() - 1, new Date().getMonth(), new Date().getDate()).getTime();
   else if (state.time === '5y') cutoff = new Date(new Date().getFullYear() - 5, 0, 1).getTime();
 
-  const filtered = state.raw.items.filter((it) => {
+  const filtered = state.raw.items.filter(it => {
     const byType = !state.type || it.type === state.type;
     const byTag = !state.tag || (it.tags || []).includes(state.tag);
-    const byQ = !q || (it.title + ' ' + (it.summary || '')).toLowerCase().includes(q);
+    const byQ = !q || (it.title + ' ' + (it.summary||'')).toLowerCase().includes(q);
     const t = it.publishedAt ? new Date(it.publishedAt).getTime() : now;
-    const byTime = cutoff === 0 || t >= cutoff;
+    const byTime = cutoff === 0 || (t >= cutoff);
     return byType && byTag && byQ && byTime;
   });
   const ordered = sortItems(filtered, state.sort);
   render(ordered);
-  els.meta.textContent = `共 ${ordered.length} 条（来源总计：${state.raw.count}，生成时间：${state.raw.generatedAt || ''}）`;
+  els.meta.textContent = `�?${filtered.length} 条（来源总计�?{state.raw.count}，生成时间：${state.raw.generatedAt || ''}）`;
 }
 
 async function loadData(force) {
@@ -97,13 +93,11 @@ async function loadData(force) {
     const res = await fetch(url);
     if (!res.ok) throw new Error('加载数据失败');
     const data = await res.json();
-    // 如果数据为空，尝试使用种子演示数据
-    if (!data || !Array.isArray(data.items) || data.items.length === 0) {
+    // 如果数据为空，尝试使用种子演示数�?    if (!data || !Array.isArray(data.items) || data.items.length === 0) {
       const seedEl = document.getElementById('seed-data');
       if (seedEl?.textContent) {
         state.raw = JSON.parse(seedEl.textContent);
-        // 使用演示数据时，放宽时间范围以确保可见
-        state.time = state.time || '5y';
+        // 使用演示数据时，放宽时间范围以确保可�?        state.time = state.time || '5y';
         if (els.time) els.time.value = state.time;
       } else {
         state.raw = data || { items: [] };
@@ -113,8 +107,7 @@ async function loadData(force) {
     }
     filterItems();
   } catch (e) {
-    // fetch 失败（例如通过 file:// 打开）时，使用内置演示数据
-    const seedEl = document.getElementById('seed-data');
+    // fetch 失败（例如通过 file:// 打开）时，使用内置演示数�?    const seedEl = document.getElementById('seed-data');
     if (seedEl?.textContent) {
       state.raw = JSON.parse(seedEl.textContent);
       state.time = state.time || '5y';
@@ -128,38 +121,15 @@ async function loadData(force) {
 
 function setupEvents() {
   els.search.addEventListener('keydown', (e) => {
-    if (e.key === 'Enter') {
-      state.q = e.target.value;
-      filterItems();
-    }
+    if (e.key === 'Enter') { state.q = e.target.value; filterItems(); }
   });
-  els.type.addEventListener('change', (e) => {
-    state.type = e.target.value;
-    filterItems();
-  });
-  els.tag.addEventListener('change', (e) => {
-    state.tag = e.target.value;
-    filterItems();
-  });
-  els.time.addEventListener('change', (e) => {
-    state.time = e.target.value;
-    filterItems();
-  });
-  if (els.sort) {
-    els.sort.addEventListener('change', (e) => {
-      state.sort = e.target.value;
-      filterItems();
-    });
-  }
+  els.type.addEventListener('change', (e) => { state.type = e.target.value; filterItems(); });
+  els.tag.addEventListener('change', (e) => { state.tag = e.target.value; filterItems(); });
+  els.time.addEventListener('change', (e) => { state.time = e.target.value; filterItems(); });
+  if (els.sort) els.sort.addEventListener('change', (e) => { state.sort = e.target.value; filterItems(); });
   els.refresh.addEventListener('click', async () => {
-    els.refresh.disabled = true;
-    els.refresh.textContent = '刷新中…';
-    try {
-      await loadData(true);
-    } finally {
-      els.refresh.disabled = false;
-      els.refresh.textContent = '刷新';
-    }
+    els.refresh.disabled = true; els.refresh.textContent = '刷新中�?;
+    try { await loadData(true); } finally { els.refresh.disabled = false; els.refresh.textContent = '刷新'; }
   });
   els.toggleTheme.addEventListener('click', () => {
     const cur = document.documentElement.dataset.theme;
@@ -169,17 +139,12 @@ function setupEvents() {
 
 (async function init() {
   setupEvents();
-  // 默认：近30天 + 热门优先（自动“最近热门”）
+  // 默认：近30�?+ 热门优先（自动出现“最近热门”）
   if (!state.time) state.time = '30d';
   if (!state.sort) state.sort = 'hot';
   if (els.time) els.time.value = state.time;
   if (els.sort) els.sort.value = state.sort;
-  try {
-    await loadData(false);
-  } catch (e) {
-    console.error(e);
-    els.empty.classList.remove('hidden');
-  }
+  try { await loadData(false); } catch (e) { console.error(e); els.empty.classList.remove('hidden'); }
 })();
 
 function sortItems(items, sort) {
@@ -191,16 +156,13 @@ function sortItems(items, sort) {
     const t = it.publishedAt ? new Date(it.publishedAt).getTime() : now;
     const days = Math.max(0, (now - t) / (24 * 3600 * 1000));
     let score = 1 / (1 + days);
-    if (it.type === 'paper') score *= 1.12;
-    else if (it.type === 'news') score *= 1.05;
-    else if (it.type === 'video') score *= 1.02;
+    if (it.type === 'paper') score *= 1.12; else if (it.type === 'news') score *= 1.05; else if (it.type === 'video') score *= 1.02;
     const text = ((it.title || '') + ' ' + (it.summary || '')).toLowerCase();
     if (/(survey|综述)/.test(text)) score *= 1.15;
-    if (/(benchmark|dataset|数据集)/.test(text)) score *= 1.1;
+    if (/(benchmark|dataset|数据�?/.test(text)) score *= 1.10;
     if (/(embodied ai|具身智能)/.test(text)) score *= 1.08;
     if (/(autonomous driving|self-driving|自动驾驶|自動駕駛)/.test(text)) score *= 1.06;
     return score;
   }
   return [...items].sort((a, b) => hotScore(b) - hotScore(a));
 }
-

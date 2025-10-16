@@ -1,5 +1,5 @@
-// Fetches robotics/autonomous driving/embodied AI content from arXiv, RSS, and YouTube RSS,
-// summarizes items, and writes to data/items.json for the static site to consume.
+// Fetches robotics/autonomous driving/embodied AI content from arXiv, RSS, YouTube RSS,
+// and Bilibili (via RSSHub). Summarizes items and writes to data/items.json.
 
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -21,7 +21,6 @@ const parser = new XMLParser({
   parseTagValue: true,
 });
 
-// Use global fetch (Node >=18). Fallback to node-fetch if necessary.
 const fetchFn = globalThis.fetch ?? (await import('node-fetch')).default;
 
 const nowIso = () => new Date().toISOString();
@@ -56,11 +55,11 @@ function takeSentences(text, maxChars = 400) {
 function tagger(title = '', summary = '') {
   const text = `${title} ${summary}`.toLowerCase();
   const tags = new Set();
-  if (/autonomous driving|self-driving|自(动|動)驾驶/.test(text)) tags.add('Autonomous Driving');
-  if (/robot|robotics|机器人/.test(text)) tags.add('Robotics');
+  if (/autonomous driving|self-driving|自动驾驶|自動駕駛/.test(text)) tags.add('Autonomous Driving');
+  if (/\brobot\b|robotics|机器人/.test(text)) tags.add('Robotics');
   if (/embodied|具身智能/.test(text)) tags.add('Embodied AI');
-  if (/(large language model|llm)/.test(text)) tags.add('LLM');
-  if (/reinforcement learning|rl/.test(text)) tags.add('RL');
+  if (/(large language model|\bllm\b)/.test(text)) tags.add('LLM');
+  if (/reinforcement learning|\brl\b/.test(text)) tags.add('RL');
   if (/vision|perception|视觉/.test(text)) tags.add('Vision');
   if (/planning|mpc|slam|mapping/.test(text)) tags.add('Planning');
   return Array.from(tags);
@@ -151,6 +150,10 @@ const SOURCES = [
   { kind: 'rss', url: 'https://www.youtube.com/feeds/videos.xml?search_query=autonomous+driving', source: 'YouTube: Autonomous Driving', type: 'video' },
   { kind: 'rss', url: 'https://www.youtube.com/feeds/videos.xml?search_query=embodied+ai', source: 'YouTube: Embodied AI', type: 'video' },
   { kind: 'rss', url: 'https://www.youtube.com/feeds/videos.xml?search_query=robotics', source: 'YouTube: Robotics', type: 'video' },
+  // Bilibili via RSSHub (public instance; may rate-limit)
+  { kind: 'rss', url: 'https://rsshub.app/bilibili/keyword/%E8%87%AA%E5%8A%A8%E9%A9%BE%E9%A9%B6', source: 'Bilibili: 自动驾驶', type: 'video' },
+  { kind: 'rss', url: 'https://rsshub.app/bilibili/keyword/%E6%9C%BA%E5%99%A8%E4%BA%BA', source: 'Bilibili: 机器人', type: 'video' },
+  { kind: 'rss', url: 'https://rsshub.app/bilibili/keyword/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD', source: 'Bilibili: 具身智能', type: 'video' },
   // News/blogs
   { kind: 'rss', url: 'https://www.therobotreport.com/feed/', source: 'The Robot Report', type: 'news' },
   { kind: 'rss', url: 'https://techcrunch.com/tag/robotics/feed/', source: 'TechCrunch Robotics', type: 'news' },
@@ -170,7 +173,6 @@ async function gatherAll() {
         const items = await fetchRss(s.url, { source: s.source, type: s.type });
         results.push(...items);
       }
-      // gentle delay to be polite
       await delay(500);
     } catch (err) {
       console.error('Source error:', s, err.message);

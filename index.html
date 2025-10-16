@@ -34,6 +34,17 @@
             <option>Vision</option>
             <option>Planning</option>
           </select>
+          <select id="timeFilter" title="时间范围">
+            <option value="">全部时间</option>
+            <option value="7d">近7天</option>
+            <option value="30d">近30天</option>
+            <option value="1y">近1年</option>
+            <option value="5y">近5年</option>
+          </select>
+          <select id="sortFilter" title="排序">
+            <option value="latest">最新优先</option>
+            <option value="hot">热门优先</option>
+          </select>
           <button id="refreshBtn" title="刷新缓存数据">刷新</button>
           <button id="toggleTheme" title="切换主题">🌓</button>
         </div>
@@ -53,7 +64,46 @@
       <div class="small">本页本地不使用任何后端服务，数据由 GitHub Actions 定时抓取并生成。</div>
     </footer>
 
-    <script type="module" src="assets/app.js"></script>
+    <!-- 本地 file:// 访问或数据抓取失败时的演示数据回退（仅少量，便于预览界面） -->
+    <script type="application/json" id="seed-data">
+      {
+        "generatedAt": "demo",
+        "count": 3,
+        "items": [
+          {
+            "id": "arxiv-robotics-demo",
+            "title": "A Sample Robotics Paper on Manipulation and Planning",
+            "url": "https://arxiv.org/abs/2101.00001",
+            "publishedAt": "2024-10-01T12:00:00Z",
+            "summary": "This is a short demo abstract describing advances in robotic manipulation, perception, and planning for illustrative purposes.",
+            "source": "arXiv",
+            "type": "paper",
+            "tags": ["Robotics", "Planning", "Vision"]
+          },
+          {
+            "id": "news-autonomous-driving-demo",
+            "title": "Industry Update: Autonomous Driving Milestones",
+            "url": "https://www.therobotreport.com/",
+            "publishedAt": "2024-10-03T09:30:00Z",
+            "summary": "Demo news item summarizing recent progress across AV stacks, perception, and safety validation.",
+            "source": "The Robot Report",
+            "type": "news",
+            "tags": ["Autonomous Driving", "Vision"]
+          },
+          {
+            "id": "yt-embodied-ai-demo",
+            "title": "Embodied AI Demo: Language-Conditioned Control",
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "publishedAt": "2024-10-05T16:00:00Z",
+            "summary": "A demo video placeholder about language-conditioned policies for embodied agents in simulated and real settings.",
+            "source": "YouTube: Embodied AI",
+            "type": "video",
+            "tags": ["Embodied AI", "LLM"]
+          }
+        ]
+      }
+    </script>
+
+    <script src="assets/app.js"></script>
   </body>
   </html>
-
