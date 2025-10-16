@@ -1,4 +1,4 @@
-const DATA_URL = 'data/items.json';
+﻿const DATA_URL = 'data/items.json';
 
 const els = {
   grid: document.getElementById('grid'),
@@ -53,7 +53,7 @@ function render(items) {
       <div class="meta-line">
         ${typeBadge}
         <span>${escapeHtml(it.source || '')}</span>
-        <span>·</span>
+        <span>路</span>
         <span>${fmtDate(it.publishedAt)}</span>
       </div>
       <h3><a href="${it.url}" target="_blank" rel="noopener">${escapeHtml(it.title)}</a></h3>
@@ -88,23 +88,21 @@ function filterItems() {
   });
   const ordered = sortItems(filtered, state.sort);
   render(ordered);
-  els.meta.textContent = `共 ${ordered.length} 条（来源总计：${state.raw.count}，生成时间：${state.raw.generatedAt || ''}）`;
-}
-
-async function loadData(force) {
+  const counts = { paper: 0, news: 0, video: 0 };
+  for (const it of state.raw.items) { if (counts[it.type] !== undefined) counts[it.type]++; }
+  els.meta.textContent = `共 ${ordered.length} 条（总源：${state.raw.count}，生成：${state.raw.generatedAt || ''}｜论文${counts.paper}·新闻${counts.news}·视频${counts.video}）`;
+}async function loadData(force) {
   const url = force ? `${DATA_URL}?_=${Date.now()}` : DATA_URL;
   try {
     const res = await fetch(url);
     if (!res.ok) throw new Error('加载数据失败');
     const data = await res.json();
-    // 如果数据为空，尝试使用种子演示数据
     if (!data || !Array.isArray(data.items) || data.items.length === 0) {
       const seedEl = document.getElementById('seed-data');
       if (seedEl?.textContent) {
         state.raw = JSON.parse(seedEl.textContent);
-        // 使用演示数据时，放宽时间范围以确保可见
-        state.time = state.time || '5y';
-        if (els.time) els.time.value = state.time;
+        state.time = '5y';
+        if (els.time) els.time.value = '5y';
       } else {
         state.raw = data || { items: [] };
       }
@@ -113,20 +111,17 @@ async function loadData(force) {
     }
     filterItems();
   } catch (e) {
-    // fetch 失败（例如通过 file:// 打开）时，使用内置演示数据
     const seedEl = document.getElementById('seed-data');
     if (seedEl?.textContent) {
       state.raw = JSON.parse(seedEl.textContent);
-      state.time = state.time || '5y';
-      if (els.time) els.time.value = state.time;
+      state.time = '5y';
+      if (els.time) els.time.value = '5y';
       filterItems();
     } else {
       throw e;
     }
   }
-}
-
-function setupEvents() {
+}function setupEvents() {
   els.search.addEventListener('keydown', (e) => {
     if (e.key === 'Enter') {
       state.q = e.target.value;
@@ -153,12 +148,12 @@ function setupEvents() {
   }
   els.refresh.addEventListener('click', async () => {
     els.refresh.disabled = true;
-    els.refresh.textContent = '刷新中…';
+    els.refresh.textContent = '鍒锋柊涓€?;
     try {
       await loadData(true);
     } finally {
       els.refresh.disabled = false;
-      els.refresh.textContent = '刷新';
+      els.refresh.textContent = '鍒锋柊';
     }
   });
   els.toggleTheme.addEventListener('click', () => {
@@ -169,7 +164,7 @@ function setupEvents() {
 
 (async function init() {
   setupEvents();
-  // 默认：近30天 + 热门优先（自动“最近热门”）
+  // 榛樿锛氳繎30澶?+ 鐑棬浼樺厛锛堣嚜鍔ㄢ€滄渶杩戠儹闂ㄢ€濓級
   if (!state.time) state.time = '30d';
   if (!state.sort) state.sort = 'hot';
   if (els.time) els.time.value = state.time;
@@ -195,12 +190,13 @@ function sortItems(items, sort) {
     else if (it.type === 'news') score *= 1.05;
     else if (it.type === 'video') score *= 1.02;
     const text = ((it.title || '') + ' ' + (it.summary || '')).toLowerCase();
-    if (/(survey|综述)/.test(text)) score *= 1.15;
-    if (/(benchmark|dataset|数据集)/.test(text)) score *= 1.1;
-    if (/(embodied ai|具身智能)/.test(text)) score *= 1.08;
-    if (/(autonomous driving|self-driving|自动驾驶|自動駕駛)/.test(text)) score *= 1.06;
+    if (/(survey|缁艰堪)/.test(text)) score *= 1.15;
+    if (/(benchmark|dataset|鏁版嵁闆?/.test(text)) score *= 1.1;
+    if (/(embodied ai|鍏疯韩鏅鸿兘)/.test(text)) score *= 1.08;
+    if (/(autonomous driving|self-driving|鑷姩椹鹃┒|鑷嫊椐曢)/.test(text)) score *= 1.06;
     return score;
   }
   return [...items].sort((a, b) => hotScore(b) - hotScore(a));
 }
+
 
