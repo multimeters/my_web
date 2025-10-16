@@ -53,6 +53,10 @@
     </header>
 
     <main class="wrap">
+      <section id="featured" class="featured hidden">
+        <h2>热门视频</h2>
+        <div id="featuredPlayer" class="video-embed"></div>
+      </section>
       <section id="grid" class="grid"></section>
       <div id="empty" class="empty hidden">没有匹配的结果，请调整筛选或关键词。</div>
     </main>
@@ -103,6 +107,15 @@
         ]
       }
     </script>
+
+    <!-- 播放器模态框 -->
+    <div id="playerModal" class="modal hidden">
+      <div class="modal-backdrop" data-close="1"></div>
+      <div class="modal-content">
+        <button class="modal-close" title="关闭" data-close="1">×</button>
+        <div id="modalBody" class="modal-body"></div>
+      </div>
+    </div>
 
     <script src="assets/app.js"></script>
   </body>

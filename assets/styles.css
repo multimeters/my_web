@@ -54,6 +54,11 @@ button#refreshBtn { background: linear-gradient(90deg, rgba(124,92,255,0.18), rg
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
+.featured { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px; margin-top: 16px; }
+.featured h2 { margin: 0 0 10px; font-size: 18px; color: var(--text); }
+.video-embed { position: relative; width: 100%; padding-top: 56.25%; background: #000; border-radius: 10px; overflow: hidden; }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+
 .card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 16px; display: flex; flex-direction: column; gap: 10px; }
 .card h3 { margin: 0; font-size: 16px; line-height: 1.35; }
 .card h3 a { color: var(--text); text-decoration: none; }
@@ -62,6 +67,10 @@ button#refreshBtn { background: linear-gradient(90deg, rgba(124,92,255,0.18), rg
 .badge { border: 1px solid var(--border); padding: 2px 8px; border-radius: 999px; font-size: 11px; color: var(--muted); }
 .tags { display: flex; gap: 6px; flex-wrap: wrap; }
 .summary { color: #cfe0f5; opacity: 0.95; }
+
+.card .actions { display: flex; gap: 8px; }
+.btn { cursor: pointer; background: var(--accent); color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; font-size: 12px; }
+.btn:hover { filter: brightness(1.05); }
 
 .empty { text-align: center; color: var(--muted); margin: 32px 0; }
 .hidden { display: none; }
@@ -79,3 +88,11 @@ button#refreshBtn { background: linear-gradient(90deg, rgba(124,92,255,0.18), rg
 
 .read { opacity: 0.7; }
 
+/* modal */
+.modal { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; z-index: 50; }
+.modal.hidden { display: none; }
+.modal-backdrop { position: absolute; inset: 0; background: rgba(0,0,0,0.6); }
+.modal-content { position: relative; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px; width: min(960px, 96vw); }
+.modal-close { position: absolute; top: 6px; right: 8px; background: transparent; border: none; color: var(--text); font-size: 22px; cursor: pointer; }
+.modal-body { width: 100%; }
+.modal-body .video-embed { margin-top: 8px; }
