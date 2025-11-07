@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2025-11-07T06:07:13.013Z",
-  "count": 64,
+  "generatedAt": "2025-11-07T09:05:23.219Z",
+  "count": 89,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=585932",
@@ -39,6 +39,78 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2511.04679v1",
+      "title": "GentleHumanoid: Learning Upper-body Compliance for Contact-rich Human\n  and Object Interaction",
+      "url": "http://arxiv.org/abs/2511.04679v1",
+      "publishedAt": "2025-11-06T18:59:33Z",
+      "summary": "Humanoid robots are expected to operate in human-centered environments where safe and natural physical interaction is essential. However, most recent reinforcement learning (RL) policies emphasize rigid tracking and suppress external forces. Existing impedance-augmented approaches are typically restricted to base or end-effector control and focus on resisting extreme forces rather than enabling compliance.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04671v1",
+      "title": "X-Diffusion: Training Diffusion Policies on Cross-Embodiment Human\n  Demonstrations",
+      "url": "http://arxiv.org/abs/2511.04671v1",
+      "publishedAt": "2025-11-06T18:56:30Z",
+      "summary": "Human videos can be recorded quickly and at scale, making them an appealing source of training data for robot learning. However, humans and robots differ fundamentally in embodiment, resulting in mismatched action execution. Direct kinematic retargeting of human hand motion can therefore produce actions that are physically infeasible for robots.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04665v1",
+      "title": "Real-to-Sim Robot Policy Evaluation with Gaussian Splatting Simulation\n  of Soft-Body Interactions",
+      "url": "http://arxiv.org/abs/2511.04665v1",
+      "publishedAt": "2025-11-06T18:52:08Z",
+      "summary": "Robotic manipulation policies are advancing rapidly, but their direct evaluation in the real world remains costly, time-consuming, and difficult to reproduce, particularly for tasks involving deformable objects. Simulation provides a scalable and systematic alternative, yet existing simulators often fail to capture the coupled visual and physical complexity of soft-body interactions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04664v1",
+      "title": "SAFe-Copilot: Unified Shared Autonomy Framework",
+      "url": "http://arxiv.org/abs/2511.04664v1",
+      "publishedAt": "2025-11-06T18:51:44Z",
+      "summary": "Autonomous driving systems remain brittle in rare, ambiguous, and out-of-distribution scenarios, where human driver succeed through contextual reasoning. Shared autonomy has emerged as a promising approach to mitigate such failures by incorporating human input when autonomy is uncertain.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04595v1",
+      "title": "UniSplat: Unified Spatio-Temporal Fusion via 3D Latent Scaffolds for\n  Dynamic Driving Scene Reconstruction",
+      "url": "http://arxiv.org/abs/2511.04595v1",
+      "publishedAt": "2025-11-06T17:49:39Z",
+      "summary": "Feed-forward 3D reconstruction for autonomous driving has advanced rapidly, yet existing methods struggle with the joint challenges of sparse, non-overlapping camera views and complex scene dynamics. We present UniSplat, a general feed-forward framework that learns robust dynamic scene reconstruction through unified latent spatio-temporal fusion.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04594v1",
+      "title": "Regret Lower Bounds for Decentralized Multi-Agent Stochastic Shortest\n  Path Problems",
+      "url": "http://arxiv.org/abs/2511.04594v1",
+      "publishedAt": "2025-11-06T17:49:33Z",
+      "summary": "Multi-agent systems (MAS) are central to applications such as swarm robotics and traffic routing, where agents must coordinate in a decentralized manner to achieve a common objective. Stochastic Shortest Path (SSP) problems provide a natural framework for modeling decentralized control in such settings.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
       "id": "https://www.therobotreport.com/?p=585908",
       "title": "Sovato closes Series B funding to advance telesurgery",
       "url": "https://www.therobotreport.com/sovato-closes-series-b-funding-to-advance-telesurgery/",
@@ -49,6 +121,75 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04555v1",
+      "title": "Evo-1: Lightweight Vision-Language-Action Model with Preserved Semantic\n  Alignment",
+      "url": "http://arxiv.org/abs/2511.04555v1",
+      "publishedAt": "2025-11-06T17:07:49Z",
+      "summary": "Vision-Language-Action (VLA) models have emerged as a powerful framework that unifies perception, language, and control, enabling robots to perform diverse tasks through multimodal understanding.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04531v1",
+      "title": "Synchronous Observer Design for Landmark-Inertial SLAM with\n  Almost-Global Convergence",
+      "url": "http://arxiv.org/abs/2511.04531v1",
+      "publishedAt": "2025-11-06T16:45:10Z",
+      "summary": "Landmark Inertial Simultaneous Localisation and Mapping (LI-SLAM) is the problem of estimating the locations of landmarks in the environment and the robot's pose relative to those landmarks using landmark position measurements and measurements from Inertial Measurement Unit (IMU).",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04421v1",
+      "title": "Temporal Action Selection for Action Chunking",
+      "url": "http://arxiv.org/abs/2511.04421v1",
+      "publishedAt": "2025-11-06T14:52:54Z",
+      "summary": "Action chunking is a widely adopted approach in Learning from Demonstration (LfD). By modeling multi-step action chunks rather than single-step actions, action chunking significantly enhances modeling capabilities for human expert policies.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04388v1",
+      "title": "BoRe-Depth: Self-supervised Monocular Depth Estimation with Boundary\n  Refinement for Embedded Systems",
+      "url": "http://arxiv.org/abs/2511.04388v1",
+      "publishedAt": "2025-11-06T14:17:33Z",
+      "summary": "Depth estimation is one of the key technologies for realizing 3D perception in unmanned systems. Monocular depth estimation has been widely researched because of its low-cost advantage, but the existing methods face the challenges of poor depth estimation performance and blurred object boundaries on embedded systems.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04381v1",
+      "title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic\n  Manipulation",
+      "url": "http://arxiv.org/abs/2511.04381v1",
+      "publishedAt": "2025-11-06T14:03:49Z",
+      "summary": "Efficiently leveraging simulation to acquire advanced manipulation skills is both challenging and highly significant. We introduce \\textit{ForeRobo}, a generative robotic agent that utilizes generative simulations to autonomously acquire manipulation skills driven by envisioned goal states. Instead of directly learning low-level policies, we advocate integrating generative paradigms with classical control.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04375v1",
+      "title": "Studying the Effect of Explicit Interaction Representations on Learning\n  Scene-level Distributions of Human Trajectories",
+      "url": "http://arxiv.org/abs/2511.04375v1",
+      "publishedAt": "2025-11-06T14:01:47Z",
+      "summary": "Effectively capturing the joint distribution of all agents in a scene is relevant for predicting the true evolution of the scene and in turn providing more accurate information to the decision processes of autonomous vehicles.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://www.therobotreport.com/?p=585905",
@@ -63,6 +204,125 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2511.04357v1",
+      "title": "GraSP-VLA: Graph-based Symbolic Action Representation for Long-Horizon\n  Planning with VLA Policies",
+      "url": "http://arxiv.org/abs/2511.04357v1",
+      "publishedAt": "2025-11-06T13:39:38Z",
+      "summary": "Deploying autonomous robots that can learn new skills from demonstrations is an important challenge of modern robotics. Existing solutions often apply end-to-end imitation learning with Vision-Language Action (VLA) models or symbolic approaches with Action Model Learning (AML).",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04320v1",
+      "title": "MacroNav: Multi-Task Context Representation Learning Enables Efficient\n  Navigation in Unknown Environments",
+      "url": "http://arxiv.org/abs/2511.04320v1",
+      "publishedAt": "2025-11-06T12:47:33Z",
+      "summary": "Autonomous navigation in unknown environments requires compact yet expressive spatial understanding under partial observability to support high-level decision making. Existing approaches struggle to balance rich contextual representation with navigation efficiency.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04267v1",
+      "title": "A Tool for Benchmarking Large Language Models' Robustness in Assessing\n  the Realism of Driving Scenarios",
+      "url": "http://arxiv.org/abs/2511.04267v1",
+      "publishedAt": "2025-11-06T11:02:04Z",
+      "summary": "In recent years, autonomous driving systems have made significant progress, yet ensuring their safety remains a key challenge. To this end, scenario-based testing offers a practical solution, and simulation-based methods have gained traction due to the high cost and risk of real-world testing. However, evaluating the realism of simulated scenarios remains difficult, creating demand for effective assessment methods.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04251v1",
+      "title": "Design and Control of a Coaxial Dual-rotor Reconfigurable Tailsitter UAV\n  Based on Swashplateless Mechanism",
+      "url": "http://arxiv.org/abs/2511.04251v1",
+      "publishedAt": "2025-11-06T10:36:47Z",
+      "summary": "The tailsitter vertical takeoff and landing (VTOL) UAV is widely used due to its lower dead weight, which eliminates the actuators and mechanisms for tilting. However, the tailsitter UAV is susceptible to wind disturbances in multi-rotor mode, as it exposes a large frontal fuselage area.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04249v1",
+      "title": "Can Context Bridge the Reality Gap? Sim-to-Real Transfer of\n  Context-Aware Policies",
+      "url": "http://arxiv.org/abs/2511.04249v1",
+      "publishedAt": "2025-11-06T10:35:21Z",
+      "summary": "Sim-to-real transfer remains a major challenge in reinforcement learning (RL) for robotics, as policies trained in simulation often fail to generalize to the real world due to discrepancies in environment dynamics. Domain Randomization (DR) mitigates this issue by exposing the policy to a wide range of randomized dynamics during training, yet leading to a reduction in performance.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04199v1",
+      "title": "GraspView: Active Perception Scoring and Best-View Optimization for\n  Robotic Grasping in Cluttered Environments",
+      "url": "http://arxiv.org/abs/2511.04199v1",
+      "publishedAt": "2025-11-06T09:00:27Z",
+      "summary": "Robotic grasping is a fundamental capability for autonomous manipulation, yet remains highly challenging in cluttered environments where occlusion, poor perception quality, and inconsistent 3D reconstructions often lead to unstable or failed grasps. Conventional pipelines have widely relied on RGB-D cameras to provide geometric information, which fail on transparent or glossy objects and degrade at close range.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04180v1",
+      "title": "PUL-SLAM: Path-Uncertainty Co-Optimization with Lightweight Stagnation\n  Detection for Efficient Robotic Exploration",
+      "url": "http://arxiv.org/abs/2511.04180v1",
+      "publishedAt": "2025-11-06T08:31:05Z",
+      "summary": "Existing Active SLAM methodologies face issues such as slow exploration speed and suboptimal paths. To address these limitations, we propose a hybrid framework combining a Path-Uncertainty Co-Optimization Deep Reinforcement Learning framework and a Lightweight Stagnation Detection mechanism.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04162v1",
+      "title": "ScaleDL: Towards Scalable and Efficient Runtime Prediction for\n  Distributed Deep Learning Workloads",
+      "url": "http://arxiv.org/abs/2511.04162v1",
+      "publishedAt": "2025-11-06T08:05:55Z",
+      "summary": "Deep neural networks (DNNs) form the cornerstone of modern AI services, supporting a wide range of applications, including autonomous driving, chatbots, and recommendation systems.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04131v1",
+      "title": "BFM-Zero: A Promptable Behavioral Foundation Model for Humanoid Control\n  Using Unsupervised Reinforcement Learning",
+      "url": "http://arxiv.org/abs/2511.04131v1",
+      "publishedAt": "2025-11-06T07:21:31Z",
+      "summary": "Building Behavioral Foundation Models (BFMs) for humanoid robots has the potential to unify diverse control tasks under a single, promptable generalist policy. However, existing approaches are either exclusively deployed on simulated humanoid characters, or specialized to specific tasks such as tracking.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.04109v1",
+      "title": "CBMC-V3: A CNS-inspired Control Framework Towards Manipulation Agility\n  with SNN",
+      "url": "http://arxiv.org/abs/2511.04109v1",
+      "publishedAt": "2025-11-06T06:48:29Z",
+      "summary": "As robotic arm applications extend beyond industrial settings into healthcare, service, and daily life, existing control algorithms struggle to achieve the agile manipulation required for complex environments with dynamic trajectories, unpredictable interactions, and diverse objects.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=585904",
       "title": "PickNik expands support for Franka Research 3 robot on MoveIt Pro",
       "url": "https://www.therobotreport.com/picknik-expands-support-for-franka-research-3-robot-on-moveit-pro/",
@@ -70,76 +330,6 @@
       "summary": "PickNik Robotics said this collaboration will help to address one of the central bottlenecks in AI and robotics development. The post PickNik expands support for Franka Research 3 robot on MoveIt Pro appeared first on The Robot Report .",
       "source": "The Robot Report",
       "type": "news",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03691v1",
-      "title": "Source-Free Bistable Fluidic Gripper for Size-Selective and\n  Stiffness-Adaptive Grasping",
-      "url": "http://arxiv.org/abs/2511.03691v1",
-      "publishedAt": "2025-11-05T18:17:25Z",
-      "summary": "Conventional fluid-driven soft grippers typically depend on external sources, which limit portability and long-term autonomy. This work introduces a self-contained soft gripper with fixed size that operates solely through internal liquid redistribution among three interconnected bistable snap-through chambers.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03676v1",
-      "title": "Unconscious and Intentional Human Motion Cues for Expressive Robot-Arm\n  Motion Design",
-      "url": "http://arxiv.org/abs/2511.03676v1",
-      "publishedAt": "2025-11-05T17:48:10Z",
-      "summary": "This study investigates how human motion cues can be used to design expressive robot-arm movements. Using the imperfect-information game Geister, we analyzed two types of human piece-moving motions: natural gameplay (unconscious tendencies) and instructed expressions (intentional cues).",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03652v1",
-      "title": "Motion Planning Under Temporal Logic Specifications In Semantically\n  Unknown Environments",
-      "url": "http://arxiv.org/abs/2511.03652v1",
-      "publishedAt": "2025-11-05T17:09:43Z",
-      "summary": "This paper addresses a motion planning problem to achieve spatio-temporal-logical tasks, expressed by syntactically co-safe linear temporal logic specifications (scLTL\\next), in uncertain environments. Here, the uncertainty is modeled as some probabilistic knowledge on the semantic labels of the environment.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03651v1",
-      "title": "Flying Robotics Art: ROS-based Drone Draws the Record-Breaking Mural",
-      "url": "http://arxiv.org/abs/2511.03651v1",
-      "publishedAt": "2025-11-05T17:09:16Z",
-      "summary": "This paper presents the innovative design and successful deployment of a pioneering autonomous unmanned aerial system developed for executing the world's largest mural painted by a drone.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03642v1",
-      "title": "Generalized k-Cell Decomposition for Visibility Planning in Polygons",
-      "url": "http://arxiv.org/abs/2511.03642v1",
-      "publishedAt": "2025-11-05T17:02:35Z",
-      "summary": "This paper introduces a novel $k$-cell decomposition method for pursuit-evasion problems in polygonal environments, where a searcher is equipped with a $k$-modem: a device capable of seeing through up to $k$ walls.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.03622v1",
-      "title": "Multi-robot searching with limited sensing range for static and mobile\n  intruders",
-      "url": "http://arxiv.org/abs/2511.03622v1",
-      "publishedAt": "2025-11-05T16:43:13Z",
-      "summary": "We consider the problem of searching for an intruder in a geometric domain by utilizing multiple search robots. The domain is a simply connected orthogonal polygon with edges parallel to the cartesian coordinate axes. Each robot has a limited sensing capability. We study the problem for both static and mobile intruders. It turns out that the problem of finding an intruder is NP-hard, even for a stationary intruder.",
-      "source": "arXiv",
-      "type": "paper",
       "tags": [
         "Robotics"
       ]
@@ -255,6 +445,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2511.00783v2",
+      "title": "When Semantics Connect the Swarm: LLM-Driven Fuzzy Control for\n  Cooperative Multi-Robot Underwater Coverage",
+      "url": "http://arxiv.org/abs/2511.00783v2",
+      "publishedAt": "2025-11-02T03:34:44Z",
+      "summary": "Underwater multi-robot cooperative coverage remains challenging due to partial observability, limited communication, environmental uncertainty, and the lack of access to global localization. To address these issues, this paper presents a semantics-guided fuzzy control framework that couples Large Language Models (LLMs) with interpretable control and lightweight coordination.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "LLM"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3064348",
       "title": "AI researchers &#8217;embodied&#8217; an LLM into a robot – and it started channeling Robin Williams",
       "url": "https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/",
@@ -267,6 +470,16 @@
         "Embodied AI",
         "LLM"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.00105v2",
+      "title": "Artificial Intelligence in Elementary STEM Education: A Systematic\n  Review of Current Applications and Future Challenges",
+      "url": "http://arxiv.org/abs/2511.00105v2",
+      "publishedAt": "2025-10-30T18:35:42Z",
+      "summary": "Artificial intelligence (AI) is transforming elementary STEM education, yet evidence remains fragmented.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://blogs.nvidia.com/?p=86672",
@@ -296,16 +509,6 @@
       "summary": "To democratize access to AI technology nationwide, AI education and deployment can’t be limited to a few urban tech hubs — it must reach every community, university and state. That’s why NVIDIA is working with cities, states and educational institutions to embed AI education and innovation across the U.S., with the goal of helping the Read Article",
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2510.24718v2",
-      "title": "Generative View Stitching",
-      "url": "http://arxiv.org/abs/2510.24718v2",
-      "publishedAt": "2025-10-28T17:59:58Z",
-      "summary": "Autoregressive video diffusion models are capable of long rollouts that are stable and consistent with history, but they are unable to guide the current generation with conditioning from the future. In camera-guided video generation with a predefined camera trajectory, this limitation leads to collisions with the generated scene, after which autoregression quickly collapses.",
-      "source": "arXiv",
-      "type": "paper",
       "tags": []
     },
     {
@@ -357,6 +560,16 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2510.11321v2",
+      "title": "HiMaCon: Discovering Hierarchical Manipulation Concepts from Unlabeled\n  Multi-Modal Data",
+      "url": "http://arxiv.org/abs/2510.11321v2",
+      "publishedAt": "2025-10-13T12:19:07Z",
+      "summary": "Effective generalization in robotic manipulation requires representations that capture invariant patterns of interaction across environments and tasks. We present a self-supervised framework for learning hierarchical manipulation concepts that encode these invariant patterns through cross-modal sensory correlations and multi-level temporal abstractions without requiring human annotation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://techcrunch.com/?p=3056108",
       "title": "The world is just not quite ready for humanoids yet",
       "url": "https://techcrunch.com/2025/10/10/the-world-is-just-not-quite-ready-for-humanoids-yet/",
@@ -365,6 +578,18 @@
       "source": "TechCrunch Robotics",
       "type": "news",
       "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.07871v2",
+      "title": "Learning to Navigate Socially Through Proactive Risk Perception",
+      "url": "http://arxiv.org/abs/2510.07871v2",
+      "publishedAt": "2025-10-09T07:22:12Z",
+      "summary": "In this report, we describe the technical details of our submission to the IROS 2025 RoboSense Challenge Social Navigation Track. This track focuses on developing RGBD-based perception and navigation systems that enable autonomous agents to navigate safely, efficiently, and socially compliantly in dynamic human-populated indoor environments.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
     },
     {
       "id": "https://techcrunch.com/?p=3055392",
@@ -376,6 +601,20 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.02851v2",
+      "title": "Action Deviation-Aware Inference for Low-Latency Wireless Robots",
+      "url": "http://arxiv.org/abs/2510.02851v2",
+      "publishedAt": "2025-10-03T09:40:39Z",
+      "summary": "To support latency-sensitive AI applications ranging from autonomous driving to industrial robot manipulation, 6G envisions distributed ML with computational resources in mobile, edge, and cloud connected over hyper-reliable low-latency communication (HRLLC).",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Robotics",
+        "Vision"
       ]
     },
     {
@@ -400,6 +639,16 @@
         "Robotics",
         "Vision"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.18793v2",
+      "title": "Application Management in C-ITS: Orchestrating Demand-Driven Deployments\n  and Reconfigurations",
+      "url": "http://arxiv.org/abs/2509.18793v2",
+      "publishedAt": "2025-09-23T08:36:08Z",
+      "summary": "Vehicles are becoming increasingly automated and interconnected, enabling the formation of cooperative intelligent transport systems (C-ITS) and the use of offboard services. As a result, cloud-native techniques, such as microservices and container orchestration, play an increasingly important role in their operation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3047793",
@@ -565,6 +814,16 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2506.15680v2",
+      "title": "Particle-Grid Neural Dynamics for Learning Deformable Object Models from\n  RGB-D Videos",
+      "url": "http://arxiv.org/abs/2506.15680v2",
+      "publishedAt": "2025-06-18T17:59:38Z",
+      "summary": "Modeling the dynamics of deformable objects is challenging due to their diverse physical properties and the difficulty of estimating states from limited visual information. We address these challenges with a neural dynamics framework that combines object particles and spatial grids in a hybrid representation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=82396",
       "title": "Hexagon Taps NVIDIA Robotics and AI Software to Build and Deploy AEON, a New Humanoid",
       "url": "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
@@ -707,19 +966,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2505.14526v2",
-      "title": "RoboRAN: A Unified Robotics Framework for Reinforcement Learning-Based\n  Autonomous Navigation",
-      "url": "http://arxiv.org/abs/2505.14526v2",
-      "publishedAt": "2025-05-20T15:48:23Z",
-      "summary": "Autonomous robots must navigate and operate in diverse environments, from terrestrial and aquatic settings to aerial and space domains. While Reinforcement Learning (RL) has shown promise in training policies for specific autonomous robots, existing frameworks and benchmarks are often constrained to unique platforms, limiting generalization and fair comparisons across different mobility systems.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "RL"
-      ]
-    },
-    {
       "id": "https://blogs.nvidia.com/?p=80963",
       "title": "NVIDIA Research Breakthroughs Put Advanced Robots in Motion",
       "url": "https://blogs.nvidia.com/blog/nvidia-research-robotics-icra-2025/",
@@ -732,27 +978,74 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2503.16711v2",
-      "title": "Depth Matters: Multimodal RGB-D Perception for Robust Autonomous Agents",
-      "url": "http://arxiv.org/abs/2503.16711v2",
-      "publishedAt": "2025-03-20T21:08:25Z",
-      "summary": "Autonomous agents that rely purely on perception to make real-time control decisions require efficient and robust architectures. In this work, we demonstrate that augmenting RGB input with depth information significantly enhances our agents' ability to predict steering commands compared to using RGB alone.",
+      "id": "http://arxiv.org/abs/2504.13713v3",
+      "title": "SLAM&Render: A Benchmark for the Intersection Between Neural Rendering,\n  Gaussian Splatting and SLAM",
+      "url": "http://arxiv.org/abs/2504.13713v3",
+      "publishedAt": "2025-04-18T14:28:34Z",
+      "summary": "Models and methods originally developed for Novel View Synthesis and Scene Rendering, such as Neural Radiance Fields (NeRF) and Gaussian Splatting, are increasingly being adopted as representations in Simultaneous Localization and Mapping (SLAM).",
       "source": "arXiv",
       "type": "paper",
       "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.03480v3",
+      "title": "SafeVLA: Towards Safety Alignment of Vision-Language-Action Model via\n  Constrained Learning",
+      "url": "http://arxiv.org/abs/2503.03480v3",
+      "publishedAt": "2025-03-05T13:16:55Z",
+      "summary": "Vision-language-action models (VLAs) show potential as generalist robot policies. However, these models pose extreme safety challenges during real-world deployment, including the risk of harm to the environment, the robot itself, and humans. How can safety constraints be explicitly integrated into VLAs?",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
         "Vision"
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2411.00527v3",
-      "title": "MAROON: A Framework for the Joint Characterization of Near-Field\n  High-Resolution Radar and Optical Depth Imaging Techniques",
-      "url": "http://arxiv.org/abs/2411.00527v3",
-      "publishedAt": "2024-11-01T11:53:10Z",
-      "summary": "Utilizing the complementary strengths of wavelength-specific range or depth sensors is crucial for robust computer-assisted tasks such as autonomous driving. Despite this, there is still little research done at the intersection of optical depth sensors and radars operating close range, where the target is decimeters away from the sensors.",
+      "id": "http://arxiv.org/abs/2502.04582v2",
+      "title": "The Mini Wheelbot: A Testbed for Learning-based Balancing, Flips, and\n  Articulated Driving",
+      "url": "http://arxiv.org/abs/2502.04582v2",
+      "publishedAt": "2025-02-07T00:36:30Z",
+      "summary": "The Mini Wheelbot is a balancing, reaction wheel unicycle robot designed as a testbed for learning-based control. It is an unstable system with highly nonlinear yaw dynamics, non-holonomic driving, and discrete contact switches in a small, powerful, and rugged form factor.",
       "source": "arXiv",
       "type": "paper",
       "tags": [
-        "Autonomous Driving"
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2410.21882v2",
+      "title": "Building Altruistic and Moral AI Agent with Brain-inspired Emotional\n  Empathy Mechanisms",
+      "url": "http://arxiv.org/abs/2410.21882v2",
+      "publishedAt": "2024-10-29T09:19:27Z",
+      "summary": "As AI closely interacts with human society, it is crucial to ensure that its behavior is safe, altruistic, and aligned with human ethical and moral values. However, existing research on embedding ethical considerations into AI remains insufficient, and previous external constraints based on principles and rules are inadequate to provide AI with long-term stability and generalization capabilities.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2410.10669v2",
+      "title": "MLP-SLAM: Multilayer Perceptron-Based Simultaneous Localization and\n  Mapping",
+      "url": "http://arxiv.org/abs/2410.10669v2",
+      "publishedAt": "2024-10-14T16:13:52Z",
+      "summary": "The Visual Simultaneous Localization and Mapping (V-SLAM) system has seen significant development in recent years, demonstrating high precision in environments with limited dynamic objects. However, their performance significantly deteriorates when deployed in settings with a higher presence of movable objects, such as environments with pedestrians, cars, and buses, which are common in outdoor scenes.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2407.16206v4",
+      "title": "Cluster Haptic Texture Dataset: Haptic Texture Dataset with Varied\n  Velocity-Direction Sliding Contacts",
+      "url": "http://arxiv.org/abs/2407.16206v4",
+      "publishedAt": "2024-07-23T06:18:10Z",
+      "summary": "Haptic sciences and technologies benefit greatly from comprehensive datasets that capture tactile stimuli under controlled, systematic conditions. However, existing haptic datasets collect data through uncontrolled exploration, which hinders the systematic analysis of how motion parameters (e.g., motion direction and velocity) influence tactile perception.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     }
   ]
