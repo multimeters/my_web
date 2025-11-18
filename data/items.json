@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-18T03:25:44.032Z",
+  "generatedAt": "2025-11-18T06:07:41.871Z",
   "count": 89,
   "items": [
     {
@@ -12,6 +12,52 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.13719v1",
+      "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
+      "url": "https://arxiv.org/abs/2511.13719v1",
+      "publishedAt": "2025-11-17T18:59:33Z",
+      "summary": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.13710v1",
+      "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
+      "url": "https://arxiv.org/abs/2511.13710v1",
+      "publishedAt": "2025-11-17T18:56:50Z",
+      "summary": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.13707v1",
+      "title": "OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving",
+      "url": "https://arxiv.org/abs/2511.13707v1",
+      "publishedAt": "2025-11-17T18:55:12Z",
+      "summary": "We present OpenRoboCare, a multimodal dataset for robot caregiving, capturing expert occupational therapist demonstrations of Activities of Daily Living (ADLs). Caregiving tasks involve complex physical human-robot interactions, requiring precise perception under occlusions, safe physical contact, and long-horizon planning.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.13648v1",
+      "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
+      "url": "https://arxiv.org/abs/2511.13648v1",
+      "publishedAt": "2025-11-17T17:59:53Z",
+      "summary": "3D modeling is shifting from static visual representations toward physical, articulated assets that can be directly used in simulation and interaction. However, most existing 3D generation methods overlook key physical and articulation properties, thereby limiting their utility in embodied AI.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI"
       ]
     },
     {
@@ -250,68 +296,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2511.13195v1",
-      "title": "Difficulty-Aware Label-Guided Denoising for Monocular 3D Object Detection",
-      "url": "https://arxiv.org/abs/2511.13195v1",
-      "publishedAt": "2025-11-17T10:02:18Z",
-      "summary": "Monocular 3D object detection is a cost-effective solution for applications like autonomous driving and robotics, but remains fundamentally ill-posed due to inherently ambiguous depth cues. Recent DETR-based methods attempt to mitigate this through global attention and auxiliary depth prediction, yet they still struggle with inaccurate depth estimates.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13188v1",
-      "title": "Collision-Free Navigation of Mobile Robots via Quadtree-Based Model Predictive Control",
-      "url": "https://arxiv.org/abs/2511.13188v1",
-      "publishedAt": "2025-11-17T09:51:32Z",
-      "summary": "This paper presents an integrated navigation framework for Autonomous Mobile Robots (AMRs) that unifies environment representation, trajectory generation, and Model Predictive Control (MPC). The proposed approach incorporates a quadtree-based method to generate structured, axis-aligned collision-free regions from occupancy maps.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13138v1",
-      "title": "WinMamba: Multi-Scale Shifted Windows in State Space Model for 3D Object Detection",
-      "url": "https://arxiv.org/abs/2511.13138v1",
-      "publishedAt": "2025-11-17T08:46:54Z",
-      "summary": "3D object detection is critical for autonomous driving, yet it remains fundamentally challenging to simultaneously maximize computational efficiency and capture long-range spatial dependencies. We observed that Mamba-based models, with their linear state-space design, capture long-range dependencies at lower cost, offering a promising balance between efficiency and accuracy.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13120v1",
-      "title": "Monolithic Units: Actuation, Sensing, and Simulation for Integrated Soft Robot Design",
-      "url": "https://arxiv.org/abs/2511.13120v1",
-      "publishedAt": "2025-11-17T08:18:18Z",
-      "summary": "This work introduces the Monolithic Unit (MU), an actuator-lattice-sensor building block for soft robotics. The MU integrates pneumatic actuation, a compliant lattice envelope, and candidate sites for optical waveguide sensing into a single printed body.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13113v1",
-      "title": "Semantics and Content Matter: Towards Multi-Prior Hierarchical Mamba for Image Deraining",
-      "url": "https://arxiv.org/abs/2511.13113v1",
-      "publishedAt": "2025-11-17T08:08:59Z",
-      "summary": "Rain significantly degrades the performance of computer vision systems, particularly in applications like autonomous driving and video surveillance. While existing deraining methods have made considerable progress, they often struggle with fidelity of semantic and spatial details. To address these limitations, we propose the Multi-Prior Hierarchical Mamba (MPHM) network for image deraining.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Vision"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=586042",
       "title": "French startup Exwayz raises €1M to develop SLAM software",
       "url": "https://www.therobotreport.com/french-startup-exwayz-raises-e1m-develops-slam-software/",
@@ -323,26 +307,6 @@
         "Robotics",
         "Planning"
       ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13100v1",
-      "title": "Count Every Rotation and Every Rotation Counts: Exploring Drone Dynamics via Propeller Sensing",
-      "url": "https://arxiv.org/abs/2511.13100v1",
-      "publishedAt": "2025-11-17T07:53:16Z",
-      "summary": "As drone-based applications proliferate, paramount contactless sensing of airborne drones from the ground becomes indispensable. This work demonstrates concentrating on propeller rotational speed will substantially improve drone sensing performance and proposes an event-camera-based solution, \\sysname.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13096v1",
-      "title": "ResAlignNet: A Data-Driven Approach for INS/DVL Alignment",
-      "url": "https://arxiv.org/abs/2511.13096v1",
-      "publishedAt": "2025-11-17T07:50:44Z",
-      "summary": "Autonomous underwater vehicles rely on precise navigation systems that combine the inertial navigation system and the Doppler velocity log for successful missions in challenging environments where satellite navigation is unavailable. The effectiveness of this integration critically depends on accurate alignment between the sensor reference frames.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
     },
     {
       "id": "https://www.therobotreport.com/?p=586022",
@@ -415,6 +379,19 @@
       "tags": [
         "Robotics",
         "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.11177v2",
+      "title": "Viper-F1: Fast and Fine-Grained Multimodal Understanding with Cross-Modal State-Space Modulation",
+      "url": "https://arxiv.org/abs/2511.11177v2",
+      "publishedAt": "2025-11-14T11:21:48Z",
+      "summary": "Recent advances in multimodal large language models (MLLMs) have enabled impressive progress in vision-language understanding, yet their high computational cost limits deployment in resource-constrained scenarios such as robotic manipulation, personal assistants, and smart cameras. Most existing methods rely on Transformer-based cross-attention, whose quadratic complexity hinders efficiency.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "LLM",
+        "Vision"
       ]
     },
     {
@@ -534,18 +511,6 @@
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
       "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2510.25327v4",
-      "title": "MMEdge: Accelerating On-device Multimodal Inference via Pipelined Sensing and Encoding",
-      "url": "https://arxiv.org/abs/2510.25327v4",
-      "publishedAt": "2025-10-29T09:41:03Z",
-      "summary": "Real-time multimodal inference on resource-constrained edge devices is essential for applications such as autonomous driving, human-computer interaction, and mobile health. However, prior work often overlooks the tight coupling between sensing dynamics and model execution, as well as the complex inter-modality dependencies.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving"
-      ]
     },
     {
       "id": "https://blogs.nvidia.com/?p=86223",
@@ -673,6 +638,16 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2509.11120v4",
+      "title": "SoK: How Sensor Attacks Disrupt Autonomous Vehicles: An End-to-end Analysis, Challenges, and Missed Threats",
+      "url": "https://arxiv.org/abs/2509.11120v4",
+      "publishedAt": "2025-09-14T06:19:26Z",
+      "summary": "Autonomous vehicles, including self driving cars, ground robots, and drones, rely on multi-modal sensor pipelines for safe operation, yet remain vulnerable to adversarial sensor attacks. A critical gap is the lack of a systematic end-to-end view of how sensor induced errors traverse interconnected modules to affect the physical world.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://techcrunch.com/?p=3038948",
       "title": "Why Runway is eyeing the robotics industry for future revenue growth",
       "url": "https://techcrunch.com/2025/09/01/why-runway-is-eyeing-the-robotics-industry-for-future-revenue-growth/",
@@ -751,19 +726,6 @@
       "type": "news",
       "tags": [
         "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2508.02549v2",
-      "title": "MonoDream: Monocular Vision-Language Navigation with Panoramic Dreaming",
-      "url": "https://arxiv.org/abs/2508.02549v2",
-      "publishedAt": "2025-08-04T16:01:30Z",
-      "summary": "Vision-Language Navigation (VLN) tasks often leverage panoramic RGB and depth inputs to provide rich spatial cues for action planning, but these sensors can be costly or less accessible in real-world deployments. Recent approaches based on Vision-Language Action (VLA) models achieve strong results with monocular input, yet they still lag behind methods using panoramic RGB-D information.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision",
-        "Planning"
       ]
     },
     {
@@ -862,6 +824,16 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2506.15607v2",
+      "title": "GRIM: Task-Oriented Grasping with Conditioning on Generative Examples",
+      "url": "https://arxiv.org/abs/2506.15607v2",
+      "publishedAt": "2025-06-18T16:35:47Z",
+      "summary": "Task-Oriented Grasping (TOG) requires robots to select grasps that are functionally appropriate for a specified task - a challenge that demands an understanding of task semantics, object affordances, and functional constraints.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=82396",
       "title": "Hexagon Taps NVIDIA Robotics and AI Software to Build and Deploy AEON, a New Humanoid",
       "url": "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
@@ -917,6 +889,19 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.08334v3",
+      "title": "iTACO: Interactable Digital Twins of Articulated Objects from Casually Captured RGBD Videos",
+      "url": "https://arxiv.org/abs/2506.08334v3",
+      "publishedAt": "2025-06-10T01:41:46Z",
+      "summary": "Articulated objects are prevalent in daily life. Interactable digital twins of such objects have numerous applications in embodied AI and robotics. Unfortunately, current methods to digitize articulated real-world objects require carefully captured data, preventing practical, scalable, and generalizable acquisition.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Embodied AI"
       ]
     },
     {
@@ -1028,6 +1013,16 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2412.01168v6",
+      "title": "On the Surprising Effectiveness of Spectral Clipping in Learning Stable Linear and Latent-Linear Dynamical Systems",
+      "url": "https://arxiv.org/abs/2412.01168v6",
+      "publishedAt": "2024-12-02T06:10:23Z",
+      "summary": "When learning stable linear dynamical systems from data, three important properties are desirable: i) predictive accuracy, ii) verifiable stability, and iii) computational efficiency. Unconstrained minimization of prediction errors leads to high accuracy and efficiency but cannot guarantee stability. Existing methods to enforce stability often preserve accuracy, but do so only at the cost of increased computation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "http://arxiv.org/abs/2410.22041v3",
