@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-11-19T00:20:53.498Z",
+  "generatedAt": "2025-11-19T03:24:52.587Z",
   "count": 89,
   "items": [
     {
@@ -37,6 +37,53 @@
       "tags": []
     },
     {
+      "id": "http://arxiv.org/abs/2511.14759v1",
+      "title": "$π^{*}_{0.6}$: a VLA That Learns From Experience",
+      "url": "https://arxiv.org/abs/2511.14759v1",
+      "publishedAt": "2025-11-18T18:58:55Z",
+      "summary": "We study how vision-language-action (VLA) models can improve through real-world deployments via reinforcement learning (RL). We present a general-purpose method, RL with Experience and Corrections via Advantage-conditioned Policies (RECAP), that provides for RL training of VLAs via advantage conditioning.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14756v1",
+      "title": "HMC: Learning Heterogeneous Meta-Control for Contact-Rich Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2511.14756v1",
+      "publishedAt": "2025-11-18T18:56:24Z",
+      "summary": "Learning from real-world robot demonstrations holds promise for interacting with complex real-world environments. However, the complexity and variability of interaction dynamics often cause purely positional controllers to struggle with contacts or varying payloads.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14755v1",
+      "title": "Robust Verification of Controllers under State Uncertainty via Hamilton-Jacobi Reachability Analysis",
+      "url": "https://arxiv.org/abs/2511.14755v1",
+      "publishedAt": "2025-11-18T18:55:20Z",
+      "summary": "As perception-based controllers for autonomous systems become increasingly popular in the real world, it is important that we can formally verify their safety and performance despite perceptual uncertainty. Unfortunately, the verification of such systems remains challenging, largely due to the complexity of the controllers, which are often nonlinear, nonconvex, learning-based, and/or black-box.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14751v1",
+      "title": "Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers",
+      "url": "https://arxiv.org/abs/2511.14751v1",
+      "publishedAt": "2025-11-18T18:52:22Z",
+      "summary": "We propose Confidence-Guided Token Merging (Co-Me), an acceleration mechanism for visual geometric transformers without retraining or finetuning the base model. Co-Me distilled a light-weight confidence predictor to rank tokens by uncertainty and selectively merge low-confidence ones, effectively reducing computation while maintaining spatial coverage.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=586059",
       "title": "Waymo launching driverless robotaxis in 5 more cities",
       "url": "https://www.therobotreport.com/waymo-launching-driverless-robotaxis-in-5-more-cities/",
@@ -61,6 +108,79 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2511.14659v1",
+      "title": "NORA-1.5: A Vision-Language-Action Model Trained using World Model- and Action-based Preference Rewards",
+      "url": "https://arxiv.org/abs/2511.14659v1",
+      "publishedAt": "2025-11-18T16:55:48Z",
+      "summary": "Vision--language--action (VLA) models have recently shown promising performance on a variety of embodied tasks, yet they still fall short in reliability and generalization, especially when deployed across different embodiments or real-world environments. In this work, we introduce NORA-1.5, a VLA model built from the pre-trained NORA backbone by adding to it a flow-matching-based action expert.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14625v1",
+      "title": "Gallant: Voxel Grid-based Humanoid Locomotion and Local-navigation across 3D Constrained Terrains",
+      "url": "https://arxiv.org/abs/2511.14625v1",
+      "publishedAt": "2025-11-18T16:16:31Z",
+      "summary": "Robust humanoid locomotion requires accurate and globally consistent perception of the surrounding 3D environment. However, existing perception modules, mainly based on depth images or elevation maps, offer only partial and locally flattened views of the environment, failing to capture the full 3D structure.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14624v1",
+      "title": "Active Matter as a framework for living systems-inspired Robophysics",
+      "url": "https://arxiv.org/abs/2511.14624v1",
+      "publishedAt": "2025-11-18T16:16:27Z",
+      "summary": "Robophysics investigates the physical principles that govern living-like robots operating in complex, realworld environments. Despite remarkable technological advances, robots continue to face fundamental efficiency limitations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14592v1",
+      "title": "Is Your VLM for Autonomous Driving Safety-Ready? A Comprehensive Benchmark for Evaluating External and In-Cabin Risks",
+      "url": "https://arxiv.org/abs/2511.14592v1",
+      "publishedAt": "2025-11-18T15:33:49Z",
+      "summary": "Vision-Language Models (VLMs) show great promise for autonomous driving, but their suitability for safety-critical scenarios is largely unexplored, raising safety concerns. This issue arises from the lack of comprehensive benchmarks that assess both external environmental risks and in-cabin driving behavior safety simultaneously.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14565v1",
+      "title": "Masked IRL: LLM-Guided Reward Disambiguation from Demonstrations and Language",
+      "url": "https://arxiv.org/abs/2511.14565v1",
+      "publishedAt": "2025-11-18T15:07:50Z",
+      "summary": "Robots can adapt to user preferences by learning reward functions from demonstrations, but with limited data, reward models often overfit to spurious correlations and fail to generalize. This happens because demonstrations show robots how to do a task but not what matters for that task, causing the model to focus on irrelevant state details.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14533v1",
+      "title": "A Neuro-Symbolic Framework for Reasoning under Perceptual Uncertainty: Bridging Continuous Perception and Discrete Symbolic Planning",
+      "url": "https://arxiv.org/abs/2511.14533v1",
+      "publishedAt": "2025-11-18T14:38:01Z",
+      "summary": "Bridging continuous perceptual signals and discrete symbolic reasoning is a fundamental challenge in AI systems that must operate under uncertainty. We present a neuro-symbolic framework that explicitly models and propagates uncertainty from perception to planning, providing a principled connection between these two abstraction levels.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
       "id": "https://www.therobotreport.com/?p=586055",
       "title": "1HMX introduces Nexus NX1 for full-body motion capture, teleoperation",
       "url": "https://www.therobotreport.com/1hmx-introduces-nexus-nx1-for-full-body-motion-capture-teleoperation/",
@@ -70,6 +190,143 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14504v1",
+      "title": "Aerial Assistance System for Automated Firefighting during Turntable Ladder Operations",
+      "url": "https://arxiv.org/abs/2511.14504v1",
+      "publishedAt": "2025-11-18T13:48:40Z",
+      "summary": "Fires in industrial facilities pose special challenges to firefighters, e.g., due to the sheer size and scale of the buildings. The resulting visual obstructions impair firefighting accuracy, further compounded by inaccurate assessments of the fire's location. Such imprecision simultaneously increases the overall damage and prolongs the fire-brigades operation unnecessarily.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14499v1",
+      "title": "Enhancing End-to-End Autonomous Driving with Risk Semantic Distillaion from VLM",
+      "url": "https://arxiv.org/abs/2511.14499v1",
+      "publishedAt": "2025-11-18T13:46:18Z",
+      "summary": "The autonomous driving (AD) system has exhibited remarkable performance in complex driving scenarios. However, generalization is still a key limitation for the current system, which refers to the ability to handle unseen scenarios or unfamiliar sensor configurations.Related works have explored the use of Vision-Language Models (VLMs) to address few-shot or zero-shot tasks.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14469v1",
+      "title": "CompEvent: Complex-valued Event-RGB Fusion for Low-light Video Enhancement and Deblurring",
+      "url": "https://arxiv.org/abs/2511.14469v1",
+      "publishedAt": "2025-11-18T13:09:13Z",
+      "summary": "Low-light video deblurring poses significant challenges in applications like nighttime surveillance and autonomous driving due to dim lighting and long exposures. While event cameras offer potential solutions with superior low-light sensitivity and high temporal resolution, existing fusion methods typically employ staged strategies, limiting their effectiveness against combined low-light and motion blur degradations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14458v1",
+      "title": "Advancing Minimally Invasive Precision Surgery in Open Cavities with Robotic Flexible Endoscopy",
+      "url": "https://arxiv.org/abs/2511.14458v1",
+      "publishedAt": "2025-11-18T13:01:05Z",
+      "summary": "Flexible robots hold great promise for enhancing minimally invasive surgery (MIS) by providing superior dexterity, precise control, and safe tissue interaction. Yet, translating these advantages into endoscopic interventions within open cavities remains challenging.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14438v1",
+      "title": "Towards A Catalogue of Requirement Patterns for Space Robotic Missions",
+      "url": "https://arxiv.org/abs/2511.14438v1",
+      "publishedAt": "2025-11-18T12:35:49Z",
+      "summary": "In the development of safety and mission-critical systems, including autonomous space robotic missions, complex behaviour is captured during the requirements elicitation phase. Requirements are typically expressed using natural language which is ambiguous and not amenable to formal verification methods that can provide robust guarantees of system behaviour.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14434v1",
+      "title": "Achieving Safe Control Online through Integration of Harmonic Control Lyapunov-Barrier Functions with Unsafe Object-Centric Action Policies",
+      "url": "https://arxiv.org/abs/2511.14434v1",
+      "publishedAt": "2025-11-18T12:34:48Z",
+      "summary": "We propose a method for combining Harmonic Control Lyapunov-Barrier Functions (HCLBFs) derived from Signal Temporal Logic (STL) specifications with any given robot policy to turn an unsafe policy into a safe one with formal guarantees. The two components are combined via HCLBF-derived safety certificates, thus producing commands that preserve both safety and task-driven behavior.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14433v1",
+      "title": "Safe-ROS: An Architecture for Autonomous Robots in Safety-Critical Domains",
+      "url": "https://arxiv.org/abs/2511.14433v1",
+      "publishedAt": "2025-11-18T12:34:33Z",
+      "summary": "Deploying autonomous robots in safety-critical domains requires architectures that ensure operational effectiveness and safety compliance. In this paper, we contribute the Safe-ROS architecture for developing reliable and verifiable autonomous robots in such domains.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14432v1",
+      "title": "Mutation Testing for Industrial Robotic Systems",
+      "url": "https://arxiv.org/abs/2511.14432v1",
+      "publishedAt": "2025-11-18T12:34:19Z",
+      "summary": "Industrial robotic systems (IRS) are increasingly deployed in diverse environments, where failures can result in severe accidents and costly downtime. Ensuring the reliability of the software controlling these systems is therefore critical. Mutation testing, a technique widely used in software engineering, evaluates the effectiveness of test suites by introducing small faults, or mutants, into the code.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14428v1",
+      "title": "Context-aware, Ante-hoc Explanations of Driving Behaviour",
+      "url": "https://arxiv.org/abs/2511.14428v1",
+      "publishedAt": "2025-11-18T12:33:24Z",
+      "summary": "Autonomous vehicles (AVs) must be both safe and trustworthy to gain social acceptance and become a viable option for everyday public transportation. Explanations about the system behaviour can increase safety and trust in AVs. Unfortunately, explaining the system behaviour of AI-based driving functions is particularly challenging, as decision-making processes are often opaque.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14427v1",
+      "title": "Self-Supervised Multisensory Pretraining for Contact-Rich Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2511.14427v1",
+      "publishedAt": "2025-11-18T12:32:23Z",
+      "summary": "Effective contact-rich manipulation requires robots to synergistically leverage vision, force, and proprioception. However, Reinforcement Learning agents struggle to learn in such multisensory settings, especially amidst sensory noise and dynamic changes. We propose MultiSensory Dynamic Pretraining (MSDP), a novel framework for learning expressive multisensory representations tailored for task-oriented policy learning.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14396v1",
+      "title": "Continuous Vision-Language-Action Co-Learning with Semantic-Physical Alignment for Behavioral Cloning",
+      "url": "https://arxiv.org/abs/2511.14396v1",
+      "publishedAt": "2025-11-18T12:01:06Z",
+      "summary": "Language-conditioned manipulation facilitates human-robot interaction via behavioral cloning (BC), which learns control policies from human demonstrations and serves as a cornerstone of embodied AI. Overcoming compounding errors in sequential action decisions remains a central challenge to improving BC performance.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.14393v1",
+      "title": "Perception-aware Exploration for Consumer-grade UAVs",
+      "url": "https://arxiv.org/abs/2511.14393v1",
+      "publishedAt": "2025-11-18T11:55:04Z",
+      "summary": "In our work, we extend the current state-of-the-art approach for autonomous multi-UAV exploration to consumer-level UAVs, such as the DJI Mini 3 Pro. We propose a pipeline that selects viewpoint pairs from which the depth can be estimated and plans the trajectory that satisfies motion constraints necessary for odometry estimation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -85,52 +342,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2511.13719v1",
-      "title": "Scaling Spatial Intelligence with Multimodal Foundation Models",
-      "url": "https://arxiv.org/abs/2511.13719v1",
-      "publishedAt": "2025-11-17T18:59:33Z",
-      "summary": "Despite remarkable progress, multimodal foundation models still exhibit surprising deficiencies in spatial intelligence.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13710v1",
-      "title": "From Power to Precision: Learning Fine-grained Dexterity for Multi-fingered Robotic Hands",
-      "url": "https://arxiv.org/abs/2511.13710v1",
-      "publishedAt": "2025-11-17T18:56:50Z",
-      "summary": "Human grasps can be roughly categorized into two types: power grasps and precision grasps. Precision grasping enables tool use and is believed to have influenced human evolution. Today's multi-fingered robotic hands are effective in power grasps, but for tasks requiring precision, parallel grippers are still more widely adopted.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13707v1",
-      "title": "OpenRoboCare: A Multimodal Multi-Task Expert Demonstration Dataset for Robot Caregiving",
-      "url": "https://arxiv.org/abs/2511.13707v1",
-      "publishedAt": "2025-11-17T18:55:12Z",
-      "summary": "We present OpenRoboCare, a multimodal dataset for robot caregiving, capturing expert occupational therapist demonstrations of Activities of Daily Living (ADLs). Caregiving tasks involve complex physical human-robot interactions, requiring precise perception under occlusions, safe physical contact, and long-horizon planning.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13648v1",
-      "title": "PhysX-Anything: Simulation-Ready Physical 3D Assets from Single Image",
-      "url": "https://arxiv.org/abs/2511.13648v1",
-      "publishedAt": "2025-11-17T17:59:53Z",
-      "summary": "3D modeling is shifting from static visual representations toward physical, articulated assets that can be directly used in simulation and interaction. However, most existing 3D generation methods overlook key physical and articulation properties, thereby limiting their utility in embodied AI.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=586039",
       "title": "Teradar emerges from stealth with terahertz vision sensor, Series B funding",
       "url": "https://www.therobotreport.com/teradar-emerges-stealth-terahertz-vision-sensor-series-b-funding/",
@@ -141,228 +352,6 @@
       "tags": [
         "Robotics",
         "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13543v1",
-      "title": "In-memory phononic learning toward cognitive mechanical intelligence",
-      "url": "https://arxiv.org/abs/2511.13543v1",
-      "publishedAt": "2025-11-17T16:16:33Z",
-      "summary": "Modern autonomous systems are driving the critical need for next-generation adaptive materials and structures with embodied intelligence, i.e., the embodiment of memory, perception, learning, and decision-making within the mechanical domain.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13530v1",
-      "title": "Towards Affect-Adaptive Human-Robot Interaction: A Protocol for Multimodal Dataset Collection on Social Anxiety",
-      "url": "https://arxiv.org/abs/2511.13530v1",
-      "publishedAt": "2025-11-17T16:03:33Z",
-      "summary": "Social anxiety is a prevalent condition that affects interpersonal interactions and social functioning. Recent advances in artificial intelligence and social robotics offer new opportunities to examine social anxiety in the human-robot interaction context.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13524v1",
-      "title": "FreeAskWorld: An Interactive and Closed-Loop Simulator for Human-Centric Embodied AI",
-      "url": "https://arxiv.org/abs/2511.13524v1",
-      "publishedAt": "2025-11-17T15:58:46Z",
-      "summary": "As embodied intelligence emerges as a core frontier in artificial intelligence research, simulation platforms must evolve beyond low-level physical interactions to capture complex, human-centered social behaviors.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13488v1",
-      "title": "InterMoE: Individual-Specific 3D Human Interaction Generation via Dynamic Temporal-Selective MoE",
-      "url": "https://arxiv.org/abs/2511.13488v1",
-      "publishedAt": "2025-11-17T15:26:10Z",
-      "summary": "Generating high-quality human interactions holds significant value for applications like virtual reality and robotics. However, existing methods often fail to preserve unique individual characteristics or fully adhere to textual descriptions. To address these challenges, we introduce InterMoE, a novel framework built on a Dynamic Temporal-Selective Mixture of Experts.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13459v1",
-      "title": "Contact-Safe Reinforcement Learning with ProMP Reparameterization and Energy Awareness",
-      "url": "https://arxiv.org/abs/2511.13459v1",
-      "publishedAt": "2025-11-17T15:05:23Z",
-      "summary": "Reinforcement learning (RL) approaches based on Markov Decision Processes (MDPs) are predominantly applied in the robot joint space, often relying on limited task-specific information and partial awareness of the 3D environment. In contrast, episodic RL has demonstrated advantages over traditional MDP-based methods in terms of trajectory consistency, task awareness, and overall performance in complex robotic tasks.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13411v1",
-      "title": "An Operational Kardashev-Style Scale for Autonomous AI - Towards AGI and Superintelligence",
-      "url": "https://arxiv.org/abs/2511.13411v1",
-      "publishedAt": "2025-11-17T14:24:27Z",
-      "summary": "We propose a Kardashev-inspired yet operational Autonomous AI (AAI) Scale that measures the progression from fixed robotic process automation (AAI-0) to full artificial general intelligence (AAI-4) and beyond. Unlike narrative ladders, our scale is multi-axis and testable.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13364v1",
-      "title": "An Automated Framework for Analyzing Structural Evolution in On-the-fly Non-adiabatic Molecular Dynamics Using Autoencoder and Multiple Molecular Descriptors",
-      "url": "https://arxiv.org/abs/2511.13364v1",
-      "publishedAt": "2025-11-17T13:35:04Z",
-      "summary": "A major challenge in nonadiabatic molecular dynamics is to automatically and objectively identify the key reaction coordinates that drive molecules toward distinct excited-state decay channels. Traditional manual analyses are inefficient and rely heavily on expert intuition, creating a bottleneck for interpreting complex photochemical processes.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13327v1",
-      "title": "ZeroDexGrasp: Zero-Shot Task-Oriented Dexterous Grasp Synthesis with Prompt-Based Multi-Stage Semantic Reasoning",
-      "url": "https://arxiv.org/abs/2511.13327v1",
-      "publishedAt": "2025-11-17T13:02:10Z",
-      "summary": "Task-oriented dexterous grasping holds broad application prospects in robotic manipulation and human-object interaction. However, most existing methods still struggle to generalize across diverse objects and task instructions, as they heavily rely on costly labeled data to ensure task-specific semantic alignment.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13312v1",
-      "title": "EL3DD: Extended Latent 3D Diffusion for Language Conditioned Multitask Manipulation",
-      "url": "https://arxiv.org/abs/2511.13312v1",
-      "publishedAt": "2025-11-17T12:47:18Z",
-      "summary": "Acting in human environments is a crucial capability for general-purpose robots, necessitating a robust understanding of natural language and its application to physical tasks. This paper seeks to harness the capabilities of diffusion models within a visuomotor policy framework that merges visual and textual inputs to generate precise robotic trajectories.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13309v1",
-      "title": "DriveLiDAR4D: Sequential and Controllable LiDAR Scene Generation for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2511.13309v1",
-      "publishedAt": "2025-11-17T12:43:26Z",
-      "summary": "The generation of realistic LiDAR point clouds plays a crucial role in the development and evaluation of autonomous driving systems. Although recent methods for 3D LiDAR point cloud generation have shown significant improvements, they still face notable limitations, including the lack of sequential generation capabilities and the inability to produce accurately positioned foreground objects and realistic backgrounds.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13306v1",
-      "title": "DAP: A Discrete-token Autoregressive Planner for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2511.13306v1",
-      "publishedAt": "2025-11-17T12:31:33Z",
-      "summary": "Gaining sustainable performance improvement with scaling data and model budget remains a pivotal yet unresolved challenge in autonomous driving. While autoregressive models exhibited promising data-scaling efficiency in planning tasks, predicting ego trajectories alone suffers sparse supervision and weakly constrains how scene evolution should shape ego motion.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Vision",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13297v1",
-      "title": "CorrectAD: A Self-Correcting Agentic System to Improve End-to-end Planning in Autonomous Driving",
-      "url": "https://arxiv.org/abs/2511.13297v1",
-      "publishedAt": "2025-11-17T12:21:03Z",
-      "summary": "End-to-end planning methods are the de facto standard of the current autonomous driving system, while the robustness of the data-driven approaches suffers due to the notorious long-tail problem (i.e., rare but safety-critical failure cases). In this work, we explore whether recent diffusion-based video generation methods (a.k.a.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13260v1",
-      "title": "Robust Control Design Using a Hybrid-Gain Finite-Time Sliding-Mode Controller",
-      "url": "https://arxiv.org/abs/2511.13260v1",
-      "publishedAt": "2025-11-17T11:21:28Z",
-      "summary": "This paper proposes a hybrid-gain finite-time sliding-mode control (HG-FTSMC) strategy for a class of perturbed nonlinear systems. The controller combines a finite-time reaching law that drives the sliding variable to a predefined boundary layer with an inner mixed-power or exponential law that guarantees rapid convergence within the layer while maintaining smooth and bounded control action.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13259v1",
-      "title": "GeoX-Bench: Benchmarking Cross-View Geo-Localization and Pose Estimation Capabilities of Large Multimodal Models",
-      "url": "https://arxiv.org/abs/2511.13259v1",
-      "publishedAt": "2025-11-17T11:19:07Z",
-      "summary": "Large multimodal models (LMMs) have demonstrated remarkable capabilities across a wide range of tasks, however their knowledge and abilities in the cross-view geo-localization and pose estimation domains remain unexplored, despite potential benefits for navigation, autonomous driving, outdoor robotics, \\textit{etc}.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13245v1",
-      "title": "Proceedings Seventh International Workshop on Formal Methods for Autonomous Systems",
-      "url": "https://arxiv.org/abs/2511.13245v1",
-      "publishedAt": "2025-11-17T11:07:57Z",
-      "summary": "This EPTCS volume contains the papers from the Seventh International Workshop on Formal Methods for Autonomous Systems (FMAS 2025), which was held between the 17th and 19th of November 2025.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13226v1",
-      "title": "Informative Communication of Robot Plans",
-      "url": "https://arxiv.org/abs/2511.13226v1",
-      "publishedAt": "2025-11-17T10:44:25Z",
-      "summary": "When a robot is asked to verbalize its plan it can do it in many ways. For example, a seemingly natural strategy is incremental, where the robot verbalizes its planned actions in plan order. However, an important aspect of this type of strategy is that it misses considerations on what is effectively informative to communicate, because not considering what the user knows prior to explanations.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13216v1",
-      "title": "GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry",
-      "url": "https://arxiv.org/abs/2511.13216v1",
-      "publishedAt": "2025-11-17T10:29:31Z",
-      "summary": "Deployment of legged robots for navigating challenging terrains (e.g., stairs, slopes, and unstructured environments) has gained increasing preference over wheel-based platforms. In such scenarios, accurate odometry estimation is a preliminary requirement for stable locomotion, localization, and mapping.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13207v1",
-      "title": "PIGEON: VLM-Driven Object Navigation via Points of Interest Selection",
-      "url": "https://arxiv.org/abs/2511.13207v1",
-      "publishedAt": "2025-11-17T10:19:13Z",
-      "summary": "Navigating to a specified object in an unknown environment is a fundamental yet challenging capability of embodied intelligence. However, current methods struggle to balance decision frequency with intelligence, resulting in decisions lacking foresight or discontinuous actions.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.13206v1",
-      "title": "Event-Triggered Regulation of Mixed-Autonomy Traffic Under Varying Traffic Conditions",
-      "url": "https://arxiv.org/abs/2511.13206v1",
-      "publishedAt": "2025-11-17T10:19:01Z",
-      "summary": "Modeling and congestion mitigation of mixed-autonomy traffic systems consisting of human-driven vehicles (HVs) and autonomous vehicles (AVs) have become increasingly critical with the rapid development of autonomous driving technology.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving"
       ]
     },
     {
@@ -388,6 +377,18 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.12590v2",
+      "title": "Fine-Grained Representation for Lane Topology Reasoning",
+      "url": "https://arxiv.org/abs/2511.12590v2",
+      "publishedAt": "2025-11-16T13:24:30Z",
+      "summary": "Precise modeling of lane topology is essential for autonomous driving, as it directly impacts navigation and control decisions. Existing methods typically represent each lane with a single query and infer topological connectivity based on the similarity between lane queries. However, this kind of design struggles to accurately model complex lane structures, leading to unreliable topology prediction.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
       ]
     },
     {
@@ -452,19 +453,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2511.11177v2",
-      "title": "Viper-F1: Fast and Fine-Grained Multimodal Understanding with Cross-Modal State-Space Modulation",
-      "url": "https://arxiv.org/abs/2511.11177v2",
-      "publishedAt": "2025-11-14T11:21:48Z",
-      "summary": "Recent advances in multimodal large language models (MLLMs) have enabled impressive progress in vision-language understanding, yet their high computational cost limits deployment in resource-constrained scenarios such as robotic manipulation, personal assistants, and smart cameras. Most existing methods rely on Transformer-based cross-attention, whose quadratic complexity hinders efficiency.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM",
-        "Vision"
-      ]
-    },
-    {
       "id": "https://blogs.nvidia.com/?p=87325",
       "title": "AI On: 3 Ways to Bring Agentic AI to Computer Vision Applications",
       "url": "https://blogs.nvidia.com/blog/ways-to-bring-agentic-ai-to-computer-vision-applications/",
@@ -486,6 +474,19 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.10701v2",
+      "title": "CARScenes: Semantic VLM Dataset for Safe Autonomous Driving",
+      "url": "https://arxiv.org/abs/2511.10701v2",
+      "publishedAt": "2025-11-12T21:13:19Z",
+      "summary": "CAR-Scenes is a frame-level dataset for autonomous driving that enables training and evaluation of vision-language models (VLMs) for interpretable, scene-level understanding.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Vision"
       ]
     },
     {
@@ -567,6 +568,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2510.23129v2",
+      "title": "Combining High Level Scheduling and Low Level Control to Manage Fleets of Mobile Robots",
+      "url": "https://arxiv.org/abs/2510.23129v2",
+      "publishedAt": "2025-10-27T09:05:27Z",
+      "summary": "The deployment of mobile robots for material handling in industrial environments requires scalable coordination of large fleets in dynamic settings. This paper presents a two-layer framework that combines high-level scheduling with low-level control. Tasks are assigned and scheduled using the compositional algorithm ComSat, which generates time-parameterized routes for each robot.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=86265",
       "title": "NVIDIA Contributes to Open Frameworks for Next-Generation Robotics Development",
       "url": "https://blogs.nvidia.com/blog/roscon-2025-open-framework-robotics/",
@@ -576,6 +589,19 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.18544v3",
+      "title": "SLICE: SLO-Driven Scheduling for LLM Inference on Edge Computing Devices",
+      "url": "https://arxiv.org/abs/2510.18544v3",
+      "publishedAt": "2025-10-21T11:47:42Z",
+      "summary": "Large Language Models (LLMs), as the foundational architecture for next-generation interactive AI applications, not only power intelligent dialogue systems but also drive the evolution of embodied intelligence on edge devices, including humanoid robots, smart vehicles, and other scenarios.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "LLM"
       ]
     },
     {
@@ -636,6 +662,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2509.17812v2",
+      "title": "Tac2Motion: Contact-Aware Reinforcement Learning with Tactile Feedback for Robotic Hand Manipulation",
+      "url": "https://arxiv.org/abs/2509.17812v2",
+      "publishedAt": "2025-09-22T14:05:59Z",
+      "summary": "This paper proposes Tac2Motion, a contact-aware reinforcement learning framework to facilitate the learning of contact-rich in-hand manipulation tasks, such as removing a lid. To this end, we propose tactile sensing-based reward shaping and incorporate the sensing into the observation space through embedding.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?post_type=tc_podcast&#038;p=3047793",
       "title": "Live demo fails, AI safety wins, and the golden age of robotics",
       "url": "https://techcrunch.com/podcast/live-demo-fails-ai-safety-wins-and-the-golden-age-of-robotics/",
@@ -648,14 +686,18 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2509.11120v4",
-      "title": "SoK: How Sensor Attacks Disrupt Autonomous Vehicles: An End-to-end Analysis, Challenges, and Missed Threats",
-      "url": "https://arxiv.org/abs/2509.11120v4",
-      "publishedAt": "2025-09-14T06:19:26Z",
-      "summary": "Autonomous vehicles, including self driving cars, ground robots, and drones, rely on multi-modal sensor pipelines for safe operation, yet remain vulnerable to adversarial sensor attacks. A critical gap is the lack of a systematic end-to-end view of how sensor induced errors traverse interconnected modules to affect the physical world.",
+      "id": "http://arxiv.org/abs/2509.07463v2",
+      "title": "DepthVision: Enabling Robust Vision-Language Models with GAN-Based LiDAR-to-RGB Synthesis for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2509.07463v2",
+      "publishedAt": "2025-09-09T07:42:07Z",
+      "summary": "Ensuring reliable autonomous operation when visual input is degraded remains a key challenge in intelligent vehicles and robotics. We present DepthVision, a multimodal framework that enables Vision--Language Models (VLMs) to exploit LiDAR data without any architectural changes or retraining.",
       "source": "arXiv",
       "type": "paper",
-      "tags": []
+      "tags": [
+        "Autonomous Driving",
+        "Robotics",
+        "Vision"
+      ]
     },
     {
       "id": "https://techcrunch.com/?p=3038948",
@@ -690,6 +732,20 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.14160v2",
+      "title": "RynnEC: Bringing MLLMs into Embodied World",
+      "url": "https://arxiv.org/abs/2508.14160v2",
+      "publishedAt": "2025-08-19T18:00:01Z",
+      "summary": "We introduce RynnEC, a video multimodal large language model designed for embodied cognition. Built upon a general-purpose vision-language foundation model, RynnEC incorporates a region encoder and a mask decoder, enabling flexible region-level video interaction. Despite its compact architecture, RynnEC achieves state-of-the-art performance in object property understanding, object segmentation, and spatial reasoning.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "LLM",
+        "Vision"
       ]
     },
     {
@@ -761,19 +817,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2507.16124v3",
-      "title": "Benchmarking LLM Privacy Recognition for Social Robot Decision Making",
-      "url": "https://arxiv.org/abs/2507.16124v3",
-      "publishedAt": "2025-07-22T00:36:59Z",
-      "summary": "While robots have previously utilized rule-based systems or probabilistic models for user interaction, the rapid evolution of large language models (LLMs) presents new opportunities to develop LLM-powered robots for enhanced human-robot interaction (HRI). To fully realize these capabilities, however, robots need to collect data such as audio, fine-grained images, video, and locations.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "LLM"
-      ]
-    },
-    {
       "id": "https://techcrunch.com/?p=3026176",
       "title": "Diligent Robotics hires two notable Cruise alumni to its leadership team",
       "url": "https://techcrunch.com/2025/07/10/diligent-robotics-adds-two-notable-cruise-alumni-to-its-leadership-team/",
@@ -798,15 +841,28 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2507.03806v2",
-      "title": "Certified Coil Geometry Learning for Short-Range Magnetic Actuation and Spacecraft Docking Application",
-      "url": "https://arxiv.org/abs/2507.03806v2",
-      "publishedAt": "2025-07-04T20:54:30Z",
-      "summary": "This paper presents a learning-based framework for approximating an exact magnetic-field interaction model, supported by both numerical and experimental validation. High-fidelity magnetic-field interaction modeling is essential for achieving exceptional accuracy and responsiveness across a wide range of fields, including transportation, energy systems, medicine, biomedical robotics, and aerospace robotics.",
+      "id": "http://arxiv.org/abs/2506.23982v3",
+      "title": "StyleDrive: Towards Driving-Style Aware Benchmarking of End-To-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2506.23982v3",
+      "publishedAt": "2025-06-30T15:48:38Z",
+      "summary": "Personalization, while extensively studied in conventional autonomous driving pipelines, has been largely overlooked in the context of end-to-end autonomous driving (E2EAD), despite its critical role in fostering user trust, safety perception, and real-world adoption.",
       "source": "arXiv",
       "type": "paper",
       "tags": [
-        "Robotics"
+        "Autonomous Driving",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.22242v2",
+      "title": "4D-VLA: Spatiotemporal Vision-Language-Action Pretraining with Cross-Scene Calibration",
+      "url": "https://arxiv.org/abs/2506.22242v2",
+      "publishedAt": "2025-06-27T14:09:29Z",
+      "summary": "Leveraging diverse robotic data for pretraining remains a critical challenge. Existing methods typically model the dataset's action distribution using simple observations as inputs. However, these inputs are often incomplete, resulting in a dispersed conditional action distribution-an issue we refer to as coordinate system chaos and state chaos. This inconsistency significantly hampers pretraining efficiency.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -834,16 +890,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2506.15607v2",
-      "title": "GRIM: Task-Oriented Grasping with Conditioning on Generative Examples",
-      "url": "https://arxiv.org/abs/2506.15607v2",
-      "publishedAt": "2025-06-18T16:35:47Z",
-      "summary": "Task-Oriented Grasping (TOG) requires robots to select grasps that are functionally appropriate for a specified task - a challenge that demands an understanding of task semantics, object affordances, and functional constraints.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://blogs.nvidia.com/?p=82396",
       "title": "Hexagon Taps NVIDIA Robotics and AI Software to Build and Deploy AEON, a New Humanoid",
       "url": "https://blogs.nvidia.com/blog/hexagon-robotics-ai-software-aeon-humanoid/",
@@ -854,6 +900,16 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.14249v2",
+      "title": "Robust Adaptive Time-Varying Control Barrier Function with Application to Robotic Surface Treatment",
+      "url": "https://arxiv.org/abs/2506.14249v2",
+      "publishedAt": "2025-06-17T07:11:03Z",
+      "summary": "Set invariance techniques such as control barrier functions (CBFs) can be used to enforce time-varying constraints such as keeping a safe distance from dynamic objects. However, existing methods for enforcing time-varying constraints often overlook model uncertainties.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://techcrunch.com/?p=3018019",
@@ -902,19 +958,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2506.08334v3",
-      "title": "iTACO: Interactable Digital Twins of Articulated Objects from Casually Captured RGBD Videos",
-      "url": "https://arxiv.org/abs/2506.08334v3",
-      "publishedAt": "2025-06-10T01:41:46Z",
-      "summary": "Articulated objects are prevalent in daily life. Interactable digital twins of such objects have numerous applications in embodied AI and robotics. Unfortunately, current methods to digitize articulated real-world objects require carefully captured data, preventing practical, scalable, and generalizable acquisition.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Embodied AI"
-      ]
-    },
-    {
       "id": "https://techcrunch.com/?p=3016198",
       "title": "Tesla&#8217;s Optimus robot VP is leaving the company",
       "url": "https://techcrunch.com/2025/06/06/teslas-optimus-robot-vp-is-reportedly-leaving-the-company/",
@@ -951,6 +994,20 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2506.01196v2",
+      "title": "OG-VLA: Orthographic Image Generation for 3D-Aware Vision-Language Action Model",
+      "url": "https://arxiv.org/abs/2506.01196v2",
+      "publishedAt": "2025-06-01T22:15:45Z",
+      "summary": "We introduce OG-VLA, a novel architecture and learning framework that combines the generalization strengths of Vision Language Action models (VLAs) with the robustness of 3D-aware policies. We address the challenge of mapping natural language instructions and one or more RGBD observations to quasi-static robot actions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3013274",
       "title": "Hugging Face unveils two new humanoid robots",
       "url": "https://techcrunch.com/2025/05/29/hugging-face-unveils-two-new-humanoid-robots/",
@@ -975,76 +1032,28 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2503.17005v2",
-      "title": "Sequential Autonomous Exploration-Based Precise Mapping for Mobile Robots through Stepwise and Consistent Motions",
-      "url": "https://arxiv.org/abs/2503.17005v2",
-      "publishedAt": "2025-03-21T10:10:04Z",
-      "summary": "This paper proposes a 2-D autonomous exploration and mapping framework for LiDAR-based SLAM mobile robots, designed to address the major challenges on low-cost platforms, including process instability, map drift, and increased risks of collisions and deadlocks. For frontier search, the local-global sampling architecture based on Rapidly-exploring Random Trees (RRTs) is employed.",
+      "id": "http://arxiv.org/abs/2502.07631v3",
+      "title": "Divide and Merge: Motion and Semantic Learning in End-to-End Autonomous Driving",
+      "url": "https://arxiv.org/abs/2502.07631v3",
+      "publishedAt": "2025-02-11T15:21:31Z",
+      "summary": "Perceiving the environment and its changes over time corresponds to two fundamental yet heterogeneous types of information: semantics and motion. Previous end-to-end autonomous driving works represent both types of information in a single feature vector.",
       "source": "arXiv",
       "type": "paper",
       "tags": [
-        "Planning"
+        "Autonomous Driving"
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2503.12180v2",
-      "title": "Bench2FreeAD: A Benchmark for Vision-based End-to-end Navigation in Unstructured Robotic Environments",
-      "url": "https://arxiv.org/abs/2503.12180v2",
-      "publishedAt": "2025-03-15T15:46:49Z",
-      "summary": "Most current end-to-end (E2E) autonomous driving algorithms are built on standard vehicles in structured transportation scenarios, lacking exploration of robot navigation for unstructured scenarios such as auxiliary roads, campus roads, and indoor settings. This paper investigates E2E robot navigation in unstructured road environments.",
+      "id": "http://arxiv.org/abs/2409.08031v3",
+      "title": "LED: Light Enhanced Depth Estimation at Night",
+      "url": "https://arxiv.org/abs/2409.08031v3",
+      "publishedAt": "2024-09-12T13:23:24Z",
+      "summary": "Nighttime camera-based depth estimation is a highly challenging task, especially for autonomous driving applications, where accurate depth perception is essential for ensuring safe navigation. Models trained on daytime data often fail in the absence of precise but costly LiDAR. Even vision foundation models trained on large amounts of data are unreliable in low-light conditions.",
       "source": "arXiv",
       "type": "paper",
       "tags": [
         "Autonomous Driving",
-        "Robotics",
         "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2501.08663v2",
-      "title": "Tile Reconfiguration by a Finite Automaton",
-      "url": "https://arxiv.org/abs/2501.08663v2",
-      "publishedAt": "2025-01-15T08:59:52Z",
-      "summary": "Shape formation is one of the most thoroughly studied problems in programmable matter and swarm robotics. However, in many models, the class of shapes that can be formed is highly restricted due to the particles' limited memory. In the hybrid model, an active agent with the computational power of a deterministic finite automaton can form shapes by lifting and placing passive tiles on the triangular lattice.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2412.01168v6",
-      "title": "On the Surprising Effectiveness of Spectral Clipping in Learning Stable Linear and Latent-Linear Dynamical Systems",
-      "url": "https://arxiv.org/abs/2412.01168v6",
-      "publishedAt": "2024-12-02T06:10:23Z",
-      "summary": "When learning stable linear dynamical systems from data, three important properties are desirable: i) predictive accuracy, ii) verifiable stability, and iii) computational efficiency. Unconstrained minimization of prediction errors leads to high accuracy and efficiency but cannot guarantee stability. Existing methods to enforce stability often preserve accuracy, but do so only at the cost of increased computation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2410.22041v3",
-      "title": "An LLM-based Simulation Framework for Embodied Conversational Agents in Psychological Counseling",
-      "url": "https://arxiv.org/abs/2410.22041v3",
-      "publishedAt": "2024-10-29T13:46:52Z",
-      "summary": "Due to privacy concerns, open dialogue datasets for mental health are primarily generated through human or AI synthesis methods. However, the inherent implicit nature of psychological processes, particularly those of clients, poses challenges to the authenticity and diversity of synthetic data.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "LLM"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2310.08045v6",
-      "title": "Model Predictive Inferential Control of Neural State-Space Models for Autonomous Vehicle Motion Planning",
-      "url": "https://arxiv.org/abs/2310.08045v6",
-      "publishedAt": "2023-10-12T05:39:13Z",
-      "summary": "Model predictive control (MPC) has proven useful in enabling safe and optimal motion planning for autonomous vehicles. In this paper, we investigate how to achieve MPC-based motion planning when a neural state-space model represents the vehicle dynamics.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
       ]
     }
   ]
