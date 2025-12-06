@@ -1,136 +1,7 @@
 {
-  "generatedAt": "2025-12-06T15:05:57.131Z",
-  "count": 74,
+  "generatedAt": "2025-12-06T18:07:51.203Z",
+  "count": 39,
   "items": [
-    {
-      "id": "http://arxiv.org/abs/2512.05107v1",
-      "title": "STARE-VLA: Progressive Stage-Aware Reinforcement for Fine-Tuning Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2512.05107v1",
-      "publishedAt": "2025-12-04T18:59:22Z",
-      "summary": "Recent advances in Vision-Language-Action (VLA) models, powered by large language models and reinforcement learning-based fine-tuning, have shown remarkable progress in robotic manipulation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM",
-        "RL",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05106v1",
-      "title": "NeuralRemaster: Phase-Preserving Diffusion for Structure-Aligned Generation",
-      "url": "https://arxiv.org/abs/2512.05106v1",
-      "publishedAt": "2025-12-04T18:59:18Z",
-      "summary": "Standard diffusion corrupts data using Gaussian noise whose Fourier coefficients have random magnitudes and random phases. While effective for unconditional or text-to-image generation, corrupting phase components destroys spatial structure, making it ill-suited for tasks requiring geometric consistency, such as re-rendering, simulation enhancement, and image-to-image translation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05094v1",
-      "title": "From Generated Human Videos to Physically Plausible Robot Trajectories",
-      "url": "https://arxiv.org/abs/2512.05094v1",
-      "publishedAt": "2025-12-04T18:56:03Z",
-      "summary": "Video generation models are rapidly improving in their ability to synthesize human actions in novel contexts, holding the potential to serve as high-level planners for contextual robot control. To realize this potential, a key research question remains open: how can a humanoid execute the human actions from generated videos in a zero-shot manner?",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05079v1",
-      "title": "Object Reconstruction under Occlusion with Generative Priors and Contact-induced Constraints",
-      "url": "https://arxiv.org/abs/2512.05079v1",
-      "publishedAt": "2025-12-04T18:45:14Z",
-      "summary": "Object geometry is key information for robot manipulation. Yet, object reconstruction is a challenging task because cameras only capture partial observations of objects, especially when occlusion occurs. In this paper, we leverage two extra sources of information to reduce the ambiguity of vision signals.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05060v1",
-      "title": "4DLangVGGT: 4D Language-Visual Geometry Grounded Transformer",
-      "url": "https://arxiv.org/abs/2512.05060v1",
-      "publishedAt": "2025-12-04T18:15:27Z",
-      "summary": "Constructing 4D language fields is crucial for embodied AI, augmented/virtual reality, and 4D scene understanding, as they provide enriched semantic representations of dynamic environments and enable open-vocabulary querying in complex scenarios.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05053v1",
-      "title": "A Randomized Scheduling Framework for Privacy-Preserving Multi-robot Rendezvous given Prior Information",
-      "url": "https://arxiv.org/abs/2512.05053v1",
-      "publishedAt": "2025-12-04T18:07:17Z",
-      "summary": "Privacy has become a critical concern in modern multi-robot systems, driven by both ethical considerations and operational constraints. As a result, growing attention has been directed toward privacy-preserving coordination in dynamical multi-robot systems. This work introduces a randomized scheduling mechanism for privacy-preserving robot rendezvous.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.05008v1",
-      "title": "Contact-Implicit Modeling and Simulation of a Snake Robot on Compliant and Granular Terrain",
-      "url": "https://arxiv.org/abs/2512.05008v1",
-      "publishedAt": "2025-12-04T17:20:32Z",
-      "summary": "This thesis presents a unified modeling and simulation framework for analyzing sidewinding and tumbling locomotion of the COBRA snake robot across rigid, compliant, and granular terrains. A contact-implicit formulation is used to model distributed frictional interactions during sidewinding, and validated through MATLAB Simscape simulations and physical experiments on rigid ground and loose sand.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04998v1",
-      "title": "Introducing V-Soft Pro: a Modular Platform for a Transhumeral Prosthesis with Controllable Stiffness",
-      "url": "https://arxiv.org/abs/2512.04998v1",
-      "publishedAt": "2025-12-04T17:11:22Z",
-      "summary": "Current upper limb prostheses aim to enhance user independence in daily activities by incorporating basic motor functions. However, they fall short of replicating the natural movement and interaction capabilities of the human arm.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04973v1",
-      "title": "Preliminary Analysis and Simulation of a Compact Variable Stiffness Wrist",
-      "url": "https://arxiv.org/abs/2512.04973v1",
-      "publishedAt": "2025-12-04T16:43:57Z",
-      "summary": "Variable Stiffness Actuators prove invaluable for robotics applications in unstructured environments, fostering safe interactions and enhancing task adaptability. Nevertheless, their mechanical design inevitably results in larger and heavier structures compared to classical rigid actuators.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04960v1",
-      "title": "Hybrid-Diffusion Models: Combining Open-loop Routines with Visuomotor Diffusion Policies",
-      "url": "https://arxiv.org/abs/2512.04960v1",
-      "publishedAt": "2025-12-04T16:29:06Z",
-      "summary": "Despite the fact that visuomotor-based policies obtained via imitation learning demonstrate good performances in complex manipulation tasks, they usually struggle to achieve the same accuracy and speed as traditional control based methods. In this work, we introduce Hybrid-Diffusion models that combine open-loop routines with visuomotor diffusion policies.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04952v1",
-      "title": "FASTer: Toward Efficient Autoregressive Vision Language Action Modeling via neural Action Tokenization",
-      "url": "https://arxiv.org/abs/2512.04952v1",
-      "publishedAt": "2025-12-04T16:21:38Z",
-      "summary": "Autoregressive vision-language-action (VLA) models have recently demonstrated strong capabilities in robotic manipulation. However, their core process of action tokenization often involves a trade-off between reconstruction fidelity and inference efficiency.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
     {
       "id": "https://blogs.nvidia.com/?p=88078",
       "title": "Robots’ Holiday Wishes Come True: NVIDIA Jetson Platform Offers High-Performance Edge AI at Festive Prices",
@@ -142,169 +13,6 @@
       "tags": [
         "Robotics"
       ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04917v1",
-      "title": "On Disturbance-Aware Minimum-Time Trajectory Planning: Evidence from Tests on a Dynamic Driving Simulator",
-      "url": "https://arxiv.org/abs/2512.04917v1",
-      "publishedAt": "2025-12-04T15:45:40Z",
-      "summary": "This work investigates how disturbance-aware, robustness-embedded reference trajectories translate into driving performance when executed by professional drivers in a dynamic simulator.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04884v1",
-      "title": "Hoi! -- A Multimodal Dataset for Force-Grounded, Cross-View Articulated Manipulation",
-      "url": "https://arxiv.org/abs/2512.04884v1",
-      "publishedAt": "2025-12-04T15:11:48Z",
-      "summary": "We present a dataset for force-grounded, cross-view articulated manipulation that couples what is seen with what is done and what is felt during real human interaction. The dataset contains 3048 sequences across 381 articulated objects in 38 environments. Each object is operated under four embodiments - (i) human hand, (ii) human hand with a wrist-mounted camera, (iii) handheld UMI gripper, and (iv) a custom Hoi!",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04830v1",
-      "title": "FreeGen: Feed-Forward Reconstruction-Generation Co-Training for Free-Viewpoint Driving Scene Synthesis",
-      "url": "https://arxiv.org/abs/2512.04830v1",
-      "publishedAt": "2025-12-04T14:14:21Z",
-      "summary": "Closed-loop simulation and scalable pre-training for autonomous driving require synthesizing free-viewpoint driving scenes. However, existing datasets and generative pipelines rarely provide consistent off-trajectory observations, limiting large-scale evaluation and training.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04813v1",
-      "title": "MOVE: A Simple Motion-Based Data Collection Paradigm for Spatial Generalization in Robotic Manipulation",
-      "url": "https://arxiv.org/abs/2512.04813v1",
-      "publishedAt": "2025-12-04T14:03:54Z",
-      "summary": "Imitation learning method has shown immense promise for robotic manipulation, yet its practical deployment is fundamentally constrained by the data scarcity. Despite prior work on collecting large-scale datasets, there still remains a significant gap to robust spatial generalization.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04797v1",
-      "title": "SIMA 2: A Generalist Embodied Agent for Virtual Worlds",
-      "url": "https://arxiv.org/abs/2512.04797v1",
-      "publishedAt": "2025-12-04T13:46:11Z",
-      "summary": "We introduce SIMA 2, a generalist embodied agent that understands and acts in a wide variety of 3D virtual worlds. Built upon a Gemini foundation model, SIMA 2 represents a significant step toward active, goal-directed interaction within an embodied environment.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04773v1",
-      "title": "Using Machine Learning to Take Stay-or-Go Decisions in Data-driven Drone Missions",
-      "url": "https://arxiv.org/abs/2512.04773v1",
-      "publishedAt": "2025-12-04T13:21:24Z",
-      "summary": "Drones are becoming indispensable in many application domains. In data-driven missions, besides sensing, the drone must process the collected data at runtime to decide whether additional action must be taken on the spot, before moving to the next point of interest. If processing does not reveal an event or situation that requires such an action, the drone has waited in vain instead of moving to the next point.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04772v1",
-      "title": "TEMPO-VINE: A Multi-Temporal Sensor Fusion Dataset for Localization and Mapping in Vineyards",
-      "url": "https://arxiv.org/abs/2512.04772v1",
-      "publishedAt": "2025-12-04T13:20:41Z",
-      "summary": "In recent years, precision agriculture has been introducing groundbreaking innovations in the field, with a strong focus on automation. However, research studies in robotics and autonomous navigation often rely on controlled simulations or isolated field trials.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04770v1",
-      "title": "Embodied Co-Design for Rapidly Evolving Agents: Taxonomy, Frontiers, and Challenges",
-      "url": "https://arxiv.org/abs/2512.04770v1",
-      "publishedAt": "2025-12-04T13:12:50Z",
-      "summary": "Brain-body co-evolution enables animals to develop complex behaviors in their environments. Inspired by this biological synergy, embodied co-design (ECD) has emerged as a transformative paradigm for creating intelligent agents-from virtual creatures to physical robots-by jointly optimizing their morphologies and controllers rather than treating control in isolation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04734v1",
-      "title": "MT-Depth: Multi-task Instance feature analysis for the Depth Completion",
-      "url": "https://arxiv.org/abs/2512.04734v1",
-      "publishedAt": "2025-12-04T12:17:33Z",
-      "summary": "Depth completion plays a vital role in 3D perception systems, especially in scenarios where sparse depth data must be densified for tasks such as autonomous driving, robotics, and augmented reality. While many existing approaches rely on semantic segmentation to guide depth completion, they often overlook the benefits of object-level understanding.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04733v1",
-      "title": "E3AD: An Emotion-Aware Vision-Language-Action Model for Human-Centric End-to-End Autonomous Driving",
-      "url": "https://arxiv.org/abs/2512.04733v1",
-      "publishedAt": "2025-12-04T12:17:25Z",
-      "summary": "End-to-end autonomous driving (AD) systems increasingly adopt vision-language-action (VLA) models, yet they typically ignore the passenger's emotional state, which is central to comfort and AD acceptance. We introduce Open-Domain End-to-End (OD-E2E) autonomous driving, where an autonomous vehicle (AV) must interpret free-form natural-language commands, infer the emotion, and plan a physically feasible trajectory.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04731v1",
-      "title": "Bridging Simulation and Reality: Cross-Domain Transfer with Semantic 2D Gaussian Splatting",
-      "url": "https://arxiv.org/abs/2512.04731v1",
-      "publishedAt": "2025-12-04T12:16:15Z",
-      "summary": "Cross-domain transfer in robotic manipulation remains a longstanding challenge due to the significant domain gap between simulated and real-world environments. Existing methods such as domain randomization, adaptation, and sim-real calibration often require extensive tuning or fail to generalize to unseen scenarios.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04716v1",
-      "title": "Towards an AI Fluid Scientist: LLM-Powered Scientific Discovery in Experimental Fluid Mechanics",
-      "url": "https://arxiv.org/abs/2512.04716v1",
-      "publishedAt": "2025-12-04T12:02:35Z",
-      "summary": "The integration of artificial intelligence into experimental fluid mechanics promises to accelerate discovery, yet most AI applications remain narrowly focused on numerical studies. This work proposes an AI Fluid Scientist framework that autonomously executes the complete experimental workflow: hypothesis generation, experimental design, robotic execution, data analysis, and manuscript preparation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.04686v1",
-      "title": "Towards Cross-View Point Correspondence in Vision-Language Models",
-      "url": "https://arxiv.org/abs/2512.04686v1",
-      "publishedAt": "2025-12-04T11:30:31Z",
-      "summary": "Cross-view correspondence is a fundamental capability for spatial understanding and embodied AI. However, it is still far from being realized in Vision-Language Models (VLMs), especially in achieving precise point-level correspondence, which is crucial for precise affordance interaction.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2512.03397v2",
-      "title": "Surfel-LIO: Fast LiDAR-Inertial Odometry with Pre-computed Surfels and Hierarchical Z-order Voxel Hashing",
-      "url": "https://arxiv.org/abs/2512.03397v2",
-      "publishedAt": "2025-12-03T03:07:08Z",
-      "summary": "LiDAR-inertial odometry (LIO) is an active research area, as it enables accurate real-time state estimation in GPS-denied environments. Recent advances in map data structures and spatial indexing have significantly improved the efficiency of LIO systems.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
     },
     {
       "id": "https://blogs.nvidia.com/?p=87946",
@@ -325,30 +33,6 @@
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
       "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.20275v3",
-      "title": "HAFO: A Force-Adaptive Control Framework for Humanoid Robots in Intense Interaction Environments",
-      "url": "https://arxiv.org/abs/2511.20275v3",
-      "publishedAt": "2025-11-25T13:02:17Z",
-      "summary": "Reinforcement learning (RL) controllers have made impressive progress in humanoid locomotion and light-weight object manipulation. However, achieving robust and precise motion control with intense force interaction remains a significant challenge.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.21750v2",
-      "title": "SO-Bench: A Structural Output Evaluation of Multimodal LLMs",
-      "url": "https://arxiv.org/abs/2511.21750v2",
-      "publishedAt": "2025-11-23T16:53:16Z",
-      "summary": "Multimodal large language models (MLLMs) are increasingly deployed in real-world, agentic settings where outputs must not only be correct, but also conform to predefined data schemas. Despite recent progress in structured generation in textual domain, there is still no benchmark that systematically evaluates schema-grounded information extraction and reasoning over visual inputs.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM"
-      ]
     },
     {
       "id": "https://techcrunch.com/?p=3069331",
@@ -391,18 +75,6 @@
       "source": "TechCrunch Robotics",
       "type": "news",
       "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2511.07161v2",
-      "title": "LLMscape",
-      "url": "https://arxiv.org/abs/2511.07161v2",
-      "publishedAt": "2025-11-10T14:52:20Z",
-      "summary": "LLMscape is an interactive installation that investigates how humans and AI construct meaning under shared conditions of uncertainty. Within a mutable, projection-mapped landscape, human participants reshape the world and engage with multiple AI agents, each developing incomplete and provisional accounts of their environment.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
     },
     {
       "id": "https://techcrunch.com/?p=3064348",
@@ -482,19 +154,6 @@
       "type": "news",
       "tags": [
         "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2510.19430v3",
-      "title": "GigaBrain-0: A World Model-Powered Vision-Language-Action Model",
-      "url": "https://arxiv.org/abs/2510.19430v3",
-      "publishedAt": "2025-10-22T09:57:13Z",
-      "summary": "Training Vision-Language-Action (VLA) models for generalist robots typically requires large-scale real-world robot data, which is expensive and time-consuming to collect. The inefficiency of physical data collection severely limits the scalability, and generalization capacity of current VLA systems.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
       ]
     },
     {
@@ -614,28 +273,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2508.09950v2",
-      "title": "PPL: Point Cloud Supervised Proprioceptive Locomotion Reinforcement Learning for Legged Robots in Crawl Spaces",
-      "url": "https://arxiv.org/abs/2508.09950v2",
-      "publishedAt": "2025-08-13T17:11:20Z",
-      "summary": "Legged locomotion in constrained spaces (called crawl spaces) is challenging. In crawl spaces, current proprioceptive locomotion learning methods are difficult to achieve traverse because only ground features are inferred. In this study, a point cloud supervised RL framework for proprioceptive locomotion in crawl spaces is proposed.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2508.09560v3",
-      "title": "WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization",
-      "url": "https://arxiv.org/abs/2508.09560v3",
-      "publishedAt": "2025-08-13T07:28:41Z",
-      "summary": "Visual geo-localization for drones faces critical degradation under weather perturbations, \\eg, rain and fog, where existing methods struggle with two inherent limitations: 1) Heavy reliance on limited weather categories that constrain generalization, and 2) Suboptimal disentanglement of entangled scene-weather features through pseudo weather categories.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://blogs.nvidia.com/?p=83562",
       "title": "Making Safer Spaces: NVIDIA and Partners Bring Physical AI to Cities and Industrial Infrastructure",
       "url": "https://blogs.nvidia.com/blog/physical-ai-partners-metropolis-updates-siggraph/",
@@ -752,16 +389,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2506.10098v3",
-      "title": "Estimating the Joint Probability of Scenario Parameters with Gaussian Mixture Copula Models",
-      "url": "https://arxiv.org/abs/2506.10098v3",
-      "publishedAt": "2025-06-11T18:30:20Z",
-      "summary": "This paper presents the first application of Gaussian Mixture Copula Models to the statistical modeling of driving scenarios for the safety validation of automated driving systems. Knowledge of the joint probability distribution of scenario parameters is essential for scenario-based safety assessment, where risk quantification depends on the likelihood of concrete parameter combinations.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://techcrunch.com/?p=3017761",
       "title": "Meta&#8217;s V-JEPA 2 model teaches AI to understand its surroundings",
       "url": "https://techcrunch.com/2025/06/11/metas-v-jepa-2-model-teaches-ai-to-understand-its-surroundings/",
@@ -818,39 +445,6 @@
       "tags": [
         "Robotics"
       ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2412.13547v2",
-      "title": "Turbo-GS: Accelerating 3D Gaussian Fitting for High-Quality Radiance Fields",
-      "url": "https://arxiv.org/abs/2412.13547v2",
-      "publishedAt": "2024-12-18T06:46:40Z",
-      "summary": "Novel-view synthesis is an important problem in computer vision with applications in 3D reconstruction, mixed reality, and robotics. Recent methods like 3D Gaussian Splatting (3DGS) have become the preferred method for this task, providing high-quality novel views in real time. However, the training time of a 3DGS model is slow, often taking 30 minutes for a scene with 200 views.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2403.02514v3",
-      "title": "The Autonomy-Alignment Problem in Open-Ended Learning Robots: Formalising the Purpose Framework",
-      "url": "https://arxiv.org/abs/2403.02514v3",
-      "publishedAt": "2024-03-04T22:03:49Z",
-      "summary": "The rapid advancement of artificial intelligence is enabling the development of increasingly autonomous robots capable of operating beyond engineered factory settings and into the unstructured environments of human life.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2212.00476v2",
-      "title": "Efficient stereo matching on embedded GPUs with zero-means cross correlation",
-      "url": "https://arxiv.org/abs/2212.00476v2",
-      "publishedAt": "2022-12-01T13:03:38Z",
-      "summary": "Mobile stereo-matching systems have become an important part of many applications, such as automated-driving vehicles and autonomous robots.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
     }
   ]
 }
