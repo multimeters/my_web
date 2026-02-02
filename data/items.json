@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-02-02T06:25:07.347Z",
-  "count": 54,
+  "generatedAt": "2026-02-02T09:18:28.003Z",
+  "count": 89,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=586834",
@@ -39,6 +39,88 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2601.23285v1",
+      "title": "End-to-end Optimization of Belief and Policy Learning in Shared Autonomy Paradigms",
+      "url": "https://arxiv.org/abs/2601.23285v1",
+      "publishedAt": "2026-01-30T18:59:16Z",
+      "summary": "Shared autonomy systems require principled methods for inferring user intent and determining appropriate assistance levels. This is a central challenge in human-robot interaction, where systems must be successful while being mindful of user agency. Previous approaches relied on static blending ratios or separated goal inference from assistance arbitration, leading to suboptimal performance in unstructured environments.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23266v1",
+      "title": "IRL-DAL: Safe and Adaptive Trajectory Planning for Autonomous Driving via Energy-Guided Diffusion Models",
+      "url": "https://arxiv.org/abs/2601.23266v1",
+      "publishedAt": "2026-01-30T18:34:10Z",
+      "summary": "This paper proposes a novel inverse reinforcement learning framework using a diffusion-based adaptive lookahead planner (IRL-DAL) for autonomous vehicles. Training begins with imitation from an expert finite state machine (FSM) controller to provide a stable initialization. Environment terms are combined with an IRL discriminator signal to align with expert goals.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "RL",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23107v1",
+      "title": "FlowCalib: LiDAR-to-Vehicle Miscalibration Detection using Scene Flows",
+      "url": "https://arxiv.org/abs/2601.23107v1",
+      "publishedAt": "2026-01-30T15:53:16Z",
+      "summary": "Accurate sensor-to-vehicle calibration is essential for safe autonomous driving. Angular misalignments of LiDAR sensors can lead to safety-critical issues during autonomous operation. However, current methods primarily focus on correcting sensor-to-sensor errors without considering the miscalibration of individual sensors that cause these errors in the first place.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23087v1",
+      "title": "Temporally Coherent Imitation Learning via Latent Action Flow Matching for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2601.23087v1",
+      "publishedAt": "2026-01-30T15:36:43Z",
+      "summary": "Learning long-horizon robotic manipulation requires jointly achieving expressive behavior modeling, real-time inference, and stable execution, which remains challenging for existing generative policies.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23080v1",
+      "title": "Robust and Generalized Humanoid Motion Tracking",
+      "url": "https://arxiv.org/abs/2601.23080v1",
+      "publishedAt": "2026-01-30T15:27:43Z",
+      "summary": "Learning a general humanoid whole-body controller is challenging because practical reference motions can exhibit noise and inconsistencies after being transferred to the robot domain, and local defects may be amplified by closed-loop execution, causing drift or failure in highly dynamic and contact-rich behaviors.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23075v1",
+      "title": "RN-D: Discretized Categorical Actors with Regularized Networks for On-Policy Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2601.23075v1",
+      "publishedAt": "2026-01-30T15:24:34Z",
+      "summary": "On-policy deep reinforcement learning remains a dominant paradigm for continuous control, yet standard implementations rely on Gaussian actors and relatively shallow MLP policies, often leading to brittle optimization when gradients are noisy and policy updates must be conservative. In this paper, we revisit policy representation as a first-class design choice for on-policy optimization.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.23065v1",
+      "title": "EAG-PT: Emission-Aware Gaussians and Path Tracing for Indoor Scene Reconstruction and Editing",
+      "url": "https://arxiv.org/abs/2601.23065v1",
+      "publishedAt": "2026-01-30T15:16:37Z",
+      "summary": "Recent reconstruction methods based on radiance field such as NeRF and 3DGS reproduce indoor scenes with high visual fidelity, but break down under scene editing due to baked illumination and the lack of explicit light transport.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=586814",
       "title": "New York Robotics launches with 160 startups in its ecosystem",
       "url": "https://www.therobotreport.com/new-york-robotics-launches-160-startups-ecosystem/",
@@ -51,6 +133,28 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2601.23038v1",
+      "title": "MOSAIC: Modular Scalable Autonomy for Intelligent Coordination of Heterogeneous Robotic Teams",
+      "url": "https://arxiv.org/abs/2601.23038v1",
+      "publishedAt": "2026-01-30T14:46:15Z",
+      "summary": "Mobile robots have become indispensable for exploring hostile environments, such as in space or disaster relief scenarios, but often remain limited to teleoperation by a human operator. This restricts the deployment scale and requires near-continuous low-latency communication between the operator and the robot.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22988v1",
+      "title": "Learning Geometrically-Grounded 3D Visual Representations for View-Generalizable Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2601.22988v1",
+      "publishedAt": "2026-01-30T13:53:53Z",
+      "summary": "Real-world robotic manipulation demands visuomotor policies capable of robust spatial scene understanding and strong generalization across diverse camera viewpoints.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=586820",
       "title": "Webinar examines evolving automated storage and retrieval systems",
       "url": "https://www.therobotreport.com/webinar-examines-evolving-automated-storage-and-retrieval-systems/",
@@ -61,6 +165,138 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22982v1",
+      "title": "About an Automating Annotation Method for Robot Markers",
+      "url": "https://arxiv.org/abs/2601.22982v1",
+      "publishedAt": "2026-01-30T13:44:56Z",
+      "summary": "Factory automation has become increasingly important due to labor shortages, leading to the introduction of autonomous mobile robots for tasks such as material transportation. Markers are commonly used for robot self-localization and object identification. In the RoboCup Logistics League (RCLL), ArUco markers are employed both for robot localization and for identifying processing modules.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22965v1",
+      "title": "Self-Imitated Diffusion Policy for Efficient and Robust Visual Navigation",
+      "url": "https://arxiv.org/abs/2601.22965v1",
+      "publishedAt": "2026-01-30T13:27:59Z",
+      "summary": "Diffusion policies (DP) have demonstrated significant potential in visual navigation by capturing diverse multi-modal trajectory distributions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22948v1",
+      "title": "Alignment among Language, Vision and Action Representations",
+      "url": "https://arxiv.org/abs/2601.22948v1",
+      "publishedAt": "2026-01-30T13:12:07Z",
+      "summary": "A fundamental question in cognitive science and AI concerns whether different learning modalities: language, vision, and action, give rise to distinct or shared internal representations. Traditional views assume that models trained on different data types develop specialized, non-transferable representations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22930v1",
+      "title": "MTDrive: Multi-turn Interactive Reinforcement Learning for Autonomous Driving",
+      "url": "https://arxiv.org/abs/2601.22930v1",
+      "publishedAt": "2026-01-30T12:47:55Z",
+      "summary": "Trajectory planning is a core task in autonomous driving, requiring the prediction of safe and comfortable paths across diverse scenarios. Integrating Multi-modal Large Language Models (MLLMs) with Reinforcement Learning (RL) has shown promise in addressing \"long-tail\" scenarios.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "LLM",
+        "RL",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22927v1",
+      "title": "Toward Fully Autonomous Driving: AI, Challenges, Opportunities, and Needs",
+      "url": "https://arxiv.org/abs/2601.22927v1",
+      "publishedAt": "2026-01-30T12:45:44Z",
+      "summary": "Automated driving (AD) is promising, but the transition to fully autonomous driving is, among other things, subject to the real, ever-changing open world and the resulting challenges. However, research in the field of AD demonstrates the ability of artificial intelligence (AI) to outperform classical approaches, handle higher complexities, and reach a new level of autonomy.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22919v1",
+      "title": "A Serverless Edge-Native Data Processing Architecture for Autonomous Driving Training",
+      "url": "https://arxiv.org/abs/2601.22919v1",
+      "publishedAt": "2026-01-30T12:41:11Z",
+      "summary": "Data is both the key enabler and a major bottleneck for machine learning in autonomous driving. Effective model training requires not only large quantities of sensor data but also balanced coverage that includes rare yet safety-critical scenarios. Capturing such events demands extensive driving time and efficient selection.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22878v1",
+      "title": "Development of Domain-Invariant Visual Enhancement and Restoration (DIVER) Approach for Underwater Images",
+      "url": "https://arxiv.org/abs/2601.22878v1",
+      "publishedAt": "2026-01-30T11:58:40Z",
+      "summary": "Underwater images suffer severe degradation due to wavelength-dependent attenuation, scattering, and illumination non-uniformity that vary across water types and depths. We propose an unsupervised Domain-Invariant Visual Enhancement and Restoration (DIVER) framework that integrates empirical correction with physics-guided modeling for robust underwater image enhancement.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22849v1",
+      "title": "Robust Rigid Body Assembly via Contact-Implicit Optimal Control with Exact Second-Order Derivatives",
+      "url": "https://arxiv.org/abs/2601.22849v1",
+      "publishedAt": "2026-01-30T11:21:20Z",
+      "summary": "Efficient planning of assembly motions is a long standing challenge in the field of robotics that has been primarily tackled with reinforcement learning and sampling-based methods by using extensive physics simulations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22830v1",
+      "title": "A Comparative Evaluation of Large Vision-Language Models for 2D Object Detection under SOTIF Conditions",
+      "url": "https://arxiv.org/abs/2601.22830v1",
+      "publishedAt": "2026-01-30T10:58:24Z",
+      "summary": "Reliable environmental perception remains one of the main obstacles for safe operation of automated vehicles. Safety of the Intended Functionality (SOTIF) concerns safety risks from perception insufficiencies, particularly under adverse conditions where conventional detectors often falter.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22823v1",
+      "title": "Offline Reinforcement Learning of High-Quality Behaviors Under Robust Style Alignment",
+      "url": "https://arxiv.org/abs/2601.22823v1",
+      "publishedAt": "2026-01-30T10:49:22Z",
+      "summary": "We study offline reinforcement learning of style-conditioned policies using explicit style supervision via subtrajectory labeling functions. In this setting, aligning style with high task performance is particularly challenging due to distribution shift and inherent conflicts between style and reward.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22748v1",
+      "title": "AutoMerge: Search-Based Model Merging Framework for Effective Model Reuse",
+      "url": "https://arxiv.org/abs/2601.22748v1",
+      "publishedAt": "2026-01-30T09:27:01Z",
+      "summary": "Software reuse has long been recognized as a critical and widely studied topic in software engineering, offering substantial benefits in reducing development costs, improving software quality, and enhancing operational efficiency. This paradigm extends into deep learning through model reuse.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://www.therobotreport.com/?p=586811",
@@ -84,6 +320,18 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.22018v2",
+      "title": "PocketDP3: Efficient Pocket-Scale 3D Visuomotor Policy",
+      "url": "https://arxiv.org/abs/2601.22018v2",
+      "publishedAt": "2026-01-29T17:23:25Z",
+      "summary": "Recently, 3D vision-based diffusion policies have shown strong capability in learning complex robotic manipulation skills. However, a common architectural mismatch exists in these models: a tiny yet efficient point-cloud encoder is often paired with a massive decoder. Given a compact scene representation, we argue that this may lead to substantial parameter waste in the decoder.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -159,6 +407,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2601.20835v2",
+      "title": "Open-Vocabulary Functional 3D Human-Scene Interaction Generation",
+      "url": "https://arxiv.org/abs/2601.20835v2",
+      "publishedAt": "2026-01-28T18:34:25Z",
+      "summary": "Generating 3D humans that functionally interact with 3D scenes remains an open problem with applications in embodied AI, robotics, and interactive content creation. The key challenge involves reasoning about both the semantics of functional elements in 3D scenes and the 3D human poses required to achieve functionality-aware interaction.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Embodied AI"
+      ]
+    },
+    {
       "id": "https://www.therobotreport.com/?p=586785",
       "title": "Waabi raises $1B to advance autonomous trucks and robotaxis",
       "url": "https://www.therobotreport.com/waabi-raises-1b-to-advance-autonomous-trucks-and-robotaxis/",
@@ -168,6 +429,30 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.20529v2",
+      "title": "A Practical Framework of Key Performance Indicators for Multi-Robot Lunar and Planetary Field Tests",
+      "url": "https://arxiv.org/abs/2601.20529v2",
+      "publishedAt": "2026-01-28T12:10:56Z",
+      "summary": "Robotic prospecting for critical resources on the Moon, such as ilmenite, rare earth elements, and water ice, requires robust exploration methods given the diverse terrain and harsh environmental conditions. Although numerous analog field trials address these goals, comparing their results remains challenging because of differences in robot platforms and experimental setups.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.20321v2",
+      "title": "TaF-VLA: Tactile-Force Alignment in Vision-Language-Action Models for Force-aware Manipulation",
+      "url": "https://arxiv.org/abs/2601.20321v2",
+      "publishedAt": "2026-01-28T07:34:41Z",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged as powerful generalists for robotic manipulation. However, due to their predominant reliance on visual modalities, they fundamentally lack the physical intuition required for contact-rich tasks that require precise force regulation and physical reasoning.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -192,6 +477,19 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.14133v2",
+      "title": "TwinBrainVLA: Unleashing the Potential of Generalist VLMs for Embodied Tasks via Asymmetric Mixture-of-Transformers",
+      "url": "https://arxiv.org/abs/2601.14133v2",
+      "publishedAt": "2026-01-20T16:30:07Z",
+      "summary": "The fundamental premise of Vision-Language-Action (VLA) models is to harness the extensive general capabilities of pre-trained Vision-Language Models (VLMs) for generalized embodied intelligence. However, standard robotic fine-tuning inevitably disrupts the pre-trained feature space, leading to \"catastrophic forgetting\" that compromises the general visual understanding we aim to leverage.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "Vision"
       ]
     },
     {
@@ -365,6 +663,16 @@
       "tags": []
     },
     {
+      "id": "http://arxiv.org/abs/2511.17961v2",
+      "title": "RoboArmGS: High-Quality Robotic Arm Splatting via Bézier Curve Refinement",
+      "url": "https://arxiv.org/abs/2511.17961v2",
+      "publishedAt": "2025-11-22T07:51:46Z",
+      "summary": "Constructing photorealistic and controllable robotic arm digital assets from real observations is fundamental to robotic applications. Current approaches naively bind static 3D Gaussians according to URDF links, forcing them to follow an URDF-rigged motion passively.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://techcrunch.com/?p=3069331",
       "title": "This Khosla-backed startup can track drones, trucks, and robotaxis, inch by inch",
       "url": "https://techcrunch.com/2025/11/20/this-khosla-based-startup-can-track-drones-trucks-and-robotaxis-inch-by-inch/",
@@ -404,6 +712,16 @@
       "summary": "These palm-sized robots use ultrasound signals to navigate harsh conditions in search and rescue missions.",
       "source": "TechCrunch Robotics",
       "type": "news",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.05005v2",
+      "title": "Multi-agent Coordination via Flow Matching",
+      "url": "https://arxiv.org/abs/2511.05005v2",
+      "publishedAt": "2025-11-07T06:24:32Z",
+      "summary": "This work presents MAC-Flow, a simple yet expressive framework for multi-agent coordination. We argue that requirements of effective coordination are twofold: (i) a rich representation of the diverse joint behaviors present in offline data and (ii) the ability to act efficiently in real time.",
+      "source": "arXiv",
+      "type": "paper",
       "tags": []
     },
     {
@@ -487,6 +805,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2510.13644v2",
+      "title": "On Your Own: Pro-level Autonomous Drone Racing in Uninstrumented Arenas",
+      "url": "https://arxiv.org/abs/2510.13644v2",
+      "publishedAt": "2025-10-15T15:06:47Z",
+      "summary": "Drone technology is proliferating in many industries, including agriculture, logistics, defense, infrastructure, and environmental monitoring. Vision-based autonomy is one of its key enablers, particularly for real-world applications. This is essential for operating in novel, unstructured environments where traditional navigation methods may be unavailable.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3057128",
       "title": "Coco Robotics taps UCLA professor to lead new physical AI research lab",
       "url": "https://techcrunch.com/2025/10/14/coco-robotics-taps-ucla-professor-to-lead-new-physical-ai-research-lab/",
@@ -553,6 +883,18 @@
       "tags": [
         "Autonomous Driving",
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.19236v2",
+      "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2508.19236v2",
+      "publishedAt": "2025-08-26T17:57:16Z",
+      "summary": "Temporal context is essential for robotic manipulation because such tasks are inherently non-Markovian, yet mainstream VLA models typically overlook it and struggle with long-horizon, temporally dependent tasks.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -623,6 +965,79 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.02883v2",
+      "title": "A Continual Offline Reinforcement Learning Benchmark for Navigation Tasks",
+      "url": "https://arxiv.org/abs/2506.02883v2",
+      "publishedAt": "2025-06-03T13:48:20Z",
+      "summary": "Autonomous agents operating in domains such as robotics or video game simulations must adapt to changing tasks without forgetting about the previous ones. This process called Continual Reinforcement Learning poses non-trivial difficulties, from preventing catastrophic forgetting to ensuring the scalability of the approaches considered.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2505.18417v2",
+      "title": "Reinforcement Learning for Ballbot Navigation in Uneven Terrain",
+      "url": "https://arxiv.org/abs/2505.18417v2",
+      "publishedAt": "2025-05-23T22:48:36Z",
+      "summary": "Ballbot (i.e. Ball balancing robot) navigation usually relies on methods rooted in control theory (CT), and works that apply Reinforcement learning (RL) to the problem remain rare while generally being limited to specific subtasks (e.g. balance recovery). Unlike CT based methods, RL does not require (simplifying) assumptions about environment dynamics (e.g. the absence of slippage between the ball and the floor).",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.01987v3",
+      "title": "CaLiV: LiDAR-to-Vehicle Calibration of Arbitrary Sensor Setups",
+      "url": "https://arxiv.org/abs/2504.01987v3",
+      "publishedAt": "2025-03-31T08:08:21Z",
+      "summary": "In autonomous systems, sensor calibration is essential for safe and efficient navigation in dynamic environments. Accurate calibration is a prerequisite for reliable perception and planning tasks such as object detection and obstacle avoidance. Many existing LiDAR calibration methods require overlapping fields of view, while others use external sensing devices or postulate a feature-rich environment.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.20654v2",
+      "title": "AccidentSim: Generating Vehicle Collision Videos with Physically Realistic Collision Trajectories from Real-World Accident Reports",
+      "url": "https://arxiv.org/abs/2503.20654v2",
+      "publishedAt": "2025-03-26T15:50:42Z",
+      "summary": "Collecting real-world vehicle accident videos for autonomous driving research is challenging due to their rarity and complexity. While existing driving video generation methods may produce visually realistic videos, they often fail to deliver physically realistic simulations because they lack the capability to generate accurate post-collision trajectories.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2407.12138v3",
+      "title": "Monocular pose estimation of articulated open surgery tools -- in the wild",
+      "url": "https://arxiv.org/abs/2407.12138v3",
+      "publishedAt": "2024-07-16T19:47:35Z",
+      "summary": "This work presents a framework for monocular 6D pose estimation of surgical instruments in open surgery, addressing challenges such as object articulations, specularity, occlusions, and synthetic-to-real domain adaptation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2404.15950v3",
+      "title": "Parameterized Algorithms for Coordinated Motion Planning: Minimizing Energy",
+      "url": "https://arxiv.org/abs/2404.15950v3",
+      "publishedAt": "2024-04-24T16:12:23Z",
+      "summary": "We study the parameterized complexity of a generalization of the coordinated motion planning problem on graphs, where the goal is to route a specified subset of a given set of $k$ robots to their destinations with the aim of minimizing the total energy (i.e., the total length traveled). We develop novel techniques to push beyond previously-established results that were restricted to solid grids.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
       ]
     }
   ]
