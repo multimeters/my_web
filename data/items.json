@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-14T00:26:42.618Z",
-  "count": 88,
+  "generatedAt": "2026-03-14T03:48:00.181Z",
+  "count": 53,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=587263",
@@ -64,313 +64,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2603.12265v1",
-      "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
-      "url": "https://arxiv.org/abs/2603.12265v1",
-      "publishedAt": "2026-03-12T17:59:55Z",
-      "summary": "Modern visual agents require representations that are general, causal, and physically structured to operate in real-time streaming environments. However, current vision foundation models remain fragmented, specializing narrowly in image semantic perception, offline temporal modeling, or spatial geometry.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12263v1",
-      "title": "$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation",
-      "url": "https://arxiv.org/abs/2603.12263v1",
-      "publishedAt": "2026-03-12T17:59:51Z",
-      "summary": "We introduce $Ψ_0$ (Psi-Zero), an open foundation model to address challenging humanoid loco-manipulation tasks. While existing approaches often attempt to address this fundamental problem by co-training on large and diverse human and humanoid data, we argue that this strategy is suboptimal due to the fundamental kinematic and motion disparities between humans and humanoid robots.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12260v1",
-      "title": "HumDex:Humanoid Dexterous Manipulation Made Easy",
-      "url": "https://arxiv.org/abs/2603.12260v1",
-      "publishedAt": "2026-03-12T17:59:39Z",
-      "summary": "This paper investigates humanoid whole-body dexterous manipulation, where the efficient collection of high-quality demonstration data remains a central bottleneck. Existing teleoperation systems often suffer from limited portability, occlusion, or insufficient precision, which hinders their applicability to complex whole-body tasks.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12243v1",
-      "title": "HandelBot: Real-World Piano Playing via Fast Adaptation of Dexterous Robot Policies",
-      "url": "https://arxiv.org/abs/2603.12243v1",
-      "publishedAt": "2026-03-12T17:56:29Z",
-      "summary": "Mastering dexterous manipulation with multi-fingered hands has been a grand challenge in robotics for decades. Despite its potential, the difficulty of collecting high-quality data remains a primary bottleneck for high-precision tasks.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12193v1",
-      "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
-      "url": "https://arxiv.org/abs/2603.12193v1",
-      "publishedAt": "2026-03-12T17:23:46Z",
-      "summary": "Active perception and manipulation are crucial for robots to interact with complex scenes. Existing methods struggle to unify semantic-driven active perception with robust, viewpoint-invariant execution. We propose SaPaVe, an end-to-end framework that jointly learns these capabilities in a data-efficient manner.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12185v1",
-      "title": "ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control",
-      "url": "https://arxiv.org/abs/2603.12185v1",
-      "publishedAt": "2026-03-12T17:14:45Z",
-      "summary": "Physics simulation for contact-rich robotics is often bottlenecked by contact resolution: mainstream engines enforce non-penetration and Coulomb friction via complementarity constraints or constrained optimization, requiring per-step iterative solves whose cost grows superlinearly with contact density.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12147v1",
-      "title": "EgoIntent: An Egocentric Step-level Benchmark for Understanding What, Why, and Next",
-      "url": "https://arxiv.org/abs/2603.12147v1",
-      "publishedAt": "2026-03-12T16:46:01Z",
-      "summary": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable video reasoning capabilities across diverse tasks. However, their ability to understand human intent at a fine-grained level in egocentric videos remains largely unexplored. Existing benchmarks focus primarily on episode-level intent reasoning, overlooking the finer granularity of step-level intent understanding.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12144v1",
-      "title": "O3N: Omnidirectional Open-Vocabulary Occupancy Prediction",
-      "url": "https://arxiv.org/abs/2603.12144v1",
-      "publishedAt": "2026-03-12T16:45:42Z",
-      "summary": "Understanding and reconstructing the 3D world through omnidirectional perception is an inevitable trend in the development of autonomous agents and embodied intelligence.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12120v1",
-      "title": "CRAFT: A Tendon-Driven Hand with Hybrid Hard-Soft Compliance",
-      "url": "https://arxiv.org/abs/2603.12120v1",
-      "publishedAt": "2026-03-12T16:23:19Z",
-      "summary": "We introduce CRAFT hand, a tendon-driven anthropomorphic hand with hybrid hard-soft compliance for contact-rich manipulation. The design is based on a simple idea: contact is not uniform across the hand. Impacts concentrate at joints, while links carry most of the load. CRAFT places soft material at joints and keeps links rigid, and uses rollingcontact joint surfaces to keep flexion on repeatable motion paths.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12099v1",
-      "title": "Towards Dynamic Model Identification and Gravity Compensation for the dVRK-Si Patient Side Manipulator",
-      "url": "https://arxiv.org/abs/2603.12099v1",
-      "publishedAt": "2026-03-12T16:06:16Z",
-      "summary": "The da Vinci Research Kit (dVRK) is widely used for research in robot-assisted surgery, but most modeling and control methods target the first-generation dVRK Classic. The recently introduced dVRK-Si, built from da Vinci Si hardware, features a redesigned Patient Side Manipulator (PSM) with substantially larger gravity loading, which can degrade control if unmodeled.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12087v1",
-      "title": "Cross-Domain Policy Optimization via Bellman Consistency and Hybrid Critics",
-      "url": "https://arxiv.org/abs/2603.12087v1",
-      "publishedAt": "2026-03-12T15:54:58Z",
-      "summary": "Cross-domain reinforcement learning (CDRL) is meant to improve the data efficiency of RL by leveraging the data samples collected from a source domain to facilitate the learning in a similar target domain.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12083v1",
-      "title": "Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis",
-      "url": "https://arxiv.org/abs/2603.12083v1",
-      "publishedAt": "2026-03-12T15:53:02Z",
-      "summary": "Prevalent Computational Aberration Correction (CAC) methods are typically tailored to specific optical systems, leading to poor generalization and labor-intensive re-training for new lenses. Developing CAC paradigms capable of generalizing across diverse photographic lenses offers a promising solution to these challenges.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12075v1",
-      "title": "Decentralized Cooperative Localization for Multi-Robot Systems with Asynchronous Sensor Fusion",
-      "url": "https://arxiv.org/abs/2603.12075v1",
-      "publishedAt": "2026-03-12T15:42:59Z",
-      "summary": "Decentralized cooperative localization (DCL) is a promising approach for nonholonomic mobile robots operating in GPS-denied environments with limited communication infrastructure.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12059v1",
-      "title": "Flight through Narrow Gaps with Morphing-Wing Drones",
-      "url": "https://arxiv.org/abs/2603.12059v1",
-      "publishedAt": "2026-03-12T15:27:33Z",
-      "summary": "The size of a narrow gap traversable by a fixed-wing drone is limited by its wingspan. Inspired by birds, here, we enable the traversal of a gap of sub-wingspan width and height using a morphing-wing drone capable of temporarily sweeping in its wings mid-flight.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12020v1",
-      "title": "Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application",
-      "url": "https://arxiv.org/abs/2603.12020v1",
-      "publishedAt": "2026-03-12T15:01:25Z",
-      "summary": "Deep Reinforcement Learning (DRL) offers a robust alternative to traditional control methods for autonomous underwater docking, particularly in adapting to unpredictable environmental conditions. However, bridging the \"sim-to-real\" gap and managing high training latencies remain significant bottlenecks for practical deployment.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.12002v1",
-      "title": "Redirecting counter-moving swarms through collision",
-      "url": "https://arxiv.org/abs/2603.12002v1",
-      "publishedAt": "2026-03-12T14:49:37Z",
-      "summary": "Multi-swarm systems, where two or more swarms of mobile agents occupy the same region of space with different parameters and goals, occur in a variety of biological, engineering, and defense applications. Composites of multiple swarms can produce hybrid spatiotemporal patterns, which compared to single swarming systems, are relatively unexplored.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11984v1",
-      "title": "Ada3Drift: Adaptive Training-Time Drifting for One-Step 3D Visuomotor Robotic Manipulation",
-      "url": "https://arxiv.org/abs/2603.11984v1",
-      "publishedAt": "2026-03-12T14:36:53Z",
-      "summary": "Diffusion-based visuomotor policies effectively capture multimodal action distributions through iterative denoising, but their high inference latency limits real-time robotic control. Recent flow matching and consistency-based methods achieve single-step generation, yet sacrifice the ability to preserve distinct action modes, collapsing multimodal behaviors into averaged, often physically infeasible trajectories.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11980v1",
-      "title": "Learning Visuomotor Policy for Multi-Robot Laser Tag Game",
-      "url": "https://arxiv.org/abs/2603.11980v1",
-      "publishedAt": "2026-03-12T14:30:04Z",
-      "summary": "In this paper, we study multi robot laser tag, a simplified yet practical shooting-game-style task. Classic modular approaches on these tasks face challenges such as limited observability and reliance on depth mapping and inter robot communication. To overcome these issues, we present an end-to-end visuomotor policy that maps images directly to robot actions.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11975v1",
-      "title": "HomeSafe-Bench: Evaluating Vision-Language Models on Unsafe Action Detection for Embodied Agents in Household Scenarios",
-      "url": "https://arxiv.org/abs/2603.11975v1",
-      "publishedAt": "2026-03-12T14:25:44Z",
-      "summary": "The rapid evolution of embodied agents has accelerated the deployment of household robots in real-world environments. However, unlike structured industrial settings, household spaces introduce unpredictable safety risks, where system limitations such as perception latency and lack of common sense knowledge can lead to dangerous errors.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11963v1",
-      "title": "Energy Prediction on Sloping Ground for Quadruped Robots",
-      "url": "https://arxiv.org/abs/2603.11963v1",
-      "publishedAt": "2026-03-12T14:09:55Z",
-      "summary": "Energy management is a fundamental challenge for legged robots in outdoor environments. Endurance directly constrains mission success, while efficient resource use reduces ecological impact. This paper investigates how terrain slope and heading orientation influence the energetic cost of quadruped locomotion.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11919v1",
-      "title": "Last-iterate Convergence of ADMM on Multi-affine Quadratic Equality Constrained Problem",
-      "url": "https://arxiv.org/abs/2603.11919v1",
-      "publishedAt": "2026-03-12T13:32:10Z",
-      "summary": "In this paper, we study a class of non-convex optimization problems known as multi-affine quadratic equality constrained problems, which appear in various applications--from generating feasible force trajectories in robotic locomotion and manipulation to training neural networks. Although these problems are generally non-convex, they exhibit convexity or related properties when all variables except one are fixed.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11890v1",
-      "title": "QUARE: Multi-Agent Negotiation for Balancing Quality Attributes in Requirements Engineering",
-      "url": "https://arxiv.org/abs/2603.11890v1",
-      "publishedAt": "2026-03-12T13:03:01Z",
-      "summary": "Requirements engineering (RE) is critical to software success, yet automating it remains challenging because multiple, often conflicting quality attributes must be balanced while preserving stakeholder intent. Existing Large-Language-Model (LLM) approaches predominantly rely on monolithic reasoning or implicit aggregation, limiting their ability to systematically surface and resolve cross-quality conflicts.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11811v1",
-      "title": "RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset",
-      "url": "https://arxiv.org/abs/2603.11811v1",
-      "publishedAt": "2026-03-12T11:18:52Z",
-      "summary": "The acquisition of large-scale physical interaction data, a critical prerequisite for modern robot learning, is severely bottlenecked by the prohibitive cost and scalability limits of human-in-the-loop collection paradigms.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11809v1",
-      "title": "HiSync: Spatio-Temporally Aligning Hand Motion from Wearable IMU and On-Robot Camera for Command Source Identification in Long-Range HRI",
-      "url": "https://arxiv.org/abs/2603.11809v1",
-      "publishedAt": "2026-03-12T11:10:54Z",
-      "summary": "Long-range Human-Robot Interaction (HRI) remains underexplored. Within it, Command Source Identification (CSI) - determining who issued a command - is especially challenging due to multi-user and distance-induced sensor ambiguity. We introduce HiSync, an optical-inertial fusion framework that treats hand motion as binding cues by aligning robot-mounted camera optical flow with hand-worn IMU signals.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11755v1",
-      "title": "Controllable Egocentric Video Generation via Occlusion-Aware Sparse 3D Hand Joints",
-      "url": "https://arxiv.org/abs/2603.11755v1",
-      "publishedAt": "2026-03-12T10:02:23Z",
-      "summary": "Motion-controllable video generation is crucial for egocentric applications in virtual reality and embodied AI. However, existing methods often struggle to achieve 3D-consistent fine-grained hand articulation. By adopting on 2D trajectories or implicit poses, they collapse 3D geometry into spatially ambiguous signals or over rely on human-centric priors.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11729v1",
-      "title": "Adapting Dijkstra for Buffers and Unlimited Transfers",
-      "url": "https://arxiv.org/abs/2603.11729v1",
-      "publishedAt": "2026-03-12T09:36:50Z",
-      "summary": "In recent years, RAPTOR based algorithms have been considered the state-of-the-art for path-finding with unlimited transfers without preprocessing. However, this status largely stems from the evolution of routing research, where Dijkstra-based solutions were superseded by timetable-based algorithms without a systematic comparison.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.11723v1",
-      "title": "Exploiting Parallelism in a QPALM-based Solver for Optimal Control",
-      "url": "https://arxiv.org/abs/2603.11723v1",
-      "publishedAt": "2026-03-12T09:29:59Z",
-      "summary": "We discuss the opportunities for parallelization in the recently proposed QPALM-OCP algorithm, a solver tailored to quadratic programs arising in optimal control. A significant part of the computational work can be carried out independently for the different stages in the optimal control problem.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://www.therobotreport.com/?p=587245",
       "title": "iRobot is bringing the Roomba Mini to the U.K. and Europe",
       "url": "https://www.therobotreport.com/irobot-brings-roomba-mini-u-k-europe/",
@@ -407,18 +100,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2603.10929v2",
-      "title": "Lifelong Imitation Learning with Multimodal Latent Replay and Incremental Adjustment",
-      "url": "https://arxiv.org/abs/2603.10929v2",
-      "publishedAt": "2026-03-11T16:13:19Z",
-      "summary": "We introduce a lifelong imitation learning framework that enables continual policy refinement across sequential tasks under realistic memory and data constraints. Our approach departs from conventional experience replay by operating entirely in a multimodal latent space, where compact representations of visual, linguistic, and robot's state information are stored and reused to support future learning.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=587236",
       "title": "TRACO Power releases TMR 8WI converters for industrial applications",
       "url": "https://www.therobotreport.com/traco-power-releases-tmr-8wi-converters-industrial-applications/",
@@ -441,16 +122,6 @@
       "tags": []
     },
     {
-      "id": "http://arxiv.org/abs/2603.10711v2",
-      "title": "Parallel-in-Time Nonlinear Optimal Control via GPU-native Sequential Convex Programming",
-      "url": "https://arxiv.org/abs/2603.10711v2",
-      "publishedAt": "2026-03-11T12:39:14Z",
-      "summary": "Real-time trajectory optimization for nonlinear constrained autonomous systems is critical and typically performed by CPU-based sequential solvers. Specifically, reliance on global sparse linear algebra or the serial nature of dynamic programming algorithms restricts the utilization of massively parallel computing architectures like GPUs.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://www.therobotreport.com/?p=587231",
       "title": "Agility, Boston Dynamics, ASTM to discuss the state of humanoid robotics",
       "url": "https://www.therobotreport.com/agility-boston-dynamics-astm-to-discuss-the-state-of-humanoid-robotics/",
@@ -470,18 +141,6 @@
       "summary": "Teradyne Robotics called on European policymakers and industry leaders to take a stronger stance against IP violations. The post Teradyne Robotics sues Chinese cobot maker over UR software appeared first on The Robot Report .",
       "source": "The Robot Report",
       "type": "news",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.09886v3",
-      "title": "Robust Cooperative Localization in Featureless Environments: A Comparative Study of DCL, StCL, CCL, CI, and Standard-CL",
-      "url": "https://arxiv.org/abs/2603.09886v3",
-      "publishedAt": "2026-03-10T16:44:24Z",
-      "summary": "Cooperative localization (CL) enables accurate position estimation in multi-robot systems operating in GPS-denied environments. This paper presents a comparative study of five CL approaches: Centralized Cooperative Localization (CCL), Decentralized Cooperative Localization (DCL), Sequential Cooperative Localization (StCL), Covariance Intersection (CI), and Standard Cooperative Localization (Standard-CL).",
-      "source": "arXiv",
-      "type": "paper",
       "tags": [
         "Robotics"
       ]
@@ -593,19 +252,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2602.04329v2",
-      "title": "Safe and Stylized Trajectory Planning for Autonomous Driving via Diffusion Model",
-      "url": "https://arxiv.org/abs/2602.04329v2",
-      "publishedAt": "2026-02-04T08:46:05Z",
-      "summary": "Achieving safe and stylized trajectory planning in complex real-world scenarios remains a critical challenge for autonomous driving systems. This paper proposes the SDD Planner, a diffusion-based framework designed to effectively reconcile safety constraints with driving styles in real time.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Planning"
-      ]
-    },
-    {
       "id": "https://blogs.nvidia.com/?p=89488",
       "title": "Into the Omniverse: Physical AI Open Models and Frameworks Advance Robots and Autonomous Systems",
       "url": "https://blogs.nvidia.com/blog/physical-ai-open-models-robot-autonomous-systems-omniverse/",
@@ -616,26 +262,6 @@
       "tags": [
         "Robotics"
       ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2601.21884v2",
-      "title": "Scalable Surface-Based Manipulation Through Modularity and Inter-Module Object Transfer",
-      "url": "https://arxiv.org/abs/2601.21884v2",
-      "publishedAt": "2026-01-29T15:46:50Z",
-      "summary": "Robotic Manipulation Surfaces (RMS) manipulate objects by deforming the surface on which they rest, offering safe, parallel handling of diverse and fragile items. However, existing designs face a fundamental tradeoff: achieving fine control typically demands dense actuator arrays that limit scalability.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2601.13799v3",
-      "title": "Linear viscoelastic rheological FrBD models",
-      "url": "https://arxiv.org/abs/2601.13799v3",
-      "publishedAt": "2026-01-20T09:57:44Z",
-      "summary": "In [1], a new modeling paradigm for developing rate-and-state-dependent, control-oriented friction models was introduced. The framework, termed Friction with Bristle Dynamics (FrBD), combines nonlinear analytical expressions for the friction coefficient with constitutive equations for bristle-like elements.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
     },
     {
       "id": "https://techcrunch.com/?p=3083601",
@@ -930,16 +556,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2509.15423v3",
-      "title": "Online Slip Detection and Friction Coefficient Estimation for Autonomous Racing",
-      "url": "https://arxiv.org/abs/2509.15423v3",
-      "publishedAt": "2025-09-18T21:02:27Z",
-      "summary": "Accurate knowledge of the tire-road friction coefficient (TRFC) is essential for vehicle safety, stability, and performance, especially in autonomous racing, where vehicles often operate at the friction limit. However, TRFC cannot be directly measured with standard sensors, and existing estimation methods either depend on vehicle or tire models with uncertain parameters or require large training datasets.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
       "id": "https://techcrunch.com/?p=3038948",
       "title": "Why Runway is eyeing the robotics industry for future revenue growth",
       "url": "https://techcrunch.com/2025/09/01/why-runway-is-eyeing-the-robotics-industry-for-future-revenue-growth/",
@@ -994,18 +610,6 @@
       "summary": "Hugging Face is releasing two versions of its desktop robot meant for designing and coding AI applications.",
       "source": "TechCrunch Robotics",
       "type": "news",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2504.21767v2",
-      "title": "Whleaper: A 10-DOF Flexible Bipedal Wheeled Robot",
-      "url": "https://arxiv.org/abs/2504.21767v2",
-      "publishedAt": "2025-04-30T16:07:44Z",
-      "summary": "Wheel-legged robots combine the advantages of both wheeled robots and legged robots, offering versatile locomotion capabilities with excellent stability on challenging terrains and high efficiency on flat surfaces. However, existing wheel-legged robots typically have limited hip joint mobility compared to humans, while hip joint plays a crucial role in locomotion.",
-      "source": "arXiv",
-      "type": "paper",
       "tags": [
         "Robotics"
       ]
