@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T21:25:52.161Z",
-  "count": 53,
+  "generatedAt": "2026-07-31T00:34:56.861Z",
+  "count": 88,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=588804",
@@ -39,6 +39,124 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.27205v1",
+      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "url": "https://arxiv.org/abs/2607.27205v1",
+      "publishedAt": "2026-07-29T17:59:58Z",
+      "summary": "Vision-language-action (VLA) models commonly adopt an LLM-centric $V \\to L \\to A$ pathway, where visual observations are projected into the representation space of a large language model before being decoded into robot actions. Although effective, this design incurs substantial computation and memory overhead at every policy invocation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "LLM",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27194v1",
+      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
+      "url": "https://arxiv.org/abs/2607.27194v1",
+      "publishedAt": "2026-07-29T17:58:04Z",
+      "summary": "Accurately recovering the camera's calibration and metric poses for any unconstrained video would unlock large-scale training data for navigation and scene understanding.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27180v1",
+      "title": "HumanCLAW: Can Vision-Language Models Act Through a Body?",
+      "url": "https://arxiv.org/abs/2607.27180v1",
+      "publishedAt": "2026-07-29T17:51:36Z",
+      "summary": "Evaluating whether a vision-language model (VLM) can act through a physical body is challenging. The outcome of an action couples the VLM's decision with motor control. When a task fails, it is hard to tell whether the VLM made a bad choice or the motor controller simply failed to execute it, e.g., losing balance and falling.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27169v1",
+      "title": "When Do Learned Diffusion Proposals Help Constraint Solving? A Controlled Study on Continuous Algebraic Systems",
+      "url": "https://arxiv.org/abs/2607.27169v1",
+      "publishedAt": "2026-07-29T17:44:31Z",
+      "summary": "Solving a continuous algebraic constraint system requires two decisions: which values satisfy the constraints, and which structural augmentation renders an unsolvable system solvable. Classical solvers answer the first well and the second only by enumeration.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27145v1",
+      "title": "Explainable and Resource-Efficient Spatial Reasoning in Multimodal LLMs for Decision-Critical Applications",
+      "url": "https://arxiv.org/abs/2607.27145v1",
+      "publishedAt": "2026-07-29T17:20:56Z",
+      "summary": "As Multimodal Large Language Models (MLLMs) are increasingly deployed in decision-critical pipelines such as robotics, embodied AI, and safety monitoring, the opacity of their spatial judgments limits operator trust and auditability. MLLMs demonstrate strong reasoning but often struggle with fine-grained spatial understanding and object hallucination.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Embodied AI",
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27138v1",
+      "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+      "url": "https://arxiv.org/abs/2607.27138v1",
+      "publishedAt": "2026-07-29T17:09:48Z",
+      "summary": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but reconstruction-trained codes may predict future observations without the structure required for joint generation with robot actions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27085v1",
+      "title": "Controlled Experiments on Lane Changing by Transitional Autonomous Vehicle: Dataset and Behavioral Insights",
+      "url": "https://arxiv.org/abs/2607.27085v1",
+      "publishedAt": "2026-07-29T16:07:44Z",
+      "summary": "This paper presents the North Carolina Transitional Autonomous Vehicle Lane-Changing (NC-tALC) dataset and uses it to characterize mandatory lane-changing behavior of transitional automated vehicles (tAVs). It quantifies the evolution of lead--lag gaps throughout the lane-change process and examines how potential collision risk develops during the maneuver.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27058v1",
+      "title": "Object Detection for Autonomous Driving in Chinese Rural Scenes: An Experimental Study on Real-Synthetic Data Mixing and Model Evaluation",
+      "url": "https://arxiv.org/abs/2607.27058v1",
+      "publishedAt": "2026-07-29T15:49:02Z",
+      "summary": "Currently, autonomous driving object detection models face significant data scarcity and generalization challenges when navigating complex Chinese rural traffic scenarios.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27036v1",
+      "title": "Mitigating Compounding Error via Video Representation Regularization",
+      "url": "https://arxiv.org/abs/2607.27036v1",
+      "publishedAt": "2026-07-29T15:29:39Z",
+      "summary": "Video diffusion-based world models enable long autoregressive video generation for robotics, autonomous driving and simulation tasks, yet sliding-window autoregressive inference suffers from severe error accumulation that degrades frame quality over time.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.27017v1",
+      "title": "What Can Latent World Models Know? Physical Parameter Identifiability in Multimodal Predictive Representations",
+      "url": "https://arxiv.org/abs/2607.27017v1",
+      "publishedAt": "2026-07-29T15:15:30Z",
+      "summary": "A central premise of latent world models is that predicting the future forces a representation to internalize the physics of its environment. Which physical quantities does a trained latent actually contain, and what decides this? We answer with controlled interventions in POKEWORLD, an interactive environment whose visually identical objects hide mass, drag, and contact stiffness.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=588979",
       "title": "GMEX Robotics to acquire MediaMeta.ai for social intelligence",
       "url": "https://www.therobotreport.com/gmex-robotics-to-acquire-mediameta-ai-social-intelligence/",
@@ -51,6 +169,42 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.26991v1",
+      "title": "RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2607.26991v1",
+      "publishedAt": "2026-07-29T14:49:56Z",
+      "summary": "Despite the impressive visuomotor capabilities enabled by Vision-Language-Action (VLA) models, their performance often degrades on challenging and out-of-domain tasks. Recent test-time steering and scaling methods improve performance without extensive data collection and retraining, but action samples often remain concentrated around similar behaviors and therefore inherit correlated failure modes.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26985v1",
+      "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
+      "url": "https://arxiv.org/abs/2607.26985v1",
+      "publishedAt": "2026-07-29T14:41:02Z",
+      "summary": "Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26980v1",
+      "title": "Dense Soft Weighting for Radar Ego-Velocity Estimation",
+      "url": "https://arxiv.org/abs/2607.26980v1",
+      "publishedAt": "2026-07-29T14:37:52Z",
+      "summary": "Sensing ego-velocity estimation is fundamental to state estimation in visually degraded environments, where camera- and LiDAR-based pipelines can become unreliable. Millimetre-wave radar is well suited to these conditions because it provides direct Doppler velocity sensing and remains robust to poor illumination, textureless scenes, and airborne particulates.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=588984",
       "title": "Experts react to FCC limits on U.S. imports of new humanoid and mobile robots",
       "url": "https://www.therobotreport.com/industry-reacts-fcc-ban-u-s-imports-new-humanoid-quadruped-robots/",
@@ -61,6 +215,125 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26941v1",
+      "title": "Instability-induced bistable shape-morphing kirigami structures",
+      "url": "https://arxiv.org/abs/2607.26941v1",
+      "publishedAt": "2026-07-29T14:10:07Z",
+      "summary": "Deployable shape-morphing structures that transform from flat sheets into stable three-dimensional configurations are highly desirable for applications ranging from soft robotics and biomedical devices to adaptive architecture and aerospace systems.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26924v1",
+      "title": "Temporally Centered SIGReg Improves Multi-Task LeWorldModel Learning: From Analysis to Method",
+      "url": "https://arxiv.org/abs/2607.26924v1",
+      "publishedAt": "2026-07-29T13:54:52Z",
+      "summary": "Recent work on LeWorldModel (LeWM) has shown that the Sketched Isotropic Gaussian Regularizer (SIGReg) enables stable end-to-end world-model learning from pixels by regularizing the latent marginal distribution toward an isotropic Gaussian, thereby preventing representation collapse.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26914v1",
+      "title": "BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories",
+      "url": "https://arxiv.org/abs/2607.26914v1",
+      "publishedAt": "2026-07-29T13:44:46Z",
+      "summary": "Biomedical laboratory robots must navigate to instruments before performing experimental procedures. Existing embodied navigation platforms are designed for household environments and treat a target as an object center or an arbitrary nearby position.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26903v1",
+      "title": "From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence",
+      "url": "https://arxiv.org/abs/2607.26903v1",
+      "publishedAt": "2026-07-29T13:35:23Z",
+      "summary": "The key bottleneck in embodied AI is not model architecture but data. Although billions of human manipulation videos exist online, robots cannot directly learn from them due to the embodiment gap between human morphology and robot hardware. We introduce Pegasus, a low-resource framework that bridges this gap by translating human demonstrations into robot-learnable data through structured knowledge transfer.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Embodied AI"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26901v1",
+      "title": "Convex Collision-Free Regions",
+      "url": "https://arxiv.org/abs/2607.26901v1",
+      "publishedAt": "2026-07-29T13:33:37Z",
+      "summary": "Convex Collision-Free Regions (CCFR) is a collision handling method that explicitly represents local convex feasible regions to enforce non-penetration. Each feasible region is constructed from surrounding mesh primitive configurations, including edge-edge and vertex-face interactions. The resulting convex region represents admissible non-penetrating vertex displacements at the current configuration.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26889v1",
+      "title": "StructureGS: Structure-aware Gaussian Splatting for Articulated Object Reconstruction",
+      "url": "https://arxiv.org/abs/2607.26889v1",
+      "publishedAt": "2026-07-29T13:18:38Z",
+      "summary": "Reconstructing articulated objects with multiple movable parts is essential for understanding object structure and enabling physical interaction. However, this reconstruction task poses significant challenges due to the entanglement of geometry, appearance, and motion parameters during optimization.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26865v1",
+      "title": "Think Short, Defer Smart, Act, and Repeat: Calibrated Reasoning and Uncertainty-Aware Deferral for Edge LLM Agents",
+      "url": "https://arxiv.org/abs/2607.26865v1",
+      "publishedAt": "2026-07-29T12:47:05Z",
+      "summary": "LLM agents following the ReAct paradigm are promising enablers of complex multi-step tasks, including multi-hop question answering, code generation, and control of physical AI systems. Yet, when deployed at the edge, they must tightly manage their reasoning budget while remaining reliable and deferring to a cloud-side model only when local uncertainty is too high to act safely.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26855v1",
+      "title": "NeoRacer: An Open, Standardized 1:12 Scale Autonomous Race Car for Benchmarking and Education",
+      "url": "https://arxiv.org/abs/2607.26855v1",
+      "publishedAt": "2026-07-29T12:39:39Z",
+      "summary": "Many scientific fields rely on standard benchmarks and shared platforms to improve review and reproducibility, but autonomous systems research still lacks widely accepted open hardware. Where standardization has emerged, progress has accelerated.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26817v1",
+      "title": "From Uncertainty to Determinism: Coarse-to-Fine Visual Floorplan Localization without Ray Matching",
+      "url": "https://arxiv.org/abs/2607.26817v1",
+      "publishedAt": "2026-07-29T12:10:00Z",
+      "summary": "Visual Floorplan Localization (FLoc) has emerged as a promising solution for indoor localization by matching egocentric images against minimalist structural maps. However, due to cross-modal information asymmetry and repetitive indoor layouts, visual FLoc is fundamentally challenged by multimodal pose distributions, where visually identical observations map to distinct, spatially separated locations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26809v1",
+      "title": "Practice Makes Policies: Bootstrapping and Consolidating Robotic Capabilities from Zero Human Demonstrations",
+      "url": "https://arxiv.org/abs/2607.26809v1",
+      "publishedAt": "2026-07-29T11:51:41Z",
+      "summary": "General-purpose robotic manipulation requires robots to perform diverse tasks in open-world environments while improving their skills over time. Despite recent progress in robotic manipulation, existing systems still primarily acquire manipulation skills in a static manner, where capabilities are learned for specific tasks or settings rather than adaptively evolving through physical interaction.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.26807v1",
+      "title": "Route by Kinematics, Act by Observation: Kinematics-Supervised Expert Routing in MoE-Augmented VLA",
+      "url": "https://arxiv.org/abs/2607.26807v1",
+      "publishedAt": "2026-07-29T11:48:45Z",
+      "summary": "While MoE augments VLA via expert specialization, router suffers from ineffective expert routing owing to the kinematic heterogeneity of actions across manipulation tasks and, even worse, the unavailability of the kinematic signals at inference time. In this work, we first observe that most semantically distinct manipulation tasks reduce to multiple kinematic archetypes.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://www.therobotreport.com/?p=588976",
@@ -157,6 +430,16 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.24852v2",
+      "title": "Track-Leakage-Free Hold-Out Self-Validation for Photogrammetric Reconstruction: Protocol, Sensitivity, and Limits",
+      "url": "https://arxiv.org/abs/2607.24852v2",
+      "publishedAt": "2026-07-25T17:00:11Z",
+      "summary": "Automated photogrammetric inspection emits metric measurements from reconstructions whose correctness is normally unknown without an external survey. Can a reconstruction estimate its own reliability with no ground truth, and what would such an estimate measure?",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=588944",
       "title": "Photos: First look at J&#038;J&#8217;s Ottava surgical robot",
       "url": "https://www.therobotreport.com/photos-first-look-at-jjs-ottava-surgical-robot/",
@@ -214,6 +497,19 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.19880v2",
+      "title": "EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness",
+      "url": "https://arxiv.org/abs/2607.19880v2",
+      "publishedAt": "2026-07-22T08:10:49Z",
+      "summary": "Cross-embodiment navigation is a key challenge in embodied intelligence. Due to differences in embodiment, the same visual observation may imply different actions for different agents, making prediction ambiguous when relying solely on vision.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "Vision"
       ]
     },
     {
@@ -336,6 +632,30 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2606.25765v2",
+      "title": "StairMaster: Learning to Conquer Risky Hollow Stairs for Agile Quadrupedal Robots",
+      "url": "https://arxiv.org/abs/2606.25765v2",
+      "publishedAt": "2026-06-24T12:42:06Z",
+      "summary": "Climbing hollow stairs remains a challenging problem for quadruped robots due to the high risk of leg trapping, severe depth sparsity, and high-frequency depth-sensing noise. In this paper, we propose StairMaster, a novel three-stage reinforcement learning framework for stable locomotion on such extreme discontinuous terrains.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.18426v2",
+      "title": "VEGA: Learning Navigation VLAs from In-the-Wild Egocentric Video with Geometric Trajectory Supervision",
+      "url": "https://arxiv.org/abs/2606.18426v2",
+      "publishedAt": "2026-06-16T19:21:14Z",
+      "summary": "We introduce VEGA, an approach for training navigation VisionLanguage-Action (VLA) models from unlabeled egocentric navigation videos. Internet-scale egocentric videos provide a scalable source of navigation-relevant visual observations, capturing cluttered scenes, close-range obstacles, and natural human motion through real-world spaces.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=94344",
       "title": "For Robotaxis, Safety Must Be Built In, Not Bolted On",
       "url": "https://blogs.nvidia.com/blog/halos-os-robotaxi-safety/",
@@ -414,6 +734,19 @@
       "tags": []
     },
     {
+      "id": "http://arxiv.org/abs/2606.00537v2",
+      "title": "PACE: Phase-Aware Chunk Execution for Robot Policies with Action Chunking",
+      "url": "https://arxiv.org/abs/2606.00537v2",
+      "publishedAt": "2026-05-30T05:11:06Z",
+      "summary": "Recent vision-language-action and diffusion-based robot policies often use action chunking, where each policy query predicts a sequence of future actions and the robot executes an open-loop prefix before re-querying. While this interface improves local motion continuity, deployment still requires choosing the execution horizon: how much of each predicted chunk should be executed before acquiring a new observation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=93433",
       "title": "NVIDIA Research Advances Robotics From Simulation to the Real World",
       "url": "https://blogs.nvidia.com/blog/icra-research-robotics-simulation-to-real-world/",
@@ -424,6 +757,29 @@
       "tags": [
         "Robotics",
         "Embodied AI"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2605.21329v2",
+      "title": "Smart strategies to navigate turbulent odor plumes reorienting to local wind",
+      "url": "https://arxiv.org/abs/2605.21329v2",
+      "publishedAt": "2026-05-20T15:57:25Z",
+      "summary": "Olfactory search in turbulent environments is a sensorimotor problem that many animals solve with remarkable efficiency, yet replicating this ability in artificial systems is an enduring challenge because detections are intermittent and wind direction fluctuates strongly, rendering standard search strategies unreliable.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2605.08293v3",
+      "title": "Distill, Diffuse, Segment: Unsupervised 3D Semantic Segmentation for Autonomous Driving Based on Multi-Level Distillation and Graph Diffusion",
+      "url": "https://arxiv.org/abs/2605.08293v3",
+      "publishedAt": "2026-05-08T09:39:59Z",
+      "summary": "LiDAR-based semantic segmentation is essential for autonomous-driving perception, yet dense point-wise annotations are costly, and long-tailed outdoor scenes make small safety-critical objects difficult to discover without supervision.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Vision"
       ]
     },
     {
@@ -469,6 +825,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2603.18271v3",
+      "title": "SG-CoT: An Ambiguity-Aware Robotic Planning Framework using Scene Graph Representations",
+      "url": "https://arxiv.org/abs/2603.18271v3",
+      "publishedAt": "2026-03-18T20:44:34Z",
+      "summary": "Ambiguity poses a major challenge to large language models (LLMs) used as robotic planners. In this letter, we present Scene Graph-Chain-of-Thought (SG-CoT), a two-stage framework where LLMs iteratively query a scene graph representation of the environment to detect and clarify ambiguities.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "LLM",
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3103116",
       "title": "Gecko Robotics lands the largest US Navy robotics deal yet",
       "url": "https://techcrunch.com/2026/03/17/gecko-robotics-lands-the-largest-u-s-navy-robotics-deal-yet/",
@@ -491,6 +860,16 @@
       "tags": [
         "Robotics"
       ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2602.19366v2",
+      "title": "Self-Configurable Mesh-Networks for Scalable Distributed Submodular Bandit Optimization",
+      "url": "https://arxiv.org/abs/2602.19366v2",
+      "publishedAt": "2026-02-22T22:36:37Z",
+      "summary": "We study how to scale distributed bandit submodular coordination under realistic communication constraints in bandwidth, data rate, and connectivity. We are motivated by multi-agent tasks of active situational awareness in unknown, partially-observable, and resource-limited environments, where the agents must coordinate through agent-to-agent communication.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
     },
     {
       "id": "https://techcrunch.com/?p=3091866",
@@ -565,6 +944,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2512.08574v2",
+      "title": "RVC-NMPC: Nonlinear Model Predictive Control with Reciprocal Velocity Constraints for Mutual Collision Avoidance in Agile UAV Flight",
+      "url": "https://arxiv.org/abs/2512.08574v2",
+      "publishedAt": "2025-12-09T13:13:27Z",
+      "summary": "This paper presents an approach to mutual collision avoidance based on Nonlinear Model Predictive Control (NMPC) with time-dependent Reciprocal Velocity Constraints (RVCs). Unlike most existing methods, the proposed approach relies solely on observable information about other robots, eliminating the need for excessive communication.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3069331",
       "title": "This Khosla-backed startup can track drones, trucks, and robotaxis, inch by inch",
       "url": "https://techcrunch.com/2025/11/20/this-khosla-based-startup-can-track-drones-trucks-and-robotaxis-inch-by-inch/",
@@ -608,6 +999,20 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.12346v2",
+      "title": "PolygMap: A Perceptive Locomotion Framework for Humanoid Robot Stair Climbing",
+      "url": "https://arxiv.org/abs/2510.12346v2",
+      "publishedAt": "2025-10-14T10:00:05Z",
+      "summary": "Recently, biped robot walking technology has been significantly developed, mainly in the context of a bland walking scheme. To emulate human walking, robots need to step on the positions they see in unknown spaces accurately. In this paper, we present PolyMap, a perception-based locomotion planning framework for humanoid robots to climb stairs.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision",
+        "Planning"
       ]
     },
     {
