@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T01:14:43.613Z",
+  "generatedAt": "2026-08-07T03:58:04.594Z",
   "count": 88,
   "items": [
     {
@@ -10,6 +10,55 @@
       "summary": "The latest agreement expands HII's HYPER Program, which Path Robotics and GrayMatter Robotics joined earlier this year. The post HII signs up to $900M agreement with Path Robotics, GrayMatter Robotics appeared first on The Robot Report .",
       "source": "The Robot Report",
       "type": "news",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06375v1",
+      "title": "$ω$-0: A Latent Predictive World Action Model for Concurrent Humanoid Loco-Manipulation",
+      "url": "https://arxiv.org/abs/2608.06375v1",
+      "publishedAt": "2026-08-06T17:59:31Z",
+      "summary": "Humanoid household tasks often require concurrent loco-manipulation, where the robot must move, adjust posture, maintain balance, and manipulate objects as a single coordinated behavior. Yet existing humanoid policies typically decompose locomotion and manipulation, while recent world-action models remain either arm-centric or video-centered.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06374v1",
+      "title": "DyPES-VLA: Learning Shared Dynamics Priors and Embodiment-Specific Control for Cross-Embodiment Manipulation",
+      "url": "https://arxiv.org/abs/2608.06374v1",
+      "publishedAt": "2026-08-06T17:59:20Z",
+      "summary": "Vision-Language-Action (VLA) models have become a powerful paradigm for robot manipulation, but training a single generalist policy for heterogeneous robot embodiments remains an open problem. Existing methods have two main limitations. First, they underuse dynamics priors shared across diverse visual and interaction data, limiting cross-embodiment transfer.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06354v1",
+      "title": "A Master-Salve Robot Manipulator for Needle-Based Teleoperation in MRI Chamber",
+      "url": "https://arxiv.org/abs/2608.06354v1",
+      "publishedAt": "2026-08-06T17:53:32Z",
+      "summary": "We present a MR safe, master-slave robot manipulator for abdominal interventions in the MRI chamber. A human operated 2+1-DoF master controller manipulator transmits motion and force to a 2+1-DoF slave manipulator via fluid transmission.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2608.06332v1",
+      "title": "GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions",
+      "url": "https://arxiv.org/abs/2608.06332v1",
+      "publishedAt": "2026-08-06T17:40:32Z",
+      "summary": "Generalist robot policies exhibit strong capabilities, but their robustness in complex and unseen environments remains limited. Scaling robot learning and evaluation in diverse real-world environments remains costly and challenging. Action-conditioned world models offer a promising alternative, but they often suffer from limited action controllability and poor generalization to out-of-distribution (OOD) scenarios.",
+      "source": "arXiv",
+      "type": "paper",
       "tags": [
         "Robotics"
       ]
@@ -260,53 +309,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2608.05903v1",
-      "title": "Robust-WAM: Bridging Generative Pretraining and Semantic Foresight in World-Action Models",
-      "url": "https://arxiv.org/abs/2608.05903v1",
-      "publishedAt": "2026-08-06T11:31:56Z",
-      "summary": "Mainstream World-Action Models (WAMs) adapt pretrained video generation models (VGMs) for robot control, transferring their learned dynamics prior for action prediction. These VGMs are typically trained in a variational autoencoder (VAE) latent space. However, the VAE latent space is optimized for pixel reconstruction, which rewards fine appearance detail and leaves the action prediction fragile under visual shifts.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.05858v1",
-      "title": "Shape-Aware Oriented Bounding Box (OBB) to Horizontal Bounding Box (HBB) Conversion",
-      "url": "https://arxiv.org/abs/2608.05858v1",
-      "publishedAt": "2026-08-06T10:39:12Z",
-      "summary": "Accurate object detection in aerial and satellite imagery is dependent upon the bounding box representation. This is especially true for spatially oriented objects such as ships or aircrafts.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.05830v1",
-      "title": "Coordinated Multi-Robot Disassembly for Makespan Optimization of Large-Scale Assemblies",
-      "url": "https://arxiv.org/abs/2608.05830v1",
-      "publishedAt": "2026-08-06T09:59:42Z",
-      "summary": "Multi-robot task and motion planning for disassembly tasks requires robots to operate in confined workspaces while coordinating their motions with other robots. To tackle this problem, we propose a planning method called coordinated multi-robot disassembly (CoMuDi). CoMuDi coordinates a team of robots for disassembly tasks. The input is a team of robots, an assembly of objects, and a dependency graph.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2608.05799v1",
-      "title": "XEWorld: Can Action-Conditioned World Models Generalize to Unseen Robot Embodiments?",
-      "url": "https://arxiv.org/abs/2608.05799v1",
-      "publishedAt": "2026-08-06T09:35:33Z",
-      "summary": "Action-conditioned world models are promising learned simulators for robotic manipulation, yet evaluating them exclusively on training robots fails to reveal whether they capture physical dynamics or merely memorize visual patterns.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=589064",
       "title": "Avnet and Weston Robot partner to launch edge AI inspection platform",
       "url": "https://www.therobotreport.com/avnet-and-weston-robot-partner-to-launch-edge-ai-inspection-platform/",
@@ -484,6 +486,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.28443v3",
+      "title": "One Future, Every Robot: Label-Efficient Collective-State Prediction with Decentralized JEPA",
+      "url": "https://arxiv.org/abs/2607.28443v3",
+      "publishedAt": "2026-07-30T16:16:08Z",
+      "summary": "Decentralized robots often need a common view of what their team is becoming, even though each robot sees different evidence and cannot rely on a central estimate or output-level consensus. We ask whether compatible collective-state predictions can emerge under this constraint.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=96921",
       "title": "Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson",
       "url": "https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/",
@@ -518,6 +532,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.18540v2",
+      "title": "Recti-Q: Feature-Space Rectification for Out-of-Distribution-Robust Quantized Perception in Edge Robotics",
+      "url": "https://arxiv.org/abs/2607.18540v2",
+      "publishedAt": "2026-07-20T22:14:04Z",
+      "summary": "Robotic perception pipelines increasingly rely on large vision backbones deployed on SWaP-constrained edge platforms, making post-training quantization (PTQ) attractive for real-time inference.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=96146",
       "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
       "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
@@ -525,6 +552,18 @@
       "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers capable of running foundation models at the edge. To meet that need, NVIDIA today introduced the T3000 and T2000, new modules based on the NVIDIA Thor architecture that enable mass-market robotics and edge AI [&#8230;]",
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2607.11785v2",
+      "title": "MIRA: A Modular Open-Source Micro-UAV for Indoor Research",
+      "url": "https://arxiv.org/abs/2607.11785v2",
+      "publishedAt": "2026-07-13T16:37:07Z",
+      "summary": "Indoor robotics research increasingly uses micro-UAV platforms whose airframes, electronics, and control software are open to modification.",
+      "source": "arXiv",
+      "type": "paper",
       "tags": [
         "Robotics"
       ]
@@ -646,18 +685,6 @@
       "type": "paper",
       "tags": [
         "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2606.24445v2",
-      "title": "Legible and Intuitive Multi-modal Robot State and Intent Communication Validated in Online and Real-world Studies",
-      "url": "https://arxiv.org/abs/2606.24445v2",
-      "publishedAt": "2026-06-23T11:27:17Z",
-      "summary": "Effective robot-to-human communication can increase transparency and trust, reduce uncertainty, and contribute to safer collaboration in shared workspaces.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
       ]
     },
     {
@@ -803,31 +830,6 @@
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
       "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2604.11402v2",
-      "title": "SCD4VPR: Multi-modal Scene Change Detection for Long-term Visual Place Recognition Database Update",
-      "url": "https://arxiv.org/abs/2604.11402v2",
-      "publishedAt": "2026-04-13T12:43:35Z",
-      "summary": "Long-term autonomy in mobile robotics requires maps that remain accurate as environments change over time. Visual Place Recognition (VPR), a core localization capability, degrades sharply as the temporal gap between query and database images grows, particularly across seasonal transitions.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2603.26320v4",
-      "title": "DFM-VLA: Iterative Action Refinement for Robot Manipulation via Discrete Flow Matching",
-      "url": "https://arxiv.org/abs/2603.26320v4",
-      "publishedAt": "2026-03-27T11:38:43Z",
-      "summary": "Vision-Language-Action (VLA) models that encode actions using a discrete tokenization scheme have been widely adopted for robotic manipulation, but existing decoding paradigms remain fundamentally limited. Whether actions are decoded sequentially by autoregressive VLAs or in parallel by discrete diffusion VLAs, once a token is generated, it is typically fixed and cannot be revised in subsequent iterations.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
     },
     {
       "id": "https://techcrunch.com/?p=3103116",
