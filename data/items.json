@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T03:11:57.924Z",
+  "generatedAt": "2026-09-09T06:17:05.640Z",
   "count": 88,
   "items": [
     {
@@ -24,6 +24,66 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09158v1",
+      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+      "url": "https://arxiv.org/abs/2609.09158v1",
+      "publishedAt": "2026-09-08T17:59:55Z",
+      "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09155v1",
+      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
+      "url": "https://arxiv.org/abs/2609.09155v1",
+      "publishedAt": "2026-09-08T17:59:47Z",
+      "summary": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09148v1",
+      "title": "Proxy Policy Steering",
+      "url": "https://arxiv.org/abs/2609.09148v1",
+      "publishedAt": "2026-09-08T17:59:03Z",
+      "summary": "Generalist robot policies carry broad manipulation priors from large-scale data, but specializing them to a new task remains the deployment bottleneck. This requires eliciting task-specific behavior from limited demonstrations without degrading their broad capabilities.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09137v1",
+      "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+      "url": "https://arxiv.org/abs/2609.09137v1",
+      "publishedAt": "2026-09-08T17:55:28Z",
+      "summary": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.09119v1",
+      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+      "url": "https://arxiv.org/abs/2609.09119v1",
+      "publishedAt": "2026-09-08T17:47:43Z",
+      "summary": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -275,65 +335,6 @@
       "url": "https://arxiv.org/abs/2609.08678v1",
       "publishedAt": "2026-09-08T12:44:38Z",
       "summary": "In multi-party human-robot interaction, a robot must continuously decide whom to address and what to say to participate effectively in the conversation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.08673v1",
-      "title": "BIFTA: Brain-Inspired Few-Shot Tactile Adaptation for Unknown Sensors",
-      "url": "https://arxiv.org/abs/2609.08673v1",
-      "publishedAt": "2026-09-08T12:39:36Z",
-      "summary": "Advances in tactile sensing have made contact-rich perception possible, accelerating progress in robotic manipulation, material understanding, and embodied interaction. However, because optical design, elastomer mechanics, and imaging geometry differ substantially across tactile sensors, models trained on known sensor types can suffer an abrupt performance collapse on unknown sensors.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.08669v1",
-      "title": "Learning to build covering structures with continuous adjustments",
-      "url": "https://arxiv.org/abs/2609.08669v1",
-      "publishedAt": "2026-09-08T12:32:42Z",
-      "summary": "Robotic construction offers the potential to use materials more efficiently and create complex geometries, but current methods rely on rigid, high-precision plans that cannot accommodate the tolerances, inaccuracies, and unexpected changes inherent in physical fabrication.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.08642v1",
-      "title": "SUN: Reaching for Novelty in Reinforcement Learning",
-      "url": "https://arxiv.org/abs/2609.08642v1",
-      "publishedAt": "2026-09-08T12:12:13Z",
-      "summary": "Exploration in reinforcement learning (RL) remains a fundamental challenge. Recent goal-conditioned RL strategies (which select goals to encourage broader state coverage) have shown promising results, but none scores a goal by novelty and reachability jointly: the two signals are traded off by hand, applied in sequence, or one is neglected outright.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.08638v1",
-      "title": "CASD: Chunk-Aligned Semantic Distillation for Multi-StageRobot Manipulation",
-      "url": "https://arxiv.org/abs/2609.08638v1",
-      "publishedAt": "2026-09-08T12:07:52Z",
-      "summary": "An action chunk can span several stages of a manipulation task, yet a label for its first step describes only the current stage. We introduce Chunk-Aligned Semantic Distillation (CASD), which derives semantic targets for entire action chunks. An offline vision--language model segments demonstrations into described stages.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.08636v1",
-      "title": "From Where to How: Continuous 4D Interaction Forecasting from Egocentric Video",
-      "url": "https://arxiv.org/abs/2609.08636v1",
-      "publishedAt": "2026-09-08T12:06:23Z",
-      "summary": "Egocentric 4D interaction forecasting aims to anticipate both where future interactions will occur in 3D and how the human body will move to realize them, providing an important capability for assistive robotics and human-computer interaction.",
       "source": "arXiv",
       "type": "paper",
       "tags": [
