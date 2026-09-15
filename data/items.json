@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-15T15:10:01.982Z",
-  "count": 53,
+  "generatedAt": "2026-09-15T18:10:59.672Z",
+  "count": 88,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=589548",
@@ -51,6 +51,118 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2609.15988v1",
+      "title": "ResSafe: Learning Safety Filtering with Residual Reinforcement Learning for Humanoids",
+      "url": "https://arxiv.org/abs/2609.15988v1",
+      "publishedAt": "2026-09-14T17:59:50Z",
+      "summary": "Safe control of humanoid robots remains challenging due to their high-dimensional dynamics, contact-rich interactions, and sensitivity to disturbances. Although reinforcement learning has enabled effective locomotion and motion tracking, learned policies can still generate unsafe actions that lead to instability or falls.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15976v1",
+      "title": "MessyMem: Learning-from-Doing Memory for Mobile Manipulation",
+      "url": "https://arxiv.org/abs/2609.15976v1",
+      "publishedAt": "2026-09-14T17:56:49Z",
+      "summary": "Mobile manipulators deployed across many rooms and visits should improve with experience: after discovering that a cabinet is locked or finding an object in a drawer, the robot should reuse that knowledge rather than start each task from scratch.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15973v1",
+      "title": "Discovery Foundation Models: Toward Open-Ended Discovery Intelligence",
+      "url": "https://arxiv.org/abs/2609.15973v1",
+      "publishedAt": "2026-09-14T17:56:00Z",
+      "summary": "Foundation models have progressed from learning and reasoning over existing knowledge, to increasingly learning through action, tool use, and outcome feedback. We argue that the next frontier is a further transition: from solving and acting within problems specified by humans to participating in the process by which new problems, representations, explanations, and knowledge are created.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15940v1",
+      "title": "Beyond Single-Axis Testing: Paired Evaluation of Compound Robustness in Vision-Language-Action Policies",
+      "url": "https://arxiv.org/abs/2609.15940v1",
+      "publishedAt": "2026-09-14T17:44:54Z",
+      "summary": "Vision-language-action policies are typically evaluated one perturbation at a time, providing a useful diagnosis of their sensitivity to individual distribution shifts. Real-world deployment, however, may involve several shifts simultaneously, and it remains unclear how these individual robustness measurements compose. We ask whether compound robustness can be inferred from single-axis evaluations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15921v1",
+      "title": "Touch2Trace: Tactile-Driven Imitation Learning for Dexterous Cable Tracing",
+      "url": "https://arxiv.org/abs/2609.15921v1",
+      "publishedAt": "2026-09-14T17:32:25Z",
+      "summary": "Dexterous manipulation of deformable objects demands continuous fingertip-level regulation of pressure, friction, and incipient slip. We study one of the most challenging cases: dexterous cable tracing, feeding a cable through the hand with repeated pinch-and-curl motions of the thumb and index finger.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15910v1",
+      "title": "SlipSense: Multimodal Tactile Learning for Low-Latency and Generalized Slip Detection",
+      "url": "https://arxiv.org/abs/2609.15910v1",
+      "publishedAt": "2026-09-14T17:23:59Z",
+      "summary": "Slip detection is fundamental to dexterous manipulation, yet existing systems often lack precise characterization of detection latency and cross-platform generalization. We present SlipSense, a multimodal tactile slip-detection framework built on TacV5, a compact sensor integrating a $32 \\times 32$ piezoresistive array operating at 240 Hz and a 3-axis MEMS accelerometer operating at 8 kHz.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15895v1",
+      "title": "Goal-Oriented Communications for Physical AI: Design and Testbed",
+      "url": "https://arxiv.org/abs/2609.15895v1",
+      "publishedAt": "2026-09-14T17:16:23Z",
+      "summary": "Physical AI relies on frequently-updated, latency-sensitive video stream to perceive, reason, and interact with the physical world, resulting in strict latency requirements with much higher data volumes that existing 5G networks cannot support. Goal-oriented communication (GoC) offers as a promising approach to solve this challenge by transmitting only task-relevant semantic representations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15870v1",
+      "title": "WLA$^3$: World Latent Action Modeling for Semantics, Dynamics, and Kinematics",
+      "url": "https://arxiv.org/abs/2609.15870v1",
+      "publishedAt": "2026-09-14T16:59:00Z",
+      "summary": "Scaling generalist policy models with heterogeneous data is limited by the lack of unified, low-noise action supervision. Human egocentric videos are abundant, but only a small fraction comes with high-quality hand-action labels. Observed world transitions offer a common source of action-related supervision across data sources.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15861v1",
+      "title": "DuctAM: A Duct-Assisted Quadrotor-Based Aerial Manipulator Enabling High-Force Push-and-Pull Interactions",
+      "url": "https://arxiv.org/abs/2609.15861v1",
+      "publishedAt": "2026-09-14T16:54:11Z",
+      "summary": "Uncrewed Aerial Manipulators (UAMs) extend the capabilities of Uncrewed Aerial Vehicles (UAVs) from perception to physical interaction. Among various aerial interactions, push-and-pull operations are fundamental manipulation primitives that require sustained horizontal forces while maintaining stable flight.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15840v1",
+      "title": "Uncertainty-Guided Sparse Refinement for Action Chunking Transformer Policies",
+      "url": "https://arxiv.org/abs/2609.15840v1",
+      "publishedAt": "2026-09-14T16:37:35Z",
+      "summary": "Learning chunk-based visuomotor policies for long-horizon robot manipulation remains challenging. Recent action-chunking methods have shown promising performance by predicting temporally extended action sequences.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
       "id": "https://www.therobotreport.com/?p=589529",
       "title": "Arm to discuss scaling physical AI at RoboBusiness",
       "url": "https://www.therobotreport.com/arm-to-discuss-scaling-physical-ai-at-robobusiness/",
@@ -63,6 +175,96 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2609.15770v1",
+      "title": "JEPLO: Joint-Embedding Predictive Learning for LiDAR-Based Legged Locomotion",
+      "url": "https://arxiv.org/abs/2609.15770v1",
+      "publishedAt": "2026-09-14T15:54:26Z",
+      "summary": "Light detection and ranging (LiDAR) remains less explored than RGB-D sensing for perceptive legged locomotion, and existing LiDAR-based approaches often rely on explicit mapping. We present JEPLO (Joint-Embedding Predictive learning for legged LOcomotion), a single-stage learning framework for mapping-free, LiDAR-based perceptive locomotion for legged robots.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15726v1",
+      "title": "Bench2Dex: Benchmarking Visuo-Tactile Bimanual Dexterous Manipulation Across Dexterous Hands",
+      "url": "https://arxiv.org/abs/2609.15726v1",
+      "publishedAt": "2026-09-14T15:22:59Z",
+      "summary": "Tactile sensing provides contact information that can be difficult to infer from vision alone, but tactile hardware for dexterous hands has not converged to a common design. Dexterous hands differ in finger structure, contact surfaces, and sensor layouts, while simulated tactile signals still differ from measurements produced by physical sensors.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15716v1",
+      "title": "Continuous Manifold-Decomposed Impedance Retargeting for Contact-Rich Imitation Learning",
+      "url": "https://arxiv.org/abs/2609.15716v1",
+      "publishedAt": "2026-09-14T15:16:34Z",
+      "summary": "CMDIR extends Manifold-Decomposed Impedance Retargeting (MDIR) to transform fixed-impedance demonstrations into continuous variable-impedance controllers, which can also serve as structured supervision for imitation learning. Continuous Task-Manifold Impedance Representation (TMIR) pairs an evolving task frame with controller instructions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15680v1",
+      "title": "Volumetric Harmonic Field Navigation for Quadrotors",
+      "url": "https://arxiv.org/abs/2609.15680v1",
+      "publishedAt": "2026-09-14T14:53:37Z",
+      "summary": "Quadrotor navigation in cluttered 3-D environments requires global guidance while local motion remains subject to collision and motion limits. Harmonic potentials provide dense guidance from a global boundary value problem, but coupling a volumetric harmonic field to constrained physical quadrotor motion remains an open experimental problem.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15667v1",
+      "title": "Tracking the Ground: Online Lidar Identification of Robot-Induced Soil Deformation in Agricultural Environments",
+      "url": "https://arxiv.org/abs/2609.15667v1",
+      "publishedAt": "2026-09-14T14:47:31Z",
+      "summary": "Agriculture faces many challenges, and robotic systems can play an important role in addressing them by improving the efficiency and sustainability of field operations. Among these challenges, preserving soil health is a critical concern, as vehicle-soil interactions can degrade the soil structure and produce unwanted surface deformation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15631v1",
+      "title": "Flow-Matched Motion Priors: Online Optimal-Transport Rewards for Imitation Learning",
+      "url": "https://arxiv.org/abs/2609.15631v1",
+      "publishedAt": "2026-09-14T14:21:16Z",
+      "summary": "Learning a motion prior requires a reward that guides a policy from its current behavior toward demonstrated motion. Adversarial Motion Priors (AMP) provide such a reward with a discriminator. However, adversarial objectives can become uninformative when policy and expert supports are far apart. A naive use of optimal transport (OT) averages matched expert successors into a barycentric target.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15587v1",
+      "title": "An Information-Space Perspective to Scene Graph Sufficiency for Robotic Task Planning",
+      "url": "https://arxiv.org/abs/2609.15587v1",
+      "publishedAt": "2026-09-14T13:55:41Z",
+      "summary": "Planning in complex environments requires task specifications grounded in representations that capture objects, relations, and affordances; scene graphs meet this need, but their size in large environments hinders efficient planning. While task-aware pruning and hierarchical abstractions have been explored, a general, task-centric formalization of what constitutes a sufficient scene graph for planning remains open.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15570v1",
+      "title": "DIDO: Distilling Interaction-Centric Dynamics into One-Step Denoising for World Action Models",
+      "url": "https://arxiv.org/abs/2609.15570v1",
+      "publishedAt": "2026-09-14T13:46:57Z",
+      "summary": "World Action Models (WAMs) use video generation models to predict future visual dynamics for robotic manipulation, but iterative denoising introduces additional latency for closed-loop control. We empirically find that visual content converges at different rates during denoising.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=589515",
       "title": "Universal Robots launches its seventh generation robot platform at IMTS",
       "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
@@ -72,6 +274,79 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15509v1",
+      "title": "StereoPatch: Patch-Aligned RGB-Depth Fusion for Spatial Perception in Robot Manipulation",
+      "url": "https://arxiv.org/abs/2609.15509v1",
+      "publishedAt": "2026-09-14T13:01:25Z",
+      "summary": "Recent advances in robot imitation learning have produced visuomotor policies that predict actions directly from visual observations. Yet visually similar scenes can require different actions as target position, object height, or contact geometry changes.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15475v1",
+      "title": "P-POSEMEM: Projective Semantic Memory for Consistent Language Grounding under Pose-Graph Rewrites",
+      "url": "https://arxiv.org/abs/2609.15475v1",
+      "publishedAt": "2026-09-14T12:31:38Z",
+      "summary": "A robot following language instructions needs its semantic memory to keep naming the same physical object while the SLAM pose graph underneath is optimized, loop-closed and compressed.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15455v1",
+      "title": "InterSocialBench: Benchmarking Human and LLM Preferences for Companion-Robot Social Behavior",
+      "url": "https://arxiv.org/abs/2609.15455v1",
+      "publishedAt": "2026-09-14T12:21:12Z",
+      "summary": "Companion robots face everyday situations in which several feasible behaviors may be appropriate, yet different people prefer different responses. We introduce InterSocialBench, a benchmark of 210 domestic scenarios and 18 high-level behaviors, pairing judgments from 100 human participants with 23,520 responses from seven large language models under 16 personality conditions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15447v1",
+      "title": "Learning to Exploit Passive Dynamics for Energy-Efficient Target Hopping of a Spring-Legged Quadcopter",
+      "url": "https://arxiv.org/abs/2609.15447v1",
+      "publishedAt": "2026-09-14T12:14:58Z",
+      "summary": "Combining aerial thrust with spring-loaded hopping makes monopedal quadcopters promising for locomotion over complex terrain, but heuristic proportional-integral-derivative (PID) tuning limits coordination between active thrust and passive contact dynamics.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15426v1",
+      "title": "Mapping justice as a plural and contested concept in human--computer interaction",
+      "url": "https://arxiv.org/abs/2609.15426v1",
+      "publishedAt": "2026-09-14T11:55:27Z",
+      "summary": "Human-computer interaction increasingly studies and promotes justice. Often, this work does not treat justice through a pluralistic lens Justice, however, is not one thing: political philosophy offers several well-established, mutually incompatible conceptions of it.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.15399v1",
+      "title": "Dynamics-Informed Reinforcement Learning for Agile and Energy-Efficient Locomotion of a Monopedal Hopping Quadcopter",
+      "url": "https://arxiv.org/abs/2609.15399v1",
+      "publishedAt": "2026-09-14T11:32:27Z",
+      "summary": "Although aerial-legged robots offer combined agility and efficiency, controlling high-speed hopping under complex hybrid dynamics is challenging. Reinforcement Learning (RL) is promising but prone to energy-inefficient \"reward hacking\". We propose a Dynamics-Informed RL framework for a monopedal hopping quadcopter.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
       ]
     },
     {
@@ -185,6 +460,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2609.12081v2",
+      "title": "MoPA: Coordinated Mobile Manipulation via Subsystem-Specific Perception Alignment",
+      "url": "https://arxiv.org/abs/2609.12081v2",
+      "publishedAt": "2026-09-10T18:08:41Z",
+      "summary": "Mobile manipulation requires perceptual evidence at different spatial scales for base motion and arm control, while the two action modalities remain kinematically coupled. Existing policies often employ specialized action generation for different subsystems but condition heterogeneous action branches on a shared perceptual representation, leaving subsystem-specific perception-action correspondence implicit.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=98131",
       "title": "Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video",
       "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
@@ -194,6 +481,18 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.07474v2",
+      "title": "Where Should Language Sit in a Multimodal Model? Lessons from What Language Does to Human Perception and Cognition",
+      "url": "https://arxiv.org/abs/2609.07474v2",
+      "publishedAt": "2026-09-07T13:31:29Z",
+      "summary": "Language models compute over tokens: language is their input, their output, and increasingly their internal representation. Whether language should keep all of these positions depends on what language does to the system that uses it. The one system with a century of data on that question is the human.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -301,6 +600,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2607.04816v2",
+      "title": "CAC-VLA: Context-Gated Action Conditioning for Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2607.04816v2",
+      "publishedAt": "2026-07-06T08:50:05Z",
+      "summary": "Vision-Language-Action (VLA) models have become a promising paradigm for generalist robot manipulation, where visual-language representations are used to condition continuous action generation. However, these representations are not explicitly optimized for action conditioning, leaving the action expert to bridge the gap between multimodal understanding and precise motor control.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3138187",
       "title": "Autonomous vehicle hype is back, and Humble Robotics is bringing it to freight",
       "url": "https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/",
@@ -350,6 +662,19 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2606.30893v3",
+      "title": "Sampling-Based Coordination-Informed Multi-Objective Multi-Robot Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2606.30893v3",
+      "publishedAt": "2026-06-29T20:31:03Z",
+      "summary": "Multi-robot systems must simultaneously optimize competing objectives while maintaining coordinated behavior. Existing multi-agent reinforcement learning approaches often rely on fixed or centralized coordination, which limits adaptability and violates distributed constraints.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=95526",
       "title": "Firefly Aerospace Operates NVIDIA Jetson in Lunar Orbit for the First Time",
       "url": "https://blogs.nvidia.com/blog/firefly-aerospace-nvidia-jetson-lunar-orbit/",
@@ -369,6 +694,30 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.24815v2",
+      "title": "MANGO: Automated Multi-Agent Test Oracle Generation for Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2606.24815v2",
+      "publishedAt": "2026-06-23T17:00:06Z",
+      "summary": "Vision-Language-Action (VLA) models are emerging robotic control systems that integrate perception, language understanding, and action generation in a unified architecture. Existing testing approaches for VLA-enabled robots rely on manually constructed symbolic test oracles that determine task success from final environment states.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2606.20754v3",
+      "title": "Perturbation-Based Epistemic Uncertainty for Failure Detection in Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2606.20754v3",
+      "publishedAt": "2026-06-18T05:41:45Z",
+      "summary": "Vision-Language-Action (VLA) models have shown strong performance in robotic manipulation, but reliable uncertainty quantification remains challenging, particularly under distribution shift. Unlike autoregressive policies, many modern VLA models generate continuous actions through regression or flow-based generation, where explicit predictive probabilities are unavailable.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
       ]
     },
     {
@@ -463,6 +812,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2605.21138v2",
+      "title": "Safety-Critical Control for Smoothed Implicit Contact Dynamics",
+      "url": "https://arxiv.org/abs/2605.21138v2",
+      "publishedAt": "2026-05-20T13:14:03Z",
+      "summary": "Smoothed implicit contact dynamics enables gradient-based planning and control for contact-rich tasks without predefined mode sequences. However, safety-critical control remains challenging because implicit contact dynamics makes safety-filter design nontrivial. The smoothing parameter $κ$ relaxes contact complementarity constraints, which makes the dynamics smooth but affects the contact force.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3119385",
       "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
       "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
@@ -481,6 +842,19 @@
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
       "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2603.19502v2",
+      "title": "Unlabeled Multi-Robot Motion Planning with Improved Separation Trade-offs",
+      "url": "https://arxiv.org/abs/2603.19502v2",
+      "publishedAt": "2026-03-19T22:10:47Z",
+      "summary": "We study unlabeled MRMP for unit-disk robots in a polygonal environment. Although the problem is hard in general, polynomial-time solutions exist under appropriate separation assumptions on start and target positions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Planning"
+      ]
     },
     {
       "id": "https://techcrunch.com/?p=3103116",
@@ -540,6 +914,18 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2601.10814v3",
+      "title": "SurfSLAM: Sim-to-Real Underwater Stereo Reconstruction For Real-Time SLAM",
+      "url": "https://arxiv.org/abs/2601.10814v3",
+      "publishedAt": "2026-01-15T19:25:33Z",
+      "summary": "Localization and mapping are core perceptual capabilities for underwater robots. Stereo cameras provide a low-cost means of directly estimating metric depth to support these tasks. However, despite recent advances in stereo depth estimation on land, computing depth from image pairs in underwater scenes remains challenging.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
       ]
     },
     {
@@ -620,6 +1006,30 @@
       "summary": "Coco Robotics is working toward automating its fleet of delivery robots using its millions of miles of collected data.",
       "source": "TechCrunch Robotics",
       "type": "news",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2502.20462v2",
+      "title": "Cooperative Multi-Agent Assignment over Stochastic Graphs via Constrained Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2502.20462v2",
+      "publishedAt": "2025-02-27T19:05:21Z",
+      "summary": "Constrained multi-agent reinforcement learning offers the framework to design scalable and almost surely feasible solutions for teams of agents operating in dynamic environments to carry out conflicting tasks.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/1304.3111v2",
+      "title": "Estimating Uncertain Spatial Relationships in Robotics",
+      "url": "https://arxiv.org/abs/1304.3111v2",
+      "publishedAt": "2013-03-27T19:54:21Z",
+      "summary": "In this paper, we describe a representation for spatial information, called the stochastic map, and associated procedures for building it, reading information from it, and revising it incrementally as new information is obtained. The map contains the estimates of relationships among objects in the map, and their uncertainties, given all the available information.",
+      "source": "arXiv",
+      "type": "paper",
       "tags": [
         "Robotics"
       ]
