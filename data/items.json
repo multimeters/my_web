@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T21:09:10.344Z",
-  "count": 88,
+  "generatedAt": "2026-10-02T00:29:32.872Z",
+  "count": 53,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=589750",
@@ -72,316 +72,6 @@
       "type": "news",
       "tags": [
         "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40353v1",
-      "title": "AssemblyWorld: Rethinking 3D Assembly with General-Purpose Agents",
-      "url": "https://arxiv.org/abs/2609.40353v1",
-      "publishedAt": "2026-09-30T17:59:14Z",
-      "summary": "The task of 3D assembly requires translating an understanding of parts and their relationships into precise spatial arrangements. Can pretrained general-purpose agents assemble objects through visual interaction without additional assembly-specific fine-tuning?",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40341v1",
-      "title": "Ego4WAM: What Matters When Scaling Egocentric Human Data for Robot Learning?",
-      "url": "https://arxiv.org/abs/2609.40341v1",
-      "publishedAt": "2026-09-30T17:58:35Z",
-      "summary": "Egocentric human data provides a scalable source of experience for robot learning, but varies substantially in human-robot alignment, behavioral coverage, and available supervision. Existing work shows favorable scaling with increasing human data, but it remains unclear which data properties drive downstream robot gains and how to use such data throughout the training pipeline.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40306v1",
-      "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
-      "url": "https://arxiv.org/abs/2609.40306v1",
-      "publishedAt": "2026-09-30T17:52:09Z",
-      "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on which system component should be revised.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40297v1",
-      "title": "GPU-Accelerated Path-Dependent Marginal Information Gain for Autonomous Exploration",
-      "url": "https://arxiv.org/abs/2609.40297v1",
-      "publishedAt": "2026-09-30T17:50:30Z",
-      "summary": "Autonomous exploration demands that robots continuously evaluate candidate viewpoints based on their expected information gain and execution cost. Sampling-based planners estimate this gain by volumetric raycasting and, due to its computational cost, evaluate candidates under an assumption of mutual independence, ignoring the overlap between viewpoints along the same path.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40269v1",
-      "title": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
-      "url": "https://arxiv.org/abs/2609.40269v1",
-      "publishedAt": "2026-09-30T17:44:19Z",
-      "summary": "Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen objects, spills, or other local disturbances. When such changes are spatially correlated, an observation can inform traversability estimates beyond the observed location.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40245v1",
-      "title": "STARS: From Spatiotemporal Dynamics to Social Representations in Human-Robot Interaction",
-      "url": "https://arxiv.org/abs/2609.40245v1",
-      "publishedAt": "2026-09-30T17:35:08Z",
-      "summary": "Robot navigation in dynamic, human-centered environments requires socially-compliant decisions grounded in robust scene understanding. Recent Vision-Language Models (VLMs) exhibit promising capabilities such as object recognition, common-sense reasoning, and contextual understanding, capabilities that align with the nuanced requirements of social robot navigation.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40244v1",
-      "title": "StreamRig: Exploiting Intra-Rig Geometry for Streaming Multi-Camera Odometry",
-      "url": "https://arxiv.org/abs/2609.40244v1",
-      "publishedAt": "2026-09-30T17:34:58Z",
-      "summary": "Mobile robots and vehicles carry synchronized multi-camera rigs, yet many streaming 3D foundation models are designed for monocular input, leaving efficient use of rig geometry a challenge. We present StreamRig, a freeze-and-stream framework that builds causal streaming odometry for calibrated rigs on a frozen multi-view 3D foundation model.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40208v1",
-      "title": "Centralized Multi-UAV Exploration and 3D Reconstruction Using Single-UAV Planners",
-      "url": "https://arxiv.org/abs/2609.40208v1",
-      "publishedAt": "2026-09-30T17:19:03Z",
-      "summary": "Extending single Unmanned Aerial Vehicles (UAVs) exploration methods to multi-UAV teams can improve coverage speed and robustness, but introduces challenges such as consistent mapping, safe navigation, and deployment strategy. In this work, we present a centralized multi-UAV exploration framework that enables the use of existing single-UAV sampling-based planners in a multi-UAV setting.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40178v1",
-      "title": "Non-Invasive Inspection of Water Canals Using Dronar",
-      "url": "https://arxiv.org/abs/2609.40178v1",
-      "publishedAt": "2026-09-30T17:03:32Z",
-      "summary": "Open concrete canals play a vital role in water transportation, serving as primary water infrastructure for millions of people across the Phoenix, Arizona, metro area. Over time, the concrete canals can experience a range of issues, including canal lining deformation, cracked concrete, and sediment buildup on the canal floor.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40177v1",
-      "title": "Social-WM: Safety-Aware Latent World Models for Robot Social Navigation",
-      "url": "https://arxiv.org/abs/2609.40177v1",
-      "publishedAt": "2026-09-30T17:03:21Z",
-      "summary": "Safe social navigation requires a robot to anticipate not only the future consequences of its actions, but also whether a nominal action can actually be executed under surrounding physical and social constraints. We present Social-WM, an efficient latent world-model planning framework trained from egocentric RGB video sequences.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40165v1",
-      "title": "PrefPI: Preference-Guided Steering into Out-of-Distribution Behaviors",
-      "url": "https://arxiv.org/abs/2609.40165v1",
-      "publishedAt": "2026-09-30T16:58:38Z",
-      "summary": "We present PrefPI (Preference-Guided Policy Iteration), an iterative framework for steering pretrained generative robot policies using only relative preferences over self-generated trajectories.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40158v1",
-      "title": "Rethinking Legibility in Social Robot Hallway Navigation: Impact of Intent Representation and Human Distraction",
-      "url": "https://arxiv.org/abs/2609.40158v1",
-      "publishedAt": "2026-09-30T16:56:06Z",
-      "summary": "We focus on legible robot motion generation in social navigation settings. Legibility in human-robot interaction (HRI) is often described as the property of robot motion that enables an observer to confidently infer the robot's intent.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40153v1",
-      "title": "Dream4ACT: A Shared Visual Action Interface for Multi-Embodiment Video-Action Modeling",
-      "url": "https://arxiv.org/abs/2609.40153v1",
-      "publishedAt": "2026-09-30T16:55:14Z",
-      "summary": "Video generation models (VGMs) offer strong spatiotemporal priors for embodied observation--action modeling. However, joint-space action vectors lack explicit image-space structure and vary in dimensionality and semantics across embodiments, making it challenging to directly leverage the rich spatiotemporal priors of VGMs.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40137v1",
-      "title": "Game-Guided Skill Discovery through Self-Play for Playable Agent Control",
-      "url": "https://arxiv.org/abs/2609.40137v1",
-      "publishedAt": "2026-09-30T16:49:51Z",
-      "summary": "We present Game-Guided Skill Discovery (GGSD), a framework that uses self-play in games to discover motor skills that are directly playable by humans. Playable skills provide a compact abstraction for controlling embodied agents through a small set of learned behaviors rather than low-level actions.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40134v1",
-      "title": "Tactile Curiosity Drives Robot Interaction",
-      "url": "https://arxiv.org/abs/2609.40134v1",
-      "publishedAt": "2026-09-30T16:49:40Z",
-      "summary": "Mastering robot manipulation skills via reinforcement learning (RL) remains largely sample-inefficient. The most common RL algorithms rely on random action sampling to discover new strategies, resulting in agents that allocate most of their training budget to motions in free space, away from the contacts from which manipulation skills emerge.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "RL"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40102v1",
-      "title": "Passive Stiffness Shaping in Cable-Suspended Aerial Manipulation via Movable Compliant Anchors",
-      "url": "https://arxiv.org/abs/2609.40102v1",
-      "publishedAt": "2026-09-30T16:36:02Z",
-      "summary": "Cable-suspended aerial manipulation offers a lightweight architecture for cooperative transportation and physical interaction, yet the passive mechanical response perceived at the load remains insufficiently understood and systematically exploited.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40085v1",
-      "title": "BatSLAM 2.0: Sequence-Verified Sonar Place Recognition in a Robust Pose Graph",
-      "url": "https://arxiv.org/abs/2609.40085v1",
-      "publishedAt": "2026-09-30T16:29:57Z",
-      "summary": "Echolocating bats can navigate dark and cluttered spaces using echolocation. Over a decade ago, BatSLAM showed that a robot with a biomimetic binaural sonar can build a topological map of the environment, by recognizing places from the received acoustic signals.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40012v1",
-      "title": "Identifiable Decomposition of Submovements in Human Hand Trajectories",
-      "url": "https://arxiv.org/abs/2609.40012v1",
-      "publishedAt": "2026-09-30T15:50:59Z",
-      "summary": "Voluntary movements have long been hypothesised to be comprised of discrete primitives called submovements, as a descriptive model of human motor behaviour. However, existing methods scale poorly, and no principled method exists to determine whether a decomposition is informative. We propose a spatiotemporal kernel correlation between primitive pairs as an identifiability criterion.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.40007v1",
-      "title": "Multi-Link Safety Filtering for VLA Policies Around Moving Hazards",
-      "url": "https://arxiv.org/abs/2609.40007v1",
-      "publishedAt": "2026-09-30T15:49:49Z",
-      "summary": "A vision-language-action (VLA) policy can finish a manipulation task while knocking over objects unrelated to it, so task success alone does not show that the policy is safe to deploy in clutter.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39995v1",
-      "title": "Learning to Explain While Planning: Rule-Aligned Diffusion Planning for Autonomous Driving",
-      "url": "https://arxiv.org/abs/2609.39995v1",
-      "publishedAt": "2026-09-30T15:46:21Z",
-      "summary": "Diffusion planners exhibit strong capabilities in generating multimodal trajectories. However, existing methods primarily rely on expert demonstrations to fit trajectory distributions, learning statistical correlations among scenes, behaviors, and trajectories without explicitly modeling driving rules.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Autonomous Driving",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39973v1",
-      "title": "EWAM: Emergent Depth-Wise Specialization in a Unified Embodied Model -- From Semantic Understanding through Visual Foresight to Action",
-      "url": "https://arxiv.org/abs/2609.39973v1",
-      "publishedAt": "2026-09-30T15:35:53Z",
-      "summary": "Vision-language-action (VLA) policies emphasize semantic understanding, whereas world-action models (WAMs) learn predictive representations of environment dynamics. Systems that expose a policy to both sources often still concentrate action computation on a single expert.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39971v1",
-      "title": "When Instructions Retrieve Trajectories: Diagnosing and Mitigating Generalization Failures in VLA Models",
-      "url": "https://arxiv.org/abs/2609.39971v1",
-      "publishedAt": "2026-09-30T15:34:57Z",
-      "summary": "Vision-language-action (VLA) models can exceed 90% success on in-distribution tasks and withstand nuisance changes that preserve the required action, yet fail under counterfactual changes that demand a different action. Aggregate robustness scores can therefore conceal a more specific failure, in which a policy responds to both language and vision yet does not combine them to select the action the task requires.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39970v1",
-      "title": "PhasePlan: Ordered Future-Phase Planning for Robot Brain Models",
-      "url": "https://arxiv.org/abs/2609.39970v1",
-      "publishedAt": "2026-09-30T15:34:39Z",
-      "summary": "Robot brain models integrate vision, language, and robot state to generate actions for complex manipulation tasks. Most predict fixed-length action chunks that may span multiple task phases. This can obscure phase transitions and favor frequent action patterns, compromising action timing in dynamic environments. We propose \\method, an ordered future-phase planning method for robot brain models.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39969v1",
-      "title": "TACTIC: Temporal and Context-Aware LLM Tactical Planning for Roadside LiDAR Attacks",
-      "url": "https://arxiv.org/abs/2609.39969v1",
-      "publishedAt": "2026-09-30T15:33:46Z",
-      "summary": "Physical LiDAR attacks are often evaluated using fixed primitives and manually selected parameters, despite their strong dependence on surrounding traffic. We present TACTIC, a scene-aware framework that uses a multimodal large language model (MLLM) to coordinate state-adaptive roadside LiDAR attacks.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "LLM",
-        "Planning"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39950v1",
-      "title": "Magnetic based In-situ Self 3D Pose Estimation for a Modular Soft Tendon-Driven Continuum Robot via IMU-Fusion",
-      "url": "https://arxiv.org/abs/2609.39950v1",
-      "publishedAt": "2026-09-30T15:24:19Z",
-      "summary": "Continuum robots are well suited for gentle manipulation because of their inherent compliance and ability to adapt to complex environments. However, their continuously deformable structure makes accurate configuration estimation challenging, particularly when external vision systems are unavailable or obstructed.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.39915v1",
-      "title": "NavHarness: Adaptive Goals for Agentic Vision-Language Navigation",
-      "url": "https://arxiv.org/abs/2609.39915v1",
-      "publishedAt": "2026-09-30T15:06:45Z",
-      "summary": "Vision-Language Navigation (VLN) requires embodied agents to generate actions based on instructions and observations. General-purpose multimodal agents offer a promising basis for this task, but selecting plausible local actions does not ensure that execution remains consistent with the intended route, particularly in long-horizon tasks.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI",
-        "Vision"
       ]
     },
     {
@@ -457,18 +147,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2609.36333v2",
-      "title": "ATLAS: Aligned Transport of Latent Structure for Reliable World Model Planning",
-      "url": "https://arxiv.org/abs/2609.36333v2",
-      "publishedAt": "2026-09-28T22:09:55Z",
-      "summary": "Latent world models rely on representation geometry for planning, yet regularizing the latent marginal alone does not determine the state-to-state relationships used for action selection. We show that this can cause planning-relevant novelty structure to be weakened as representations are transformed into the final latent used by the planner.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=589694",
       "title": "Gecko Robotics works with NVIDIA to add AI agent security and control",
       "url": "https://www.therobotreport.com/gecko-robotics-works-with-nvidia-adds-ai-agent-security-and-control/",
@@ -478,19 +156,6 @@
       "type": "news",
       "tags": [
         "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.35450v2",
-      "title": "Uni-VLaT: Whole-Body Tactile Adaptation of VLA Policies for Humanoid Loco-Manipulation",
-      "url": "https://arxiv.org/abs/2609.35450v2",
-      "publishedAt": "2026-09-28T15:43:26Z",
-      "summary": "Physical contact often determines how a humanoid should respond during loco-manipulation, yet vision and proprioception alone are often insufficient to characterize physical interaction, especially when the contact region is occluded. Unlike sparse force or torque measurements at predefined regions, distributed tactile sensing preserves spatially resolved contact patterns across the robot body.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
       ]
     },
     {
@@ -515,30 +180,6 @@
       "type": "news",
       "tags": [
         "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.28984v2",
-      "title": "CrossSafe: Towards Cross-Embodiment Latent Safety Filters",
-      "url": "https://arxiv.org/abs/2609.28984v2",
-      "publishedAt": "2026-09-24T03:55:06Z",
-      "summary": "Cross-embodiment learning has shown that a single model, such as a vision-language-action (VLA) model, can learn state representations and manipulation skills that can be applied across heterogeneous robots to accomplish various tasks. We hypothesize that the same holds for safety enforcement.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2609.27218v2",
-      "title": "NaviScale: Generating Large-Scale Semantic Map Datasets for Object Navigation",
-      "url": "https://arxiv.org/abs/2609.27218v2",
-      "publishedAt": "2026-09-23T01:30:26Z",
-      "summary": "Embodied navigation requires spatial representations that generalize across unseen environments, yet collecting large amounts of annotated data from real 3D environments is difficult. We propose NaviScale for semantic-map-based object navigation (ObjectNav), whose predictor can be trained on pairs of partial and complete semantic maps without reconstructing a complete 3D environment for every training sample.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Embodied AI"
       ]
     },
     {
@@ -690,19 +331,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2607.04171v4",
-      "title": "XS-VLA: Teaching Tiny Vision-Language-Action Models with Spatial Supervision and Demonstration Conditioning",
-      "url": "https://arxiv.org/abs/2607.04171v4",
-      "publishedAt": "2026-07-05T08:34:39Z",
-      "summary": "How can richer training supervision improve robot control while keeping the deployed policy compact? We present XS-VLA, a staged training framework using teacher-derived spatial labels and demonstration-conditioned action learning. Coarse-Grained Spatial Distillation (CSD) initializes the backbone through an auxiliary region-label task.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
       "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3138187",
       "title": "Autonomous vehicle hype is back, and Humble Robotics is bringing it to freight",
       "url": "https://techcrunch.com/video/autonomous-vehicle-hype-is-back-and-humble-robotics-is-bringing-it-to-freights/",
@@ -842,32 +470,6 @@
       "tags": []
     },
     {
-      "id": "http://arxiv.org/abs/2606.00773v2",
-      "title": "SafeVLA-Bench: A Benchmark for the Success-Safety Gap in Vision-Language-Action Models",
-      "url": "https://arxiv.org/abs/2606.00773v2",
-      "publishedAt": "2026-05-30T15:31:57Z",
-      "summary": "Vision-language-action (VLA) benchmarks measure whether a policy completes a requested manipulation task, but binary success can hide safety violations along the trajectory: a policy may reach the goal while applying excessive contact, disturbing bystander objects, destabilizing a held object, or entering robot self-contact.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Vision"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2605.18727v2",
-      "title": "DexHoldem: An Agentic Robotics Benchmark for Dexterous Manipulation in Texas Hold'em",
-      "url": "https://arxiv.org/abs/2605.18727v2",
-      "publishedAt": "2026-05-18T17:51:34Z",
-      "summary": "Evaluating embodied systems with real dexterous hardware requires more than isolated motor-skill tests: an agent must perceive a changing scene (e.g. a tabletop), choose a context-appropriate action, execute it with a dexterous hand, and leave the scene usable for later decisions. We introduce DexHoldem, a comprehensive real-world benchmark evaluating Texas Hold'em related dexterous manipulations with a ShadowHand.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Embodied AI"
-      ]
-    },
-    {
       "id": "https://techcrunch.com/?p=3119385",
       "title": "Marc Lore says that AI will soon enable anyone to open a restaurant",
       "url": "https://techcrunch.com/2026/05/05/marc-lore-says-that-ai-will-soon-enable-anyone-open-a-restaurant/",
@@ -909,28 +511,6 @@
       "summary": "Upside Robotics builds autonomous solar-powered robots that can help farmers reduce their fertilizer use by 70%.",
       "source": "TechCrunch Robotics",
       "type": "news",
-      "tags": [
-        "Robotics"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2601.21416v4",
-      "title": "Spotlighting Task-Relevant Features: Object-Centric Representations for Better Generalization in Robotic Manipulation",
-      "url": "https://arxiv.org/abs/2601.21416v4",
-      "publishedAt": "2026-01-29T08:55:53Z",
-      "summary": "The generalization capabilities of robotic manipulation policies are heavily influenced by the choice of visual representations.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2601.20701v2",
-      "title": "OGPO: One-Step Generative Policy Optimization for Real-Time Robot Control",
-      "url": "https://arxiv.org/abs/2601.20701v2",
-      "publishedAt": "2026-01-28T15:34:29Z",
-      "summary": "Real-time robot control demands fast action generation. Diffusion and flow matching policies for robot control require multi-step sampling, limiting their deployment in real-time scenarios. Natively reducing the sampling steps to one sacrifices representation quality and task performance, creating a trilemma among speed, fidelity, and performance.",
-      "source": "arXiv",
-      "type": "paper",
       "tags": [
         "Robotics"
       ]
