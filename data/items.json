@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T06:10:02.684Z",
+  "generatedAt": "2026-11-13T09:06:58.053Z",
   "count": 88,
   "items": [
     {
@@ -330,18 +330,6 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2611.16645v1",
-      "title": "Rethinking Actions: Continuity-Aware Priors for World-Model Planning",
-      "url": "https://arxiv.org/abs/2611.16645v1",
-      "publishedAt": "2026-11-12T11:18:50Z",
-      "summary": "Actions in expert demonstrations exhibit temporal structure. An ordered-versus-shuffled analysis across five environments confirms this dependence. We ask whether action proposals that better reflect expert continuity can improve visual world-model planning. Rather than imposing generic smoothness, we learn continuations from the temporal structure of demonstrated actions.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Planning"
-      ]
-    },
-    {
       "id": "https://www.therobotreport.com/?p=590220",
       "title": "Serve Robotics opens robot delivery network for others to build on",
       "url": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
@@ -558,19 +546,6 @@
       "source": "NVIDIA Blog: Robotics",
       "type": "news",
       "tags": []
-    },
-    {
-      "id": "http://arxiv.org/abs/2611.00180v3",
-      "title": "Learning to Live: A Step Toward Lifelong Embodied Intelligence",
-      "url": "https://arxiv.org/abs/2611.00180v3",
-      "publishedAt": "2026-10-30T15:23:52Z",
-      "summary": "Embodied agents are usually organized around individual tasks, yet the physical world keeps changing between tasks and during execution. We introduce LIFE (Lifelong Intelligence from Experience), a framework in which a robot observes continuously, remembers selectively, and turns experience into new capabilities.",
-      "source": "arXiv",
-      "type": "paper",
-      "tags": [
-        "Robotics",
-        "Embodied AI"
-      ]
     },
     {
       "id": "http://arxiv.org/abs/2610.41216v2",
@@ -1004,6 +979,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2512.00775v3",
+      "title": "SAGAS: Semantic-Aware Graph-Assisted Stitching for Offline Temporal Logic Planning",
+      "url": "https://arxiv.org/abs/2512.00775v3",
+      "publishedAt": "2025-11-30T08:13:35Z",
+      "summary": "Linear Temporal Logic (LTL) provides a rigorous framework for specifying long-horizon robotic tasks, yet existing approaches face a trade-off: model-based synthesis relies on accurate labeled transition systems, whereas learning-based methods often require online interaction, task-specific rewards, or specification-conditioned training.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?p=3069331",
       "title": "This Khosla-backed startup can track drones, trucks, and robotaxis, inch by inch",
       "url": "https://techcrunch.com/2025/11/20/this-khosla-based-startup-can-track-drones-trucks-and-robotaxis-inch-by-inch/",
@@ -1035,6 +1022,18 @@
         "Robotics",
         "Embodied AI",
         "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2404.03689v2",
+      "title": "A Tutorial on Gaussian Process Learning-based Model Predictive Control",
+      "url": "https://arxiv.org/abs/2404.03689v2",
+      "publishedAt": "2024-04-02T03:13:05Z",
+      "summary": "This tutorial provides an accessible and implementation-oriented introduction to Gaussian process learning-based model predictive control (GP-MPC), which combines probabilistic residual modeling with receding-horizon control. Its central tutorial contribution is a detailed, step-by-step derivation of multi-step mean and covariance propagation for GP-augmented prediction models.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
       ]
     }
   ]
