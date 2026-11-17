@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T00:17:11.790Z",
-  "count": 53,
+  "generatedAt": "2026-11-17T03:07:22.020Z",
+  "count": 88,
   "items": [
     {
       "id": "https://www.therobotreport.com/?p=590257",
@@ -27,6 +27,186 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2611.19720v1",
+      "title": "Sim-to-Real Room-Mediated Object-Goal Navigation with ROS 2 and Nav2",
+      "url": "https://arxiv.org/abs/2611.19720v1",
+      "publishedAt": "2026-11-15T02:07:36Z",
+      "summary": "Although object-goal navigation (ObjectNav) approaches are usually evaluated in simulation, which offers scale and repeatable environments, real-world deployments are rarely examined beyond feasibility demonstrations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19712v1",
+      "title": "Behavioral Denoising: A New Perspective on Nonlinear Behavioral Control Inspired by Closed-Form Diffusion Policies",
+      "url": "https://arxiv.org/abs/2611.19712v1",
+      "publishedAt": "2026-11-15T01:46:04Z",
+      "summary": "Diffusion policies have become a dominant approach to imitation learning in robotics. Recent work suggests that, in the low-data regime, they largely retrieve or combine the demonstrated actions, which the closed-form diffusion policy does explicitly. This closely resembles behavioral control, where future inputs are formed as linear combinations of recorded trajectories.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19709v1",
+      "title": "Cache or Denoise Less? Residual Reuse in a Flow-Matching World Action Model",
+      "url": "https://arxiv.org/abs/2611.19709v1",
+      "publishedAt": "2026-11-15T01:40:18Z",
+      "summary": "Flow-matching robot policies generate each action chunk through repeated network evaluations, one per denoising step. Cross-cycle caches such as C$^3$ache reuse computation from earlier replanning calls, but whether they beat simply taking fewer steps is unclear. We compare the two in Fast-WAM, a 6B-parameter world action model, on LIBERO-Goal.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19703v1",
+      "title": "Real-Time Air Pollution Monitoring and Tracking via Adaptive Density-Driven Multi-UAV Coordination",
+      "url": "https://arxiv.org/abs/2611.19703v1",
+      "publishedAt": "2026-11-15T01:21:52Z",
+      "summary": "Accurate and timely air pollution monitoring and tracking are critical for protecting public health and supporting effective environmental management. This paper presents an adaptive Density-Driven Control (D$^2$C) framework for coordinating multiple unmanned aerial vehicles (UAVs) to track and map dynamically evolving pollutant distributions.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19688v1",
+      "title": "Physics-Grounded STL Monitoring from Image Observations",
+      "url": "https://arxiv.org/abs/2611.19688v1",
+      "publishedAt": "2026-11-15T00:45:48Z",
+      "summary": "Robotic manipulation missions must satisfy timed and conditional requirements that can be expressed in signal temporal logic (STL). While a practical means of monitoring these requirements is from camera images, this is challenging because STL robustness depends on physical margins, such as distances and clearances, that are not directly observed.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19684v1",
+      "title": "Early Readability of Trajectory Quality in Diffusion Driving Planners",
+      "url": "https://arxiv.org/abs/2611.19684v1",
+      "publishedAt": "2026-11-15T00:42:12Z",
+      "summary": "Diffusion-based driving planners can generate multiple trajectories for the same scene, but these candidates vary in quality. Can their internal states reveal which candidate will be better before denoising is complete?",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19660v1",
+      "title": "PSK: A Matrix-Free Single-Loop Method for K-Level Physics-Based Control",
+      "url": "https://arxiv.org/abs/2611.19660v1",
+      "publishedAt": "2026-11-14T23:09:35Z",
+      "summary": "Physics-based control is central to robot learning, but differentiating through implicit physics steps typically requires Hessian or Karush--Kuhn--Tucker (KKT) linear solves; we ask whether gradient steps suffice. Each simulation step minimizes an energy under many contact and collision constraints.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19621v1",
+      "title": "Toward Planning Representations That Separate Task Structure from Visual Content",
+      "url": "https://arxiv.org/abs/2611.19621v1",
+      "publishedAt": "2026-11-14T21:08:53Z",
+      "summary": "Effective planning requires representations that preserve task-relevant geometry and object identity while ignoring visual variation that does not alter the task. Existing evaluations of visual generalization often change several factors simultaneously, making the source of a failure difficult to identify.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19616v1",
+      "title": "Towards Probabilistically Safe Reinforcement Learning: Theory and Deployment on Humanoid and Aerial Robots",
+      "url": "https://arxiv.org/abs/2611.19616v1",
+      "publishedAt": "2026-11-14T20:57:41Z",
+      "summary": "Reinforcement learning (RL) enables robots to acquire complex skills, but standard RL formulations do not guarantee that learned policies satisfy safety constraints, which limits their use in safety-critical settings.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19572v1",
+      "title": "Spectral Steering: Local Inverse Geometry for Frozen Diffusion Generators",
+      "url": "https://arxiv.org/abs/2611.19572v1",
+      "publishedAt": "2026-11-14T19:05:03Z",
+      "summary": "A frozen diffusion generator may need to change several output properties while preserving others. We study when guidance faithfully realizes such a structured request and whether local inverse correction improves its direction. Our account links this benefit to the interaction between the request and the objective-specific remaining-sampler Jacobian: conditioning alone is insufficient.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19559v1",
+      "title": "ResWAM: Learning What Changes, Not What Stays, for World-Action Models",
+      "url": "https://arxiv.org/abs/2611.19559v1",
+      "publishedAt": "2026-11-14T18:42:57Z",
+      "summary": "World-action models (WAMs) augment vision-language-action policies (VLAs) with future prediction so that the policy can anticipate how its actions will affect the physical world. Existing WAMs supervise complete future observations.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19535v1",
+      "title": "Cooperative Gradient Estimation for Multi-Robot Source Seeking with Heteroskedastic Measurements",
+      "url": "https://arxiv.org/abs/2611.19535v1",
+      "publishedAt": "2026-11-14T17:58:57Z",
+      "summary": "This paper proposes a novel approach for localizing the source of a three-dimensional scalar field using a team of heterogeneous cooperative mobile robots. Each robot measures the field intensity at its location and shares the information within the team. Measurement noise is explicitly considered, and heterogeneity arises from robot-dependent sensing accuracies, leading to heteroskedastic data.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19534v1",
+      "title": "Depth-Aware Path Planning and Collision Avoidance for Robotic Nursing Assistants Using Real-Time 3D Vision",
+      "url": "https://arxiv.org/abs/2611.19534v1",
+      "publishedAt": "2026-11-14T17:58:27Z",
+      "summary": "This paper presents a depth-aware path planning and collision avoidance framework for the safe navigation of robotic nursing assistants in cluttered environments with low-height obstacles. Conventional LiDAR-based navigation systems, while accurate for mapping and localization, fail to detect transparent or low-height obstacles, whereas vision-based systems are prone to noise and occlusion.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision",
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19469v1",
+      "title": "Representing Differential Inclusions as Monads: A Framework for Compositional Controller Synthesis",
+      "url": "https://arxiv.org/abs/2611.19469v1",
+      "publishedAt": "2026-11-14T15:46:49Z",
+      "summary": "Sequential composition of safety-certified controllers for hybrid and non-smooth robotic systems is well studied piecewise. Yet no existing framework reduces this question to a single algebraic condition. We construct a \\emph{trajectory monad} for Filippov-regular differential inclusions. Its Kleisli category treats controllers as morphisms and sequential execution as trajectory concatenation.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19466v1",
+      "title": "Successive Convexification in Learned World Models for Safe Offline Planning",
+      "url": "https://arxiv.org/abs/2611.19466v1",
+      "publishedAt": "2026-11-14T15:40:58Z",
+      "summary": "World models learned from offline data allow an agent to plan without further interaction with the environment, but the sampling-based planners used with them handle safety constraints only by scoring or rejecting sampled action sequences.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19463v1",
+      "title": "Semantics First, Pixels Later: Mission-Driven Event Streams for Drone Video over Bandwidth-Starved Links",
+      "url": "https://arxiv.org/abs/2611.19463v1",
+      "publishedAt": "2026-11-14T15:35:15Z",
+      "summary": "A surveillance drone on a bandwidth-starved link cannot send the video its operator would need, yet the operator's questions are often not about pixels: did three people converge, when, and where? We study what should cross a link of 1 Mbps down to 1 kbps instead, and in what order.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
       "id": "https://www.therobotreport.com/?p=590248",
       "title": "Food robotics 2.0: why this time could be different",
       "url": "https://www.therobotreport.com/food-robotics-2-0-why-this-time-could-be-different/",
@@ -34,6 +214,137 @@
       "summary": "Food robotics is entering a new era as companies shift from consumer-facing robot restaurants to B2B automation that help food manufacturers, restaurants, and grocery retailers improve productivity, reduce labor costs, and scale operations. The post Food robotics 2.0: why this time could be different appeared first on The Robot Report .",
       "source": "The Robot Report",
       "type": "news",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19387v1",
+      "title": "Long-Horizon Causal Inertial Odometry in Multistory Buildings",
+      "url": "https://arxiv.org/abs/2611.19387v1",
+      "publishedAt": "2026-11-14T12:51:59Z",
+      "summary": "In indoor 3D localization inside multistory buildings, an elevator or an escalator accelerates for a few seconds and then cruises at constant velocity for tens of seconds. Gait excitation disappears, the specific force degenerates into a constant gravity reaction, and instantaneous velocity becomes unobservable within a 1-2 s window.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19384v1",
+      "title": "Porosification of the dielectric layer in alternating-current electroluminescence devices enables high-resolution tactile imaging",
+      "url": "https://arxiv.org/abs/2611.19384v1",
+      "publishedAt": "2026-11-14T12:47:44Z",
+      "summary": "Vision-based tactile sensing enables high-resolution contact perception, yet bulky optical architectures consume valuable space and constrain the functional design of dexterous robotic hands.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19381v1",
+      "title": "AcousticBEV: Acoustic BEV Object Localization for Intelligent Vehicles",
+      "url": "https://arxiv.org/abs/2611.19381v1",
+      "publishedAt": "2026-11-14T12:42:03Z",
+      "summary": "Modern autonomous driving and driver assistance systems rely predominantly on cameras, radars and LiDARs for environmental perception. However, these modalities face different environmental limitations, including poor illumination for cameras and adverse weather for LiDAR.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Autonomous Driving",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19332v1",
+      "title": "NI-ACT: A Neural Intent Interface for Brain-Embodied Manipulation",
+      "url": "https://arxiv.org/abs/2611.19332v1",
+      "publishedAt": "2026-11-14T10:57:36Z",
+      "summary": "Intracortical brain-computer interfaces can drive robotic arms, but they keep the user inside the fast sensorimotor loop: every approach, correction, and grasp must be neurally specified. Whether intracortical population activity can instead serve as a task-level condition for a learned embodied policy, without symbolic commands or hand-designed skill libraries, remains unknown.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19324v1",
+      "title": "MARS: Dynamic Routing of Reinforcement-Learned Atomic Skills for Multi-Stage Robotic Manipulation",
+      "url": "https://arxiv.org/abs/2611.19324v1",
+      "publishedAt": "2026-11-14T10:40:17Z",
+      "summary": "Vision-Language-Action (VLA) models have demonstrated strong capabilities in multi-task robotic manipulation. However, they still face limitations in control precision and execution stability during critical manipulation stages, such as object grasping, alignment and insertion.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19318v1",
+      "title": "Residual Reinforcement Learning for Visual Servo Control with Zero-Shot Sim-to-Real Transfer",
+      "url": "https://arxiv.org/abs/2611.19318v1",
+      "publishedAt": "2026-11-14T10:25:03Z",
+      "summary": "We address tracking a moving object on a conveyor with a Franka Emika Panda robot arm, despite an imprecise digital twin, measurement errors, and noise. Our novel approach augments a loop-shaped inverse-Jacobian PI controller with a residual policy learned via Soft Actor-Critic in the digital twin.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "RL"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19287v1",
+      "title": "VLN-Flash: Parallel Action Decoding with Adaptive Execution for Vision-and-Language Navigation",
+      "url": "https://arxiv.org/abs/2611.19287v1",
+      "publishedAt": "2026-11-14T09:30:42Z",
+      "summary": "When a vision-and-language navigation policy generates an action sequence autoregressively, the robot waits for a chain of dependent predictions. A small discrete action vocabulary makes it possible to score all short-horizon plans in parallel. We introduce VLN-Flash, a training-free decoder that evaluates the complete action-prefix tree in a single forward pass.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19274v1",
+      "title": "HospitalBench: Diagnosing Where and Why Embodied Agents Fail on Long Hospital Task Chains",
+      "url": "https://arxiv.org/abs/2611.19274v1",
+      "publishedAt": "2026-11-14T09:08:39Z",
+      "summary": "Long-horizon embodied tasks fail in ways that end-task success cannot see.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19272v1",
+      "title": "Distributed Shaping of Robot Swarms Through Spatial Moments of Arbitrary Order",
+      "url": "https://arxiv.org/abs/2611.19272v1",
+      "publishedAt": "2026-11-14T09:01:35Z",
+      "summary": "This paper shapes a swarm into a target pattern, such as a figure taken from an image, by controlling its spatial moments. The image is sampled into a reference configuration whose centroid and covariance set the position and principal spreads of the formation, while its higher-order moments, expressed in covariance-normalized (whitened) coordinates, encode the remaining shape.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19252v1",
+      "title": "Exploration as Feedback in Model Predictive Path Integral Control",
+      "url": "https://arxiv.org/abs/2611.19252v1",
+      "publishedAt": "2026-11-14T08:24:34Z",
+      "summary": "This paper investigates how exploration affects closed-loop stability in model predictive path integral (MPPI) control. With a warm start, MPPI optimizes a control sequence by sampling candidates around the previous solution, and their covariance, the exploration covariance, is typically tuned to balance solution quality and computational cost.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.19251v1",
+      "title": "Physics-Informed Causal Reasoning for Nonstationary Robot Dynamics",
+      "url": "https://arxiv.org/abs/2611.19251v1",
+      "publishedAt": "2026-11-14T08:24:16Z",
+      "summary": "Reasoning about what an action will cause requires internalizing how a system behaves. As conditions seldom stay fixed, this must often happen within a few interactions. Yet systems that look identical in a snapshot can respond differently to the same action, depending on physical conditions the snapshot hides.",
+      "source": "arXiv",
+      "type": "paper",
       "tags": [
         "Robotics"
       ]
@@ -209,6 +520,18 @@
       ]
     },
     {
+      "id": "http://arxiv.org/abs/2611.13030v2",
+      "title": "APS-VLA: Action-Guided and Future-Aware Token Pruning for Efficient Vision-Language-Action Models",
+      "url": "https://arxiv.org/abs/2611.13030v2",
+      "publishedAt": "2026-11-09T09:28:08Z",
+      "summary": "Vision-language-action (VLA) policies have demonstrated strong generalization in robotic manipulation, yet processing dense visual tokens often incurs high inference latency. Visual token pruning offers a practical way to reduce this cost, but identifying a compact set of tokens that preserves reliable action generation remains challenging.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision"
+      ]
+    },
+    {
       "id": "https://blogs.nvidia.com/?p=99712",
       "title": "Korea Advances Physical AI Across Industries With NVIDIA",
       "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
@@ -231,6 +554,50 @@
       "tags": []
     },
     {
+      "id": "http://arxiv.org/abs/2610.41044v2",
+      "title": "Consensus Within, Competition Between: Decentralized LLM Teams for Perimeter Defense",
+      "url": "https://arxiv.org/abs/2610.41044v2",
+      "publishedAt": "2026-10-29T22:34:13Z",
+      "summary": "The use of large language models (LLMs) to coordinate multi-agent teams raises a fundamental architectural question: whether task allocation should be centralized in a single LLM controller or distributed across autonomous LLM agents, particularly when communication is unreliable.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "LLM"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.39126v4",
+      "title": "Actuator-Aware Observer Inputs for Cascade ADRC of Quadrotors Under Rotor Lag, Measurement Delay and Sensor Noise",
+      "url": "https://arxiv.org/abs/2610.39126v4",
+      "publishedAt": "2026-10-29T01:17:55Z",
+      "summary": "In sampled cascade linear active disturbance rejection control (LADRC) of quadrotors, the extended-state observer is usually driven by the instantaneous command, although the delayed measurement reflects an earlier, rotor-filtered acceleration.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.35165v3",
+      "title": "How Tuning, Reference Preview, Actuator Modeling, and Fallback Policies Change Quadrotor Controller Comparisons: A Reproducible Simulation Study",
+      "url": "https://arxiv.org/abs/2610.35165v3",
+      "publishedAt": "2026-10-26T10:27:46Z",
+      "summary": "Quadrotor controller comparisons commonly report a single tracking error, although the ranking also depends on tuning effort, reference information, actuator prediction, optimizer fallback, and command timing.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.26979v2",
+      "title": "Latent Projection for Latent Planning",
+      "url": "https://arxiv.org/abs/2610.26979v2",
+      "publishedAt": "2026-10-19T01:51:14Z",
+      "summary": "Latent world models let an agent plan in latent space. The planner searches for an action sequence that minimizes a cost, and that cost is often the $\\ell_2$ distance between the predicted terminal latent and the goal latent. The latent, however, is partly noise: the regularizer that prevents collapse during world model training promotes variance in the directions carrying no signal.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Planning"
+      ]
+    },
+    {
       "id": "https://techcrunch.com/?post_type=tc_video&#038;p=3176211",
       "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
       "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
@@ -240,6 +607,42 @@
       "type": "news",
       "tags": [
         "Robotics"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.23203v2",
+      "title": "SimpleVLN: Towards Simple and Frontier Vision-Language Navigation",
+      "url": "https://arxiv.org/abs/2610.23203v2",
+      "publishedAt": "2026-10-16T09:41:22Z",
+      "summary": "Vision-and-Language Navigation (VLN) requires embodied agents to ground language in visual observations and make long-horizon decisions. Existing methods often address these demands through task-specific architectures.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Embodied AI",
+        "Vision"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2610.00921v2",
+      "title": "World-Model Gradient Refinement in CEM: An Empirical Study",
+      "url": "https://arxiv.org/abs/2610.00921v2",
+      "publishedAt": "2026-10-01T01:57:24Z",
+      "summary": "The cross-entropy method (CEM) uses world-model predictions both to select action sequences and to determine where to sample next. We isolate the effect of an early update by replacing only the first model-ranked elite set with environment-ranked elites. This fixed-state intervention lowers the selected sequence's realised tracking cost in all 12 Walker/Cheetah task-seed units.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": []
+    },
+    {
+      "id": "http://arxiv.org/abs/2609.34982v4",
+      "title": "ActionUNet: Improving Robustness of VLA Models with Efficient Multi-scale Fine-tuning",
+      "url": "https://arxiv.org/abs/2609.34982v4",
+      "publishedAt": "2026-09-28T11:57:00Z",
+      "summary": "Vision-Language-Action (VLA) models have shown great promise for robotic manipulation by mapping multi-modal semantics to physical actions. However, this mapping inherently struggles to align these coarse-grained semantics with fine-grained temporal execution. It leaves VLA models with limited generalization and insufficient robustness in cluttered environments.",
+      "source": "arXiv",
+      "type": "paper",
+      "tags": [
+        "Vision",
+        "Planning"
       ]
     },
     {
